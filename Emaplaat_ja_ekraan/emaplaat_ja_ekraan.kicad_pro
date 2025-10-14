@@ -451,7 +451,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Flipdendo_VVii.kicad_pro",
+    "filename": "emaplaat_ja_ekraan.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -613,6 +613,10 @@
     [
       "489224c0-ace1-4530-aa61-a5d03adf1434",
       "Root"
+    ],
+    [
+      "69d73241-8ad7-4bed-9e15-cc04e954027b",
+      "ekraan"
     ]
   ],
   "text_variables": {}

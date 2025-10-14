@@ -8375,6 +8375,48 @@
 			)
 		)
 	)
+	(sheet
+		(at 236.855 66.675)
+		(size 16.51 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "69d73241-8ad7-4bed-9e15-cc04e954027b")
+		(property "Sheetname" "ekraan"
+			(at 236.855 65.9634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ekraan.kicad_sch"
+			(at 236.855 105.3596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "emaplaat_ja_ekraan"
+				(path "/489224c0-ace1-4530-aa61-a5d03adf1434"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
