@@ -451,7 +451,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "emaplaat_ja_ekraan.kicad_pro",
+    "filename": "Ekraan_7x7.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -611,12 +611,36 @@
   },
   "sheets": [
     [
-      "489224c0-ace1-4530-aa61-a5d03adf1434",
+      "fe273b71-9b0b-436e-b9e1-0c9141f31bf9",
       "Root"
     ],
     [
-      "69d73241-8ad7-4bed-9e15-cc04e954027b",
-      "ekraan"
+      "ec8b493e-54df-4df1-8933-c03eae6d681c",
+      "array"
+    ],
+    [
+      "9ec0842a-c1e6-4ac2-8844-9d7aabf63c18",
+      "array1"
+    ],
+    [
+      "a65e7779-6c7e-4bac-a4f4-f1a105f51d41",
+      "array2"
+    ],
+    [
+      "30e0ae71-a441-43ff-b074-04b17d536902",
+      "array3"
+    ],
+    [
+      "c35ec992-53b0-41e3-af1c-db84b50cb826",
+      "array4"
+    ],
+    [
+      "e7d5bed1-d47f-4213-a8d6-ac2ede9420a1",
+      "array5"
+    ],
+    [
+      "c4996394-8529-4e57-916c-750e0daedb59",
+      "array6"
     ]
   ],
   "text_variables": {}
