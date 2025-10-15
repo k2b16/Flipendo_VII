@@ -3322,14 +3322,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "87570bc5-040c-4398-83d9-5aaf53c90d6d")
+			(uuid "5400f344-3178-4e0d-a311-96690725bd95")
 		)
 		(pin "1"
-			(uuid "68b7ffd0-d5c3-475e-a2c8-775c9f26fc97")
+			(uuid "df66c8b2-0ed2-4bed-8d85-463df1a662c0")
 		)
 		(instances
 			(project "Ekraan_7x7"
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/040d2874-1431-440a-b35f-52b0e81710ef"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/74e03272-9f4d-4cf1-b6bd-25e9aaeed2bf"
 					(reference "R60")
 					(unit 1)
 				)
@@ -3341,16 +3341,16 @@
 					(reference "R46")
 					(unit 1)
 				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ab032851-5538-4364-bd0a-98ccc0f689c1"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/b2b68079-6409-4bc6-877f-b17121894514"
 					(reference "R74")
+					(unit 1)
+				)
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/bb2b52cc-9e7f-4765-b20e-ca070d205cbf"
+					(reference "R88")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/c118b764-b25b-449f-8848-54cc104858ab"
 					(reference "R10")
-					(unit 1)
-				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/cecf6b9f-00cc-4f15-b7de-dea5a559bc6e"
-					(reference "R88")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ec8b493e-54df-4df1-8933-c03eae6d681c"
@@ -3413,14 +3413,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "1f4be9da-c718-4384-ac0f-d8deb7a3ef36")
+			(uuid "7a374df4-0bd9-4fe5-90ac-7c02b4919392")
 		)
 		(pin "1"
-			(uuid "b9a72852-e49c-48fd-80d2-98dd3f73daf9")
+			(uuid "8e8e848c-aff9-4291-9f09-83693cf9c17a")
 		)
 		(instances
 			(project "Ekraan_7x7"
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/040d2874-1431-440a-b35f-52b0e81710ef"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/74e03272-9f4d-4cf1-b6bd-25e9aaeed2bf"
 					(reference "R57")
 					(unit 1)
 				)
@@ -3432,16 +3432,16 @@
 					(reference "R43")
 					(unit 1)
 				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ab032851-5538-4364-bd0a-98ccc0f689c1"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/b2b68079-6409-4bc6-877f-b17121894514"
 					(reference "R71")
+					(unit 1)
+				)
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/bb2b52cc-9e7f-4765-b20e-ca070d205cbf"
+					(reference "R85")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/c118b764-b25b-449f-8848-54cc104858ab"
 					(reference "R3")
-					(unit 1)
-				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/cecf6b9f-00cc-4f15-b7de-dea5a559bc6e"
-					(reference "R85")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ec8b493e-54df-4df1-8933-c03eae6d681c"
@@ -3505,14 +3505,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "5db4a57b-6fb2-4892-98f8-3eea2e301bd9")
+			(uuid "92ac264c-3e50-4d4c-ba76-6a3b7f4eb923")
 		)
 		(pin "1"
-			(uuid "3fcb0959-8ddb-41a9-9827-f15cd90cdd97")
+			(uuid "7785a727-068d-4730-ba1d-dd755ba67b48")
 		)
 		(instances
 			(project "Ekraan_7x7"
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/040d2874-1431-440a-b35f-52b0e81710ef"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/74e03272-9f4d-4cf1-b6bd-25e9aaeed2bf"
 					(reference "C60")
 					(unit 1)
 				)
@@ -3524,16 +3524,16 @@
 					(reference "C46")
 					(unit 1)
 				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ab032851-5538-4364-bd0a-98ccc0f689c1"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/b2b68079-6409-4bc6-877f-b17121894514"
 					(reference "C74")
+					(unit 1)
+				)
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/bb2b52cc-9e7f-4765-b20e-ca070d205cbf"
+					(reference "C88")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/c118b764-b25b-449f-8848-54cc104858ab"
 					(reference "C4")
-					(unit 1)
-				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/cecf6b9f-00cc-4f15-b7de-dea5a559bc6e"
-					(reference "C88")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ec8b493e-54df-4df1-8933-c03eae6d681c"
@@ -3596,14 +3596,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "a5b22f41-39ca-4915-91de-6b017a11e79f")
+			(uuid "7fecde45-3f16-4f42-bd11-13bdf889f047")
 		)
 		(pin "1"
-			(uuid "54699e7e-5ae1-4fcf-9fd3-a66cf12e7829")
+			(uuid "16486f95-6353-4ada-92f4-d56dee8d2fca")
 		)
 		(instances
 			(project "Ekraan_7x7"
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/040d2874-1431-440a-b35f-52b0e81710ef"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/74e03272-9f4d-4cf1-b6bd-25e9aaeed2bf"
 					(reference "C61")
 					(unit 1)
 				)
@@ -3615,16 +3615,16 @@
 					(reference "C47")
 					(unit 1)
 				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ab032851-5538-4364-bd0a-98ccc0f689c1"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/b2b68079-6409-4bc6-877f-b17121894514"
 					(reference "C75")
+					(unit 1)
+				)
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/bb2b52cc-9e7f-4765-b20e-ca070d205cbf"
+					(reference "C89")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/c118b764-b25b-449f-8848-54cc104858ab"
 					(reference "C5")
-					(unit 1)
-				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/cecf6b9f-00cc-4f15-b7de-dea5a559bc6e"
-					(reference "C89")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ec8b493e-54df-4df1-8933-c03eae6d681c"
@@ -3687,14 +3687,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "bb6e175c-b489-4a3c-8281-58460062a653")
+			(uuid "920fc1ee-b0b8-4e94-864d-6f060812dd2d")
 		)
 		(pin "1"
-			(uuid "edf6ed7b-62e8-4ef8-afab-4dcb9717baad")
+			(uuid "440103e6-94f2-4745-a7fd-21b1d67bfc0a")
 		)
 		(instances
 			(project "Ekraan_7x7"
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/040d2874-1431-440a-b35f-52b0e81710ef"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/74e03272-9f4d-4cf1-b6bd-25e9aaeed2bf"
 					(reference "R61")
 					(unit 1)
 				)
@@ -3706,16 +3706,16 @@
 					(reference "R47")
 					(unit 1)
 				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ab032851-5538-4364-bd0a-98ccc0f689c1"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/b2b68079-6409-4bc6-877f-b17121894514"
 					(reference "R75")
+					(unit 1)
+				)
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/bb2b52cc-9e7f-4765-b20e-ca070d205cbf"
+					(reference "R89")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/c118b764-b25b-449f-8848-54cc104858ab"
 					(reference "R11")
-					(unit 1)
-				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/cecf6b9f-00cc-4f15-b7de-dea5a559bc6e"
-					(reference "R89")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ec8b493e-54df-4df1-8933-c03eae6d681c"
@@ -3831,26 +3831,26 @@
 			)
 		)
 		(pin "4"
-			(uuid "3fa9993c-9568-4956-a921-5f13ff524c87")
+			(uuid "937cf985-427f-4a7b-b07c-c82add8db121")
 		)
 		(pin "5"
-			(uuid "0a728525-ca61-40d3-a04d-1961a591fa27")
+			(uuid "aee3b6c7-e6b5-4a63-9bf1-91b86538d66b")
 		)
 		(pin "6"
-			(uuid "5036be0c-7109-42fb-924f-63540728cc3b")
+			(uuid "2a88cc82-2206-40d2-a8cc-dc9a732a7d0b")
 		)
 		(pin "3"
-			(uuid "221f1fd6-17c5-4214-b469-e4fd25b42018")
+			(uuid "337fe611-9710-4c07-a405-797afa4ed756")
 		)
 		(pin "2"
-			(uuid "68af2518-0e52-490a-84b3-135c0b23b7ee")
+			(uuid "89a22d09-924a-4528-9432-4ae8394bad71")
 		)
 		(pin "1"
-			(uuid "79d5773f-dbfa-457b-a323-557b42f09577")
+			(uuid "56c8123c-1091-4c88-b166-f25a21cd48d4")
 		)
 		(instances
 			(project "Ekraan_7x7"
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/040d2874-1431-440a-b35f-52b0e81710ef"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/74e03272-9f4d-4cf1-b6bd-25e9aaeed2bf"
 					(reference "IC33")
 					(unit 1)
 				)
@@ -3862,16 +3862,16 @@
 					(reference "IC26")
 					(unit 1)
 				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ab032851-5538-4364-bd0a-98ccc0f689c1"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/b2b68079-6409-4bc6-877f-b17121894514"
 					(reference "IC40")
+					(unit 1)
+				)
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/bb2b52cc-9e7f-4765-b20e-ca070d205cbf"
+					(reference "IC47")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/c118b764-b25b-449f-8848-54cc104858ab"
 					(reference "IC8")
-					(unit 1)
-				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/cecf6b9f-00cc-4f15-b7de-dea5a559bc6e"
-					(reference "IC47")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ec8b493e-54df-4df1-8933-c03eae6d681c"
@@ -3934,14 +3934,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "c3a8af36-1881-46e7-a554-9e2c42a57cd3")
+			(uuid "3dfe5324-cd60-4eff-b71f-f517a171f3be")
 		)
 		(pin "1"
-			(uuid "2aa7adfd-db96-4fbd-9384-d2a4474f89d5")
+			(uuid "0e5cd70c-5384-4fa5-9c40-fcba3719d100")
 		)
 		(instances
 			(project "Ekraan_7x7"
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/040d2874-1431-440a-b35f-52b0e81710ef"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/74e03272-9f4d-4cf1-b6bd-25e9aaeed2bf"
 					(reference "R66")
 					(unit 1)
 				)
@@ -3953,16 +3953,16 @@
 					(reference "R52")
 					(unit 1)
 				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ab032851-5538-4364-bd0a-98ccc0f689c1"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/b2b68079-6409-4bc6-877f-b17121894514"
 					(reference "R80")
+					(unit 1)
+				)
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/bb2b52cc-9e7f-4765-b20e-ca070d205cbf"
+					(reference "R94")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/c118b764-b25b-449f-8848-54cc104858ab"
 					(reference "R16")
-					(unit 1)
-				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/cecf6b9f-00cc-4f15-b7de-dea5a559bc6e"
-					(reference "R94")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ec8b493e-54df-4df1-8933-c03eae6d681c"
@@ -4025,14 +4025,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "28e47772-75e5-4291-8ee5-5a1f69e85b76")
+			(uuid "e6bd8530-a8d4-44b0-bd2e-5637773e99ab")
 		)
 		(pin "1"
-			(uuid "3db5ef62-20ff-4f20-aef2-02d6a463a48b")
+			(uuid "2ad93271-d31b-43e4-9744-ab08a23bf1a2")
 		)
 		(instances
 			(project "Ekraan_7x7"
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/040d2874-1431-440a-b35f-52b0e81710ef"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/74e03272-9f4d-4cf1-b6bd-25e9aaeed2bf"
 					(reference "C69")
 					(unit 1)
 				)
@@ -4044,16 +4044,16 @@
 					(reference "C55")
 					(unit 1)
 				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ab032851-5538-4364-bd0a-98ccc0f689c1"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/b2b68079-6409-4bc6-877f-b17121894514"
 					(reference "C83")
+					(unit 1)
+				)
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/bb2b52cc-9e7f-4765-b20e-ca070d205cbf"
+					(reference "C97")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/c118b764-b25b-449f-8848-54cc104858ab"
 					(reference "C18")
-					(unit 1)
-				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/cecf6b9f-00cc-4f15-b7de-dea5a559bc6e"
-					(reference "C97")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ec8b493e-54df-4df1-8933-c03eae6d681c"
@@ -4169,26 +4169,26 @@
 			)
 		)
 		(pin "4"
-			(uuid "bf53146f-0167-4e0f-9312-7020c7da0845")
+			(uuid "389df7f2-4d47-4bfa-85ff-8d1de4c7c97a")
 		)
 		(pin "5"
-			(uuid "d95947ca-21d1-4f8c-81a2-398e810ec6d4")
+			(uuid "7fc0bc68-1cc1-4f92-ba69-5351ff7f7953")
 		)
 		(pin "6"
-			(uuid "460f4564-a704-46d8-a17b-a6648cdf1c48")
+			(uuid "1e0b322f-4883-4ce2-99af-1ed8c1e5addc")
 		)
 		(pin "3"
-			(uuid "bf3b367c-b00b-46ce-aae6-57b49dee3294")
+			(uuid "551946b7-27bb-4255-98ba-c277e9c22307")
 		)
 		(pin "2"
-			(uuid "2f5c8519-88c5-4b5a-8895-16ef6f427e01")
+			(uuid "b492c2bd-18db-4ab8-a525-0c81607a86b4")
 		)
 		(pin "1"
-			(uuid "073bbe58-b043-479a-a03d-fe931b4abae5")
+			(uuid "3f09bade-3c2c-43b0-a1c4-c4fd435e3c23")
 		)
 		(instances
 			(project "Ekraan_7x7"
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/040d2874-1431-440a-b35f-52b0e81710ef"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/74e03272-9f4d-4cf1-b6bd-25e9aaeed2bf"
 					(reference "IC35")
 					(unit 1)
 				)
@@ -4200,16 +4200,16 @@
 					(reference "IC28")
 					(unit 1)
 				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ab032851-5538-4364-bd0a-98ccc0f689c1"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/b2b68079-6409-4bc6-877f-b17121894514"
 					(reference "IC42")
+					(unit 1)
+				)
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/bb2b52cc-9e7f-4765-b20e-ca070d205cbf"
+					(reference "IC49")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/c118b764-b25b-449f-8848-54cc104858ab"
 					(reference "IC10")
-					(unit 1)
-				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/cecf6b9f-00cc-4f15-b7de-dea5a559bc6e"
-					(reference "IC49")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ec8b493e-54df-4df1-8933-c03eae6d681c"
@@ -4273,14 +4273,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "a84cb390-92fa-4e39-a54d-4ff02a6d3952")
+			(uuid "ae29bd80-3d85-4193-9d80-b49730b61ac1")
 		)
 		(pin "1"
-			(uuid "5b6416fc-550a-476f-8986-8ea2852f857e")
+			(uuid "87b322db-7544-46d4-a202-4bc2b7907a9f")
 		)
 		(instances
 			(project "Ekraan_7x7"
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/040d2874-1431-440a-b35f-52b0e81710ef"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/74e03272-9f4d-4cf1-b6bd-25e9aaeed2bf"
 					(reference "C70")
 					(unit 1)
 				)
@@ -4292,16 +4292,16 @@
 					(reference "C56")
 					(unit 1)
 				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ab032851-5538-4364-bd0a-98ccc0f689c1"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/b2b68079-6409-4bc6-877f-b17121894514"
 					(reference "C84")
+					(unit 1)
+				)
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/bb2b52cc-9e7f-4765-b20e-ca070d205cbf"
+					(reference "C98")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/c118b764-b25b-449f-8848-54cc104858ab"
 					(reference "C19")
-					(unit 1)
-				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/cecf6b9f-00cc-4f15-b7de-dea5a559bc6e"
-					(reference "C98")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ec8b493e-54df-4df1-8933-c03eae6d681c"
@@ -4417,26 +4417,26 @@
 			)
 		)
 		(pin "4"
-			(uuid "540473c6-b7ef-4bd8-9fe3-a22c5ce10382")
+			(uuid "ec1b825d-8854-4acb-b206-8138d8584a82")
 		)
 		(pin "5"
-			(uuid "a90f9cd7-be62-4698-8704-4758eb4eaa08")
+			(uuid "ba2ec4ac-91bf-4a76-af5f-20a8192b8eab")
 		)
 		(pin "6"
-			(uuid "1c44953d-1e89-4bfb-8694-09b630012fa1")
+			(uuid "52303987-ac54-4664-a2c9-0bbe6fbf2dd7")
 		)
 		(pin "3"
-			(uuid "7a00c5a3-e67c-4a0d-833c-5120d1789a21")
+			(uuid "56d21d78-1574-4369-9bcc-966fbcfa6be6")
 		)
 		(pin "2"
-			(uuid "a3320a19-556c-4a47-96fa-4defc2fffd1d")
+			(uuid "6458718f-f15b-4a9b-89cc-021fd748085f")
 		)
 		(pin "1"
-			(uuid "c7731108-0c7d-40d3-a783-b931d5cf4c20")
+			(uuid "6775ba50-cff3-4a03-89be-dbf42856ab0e")
 		)
 		(instances
 			(project "Ekraan_7x7"
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/040d2874-1431-440a-b35f-52b0e81710ef"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/74e03272-9f4d-4cf1-b6bd-25e9aaeed2bf"
 					(reference "IC30")
 					(unit 1)
 				)
@@ -4448,16 +4448,16 @@
 					(reference "IC23")
 					(unit 1)
 				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ab032851-5538-4364-bd0a-98ccc0f689c1"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/b2b68079-6409-4bc6-877f-b17121894514"
 					(reference "IC37")
+					(unit 1)
+				)
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/bb2b52cc-9e7f-4765-b20e-ca070d205cbf"
+					(reference "IC44")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/c118b764-b25b-449f-8848-54cc104858ab"
 					(reference "IC3")
-					(unit 1)
-				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/cecf6b9f-00cc-4f15-b7de-dea5a559bc6e"
-					(reference "IC44")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ec8b493e-54df-4df1-8933-c03eae6d681c"
@@ -4521,14 +4521,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "0efcfa65-f607-43ef-b8ef-dfb09838c844")
+			(uuid "3b6b7989-e48b-4cf8-a8c0-13e478ba05e2")
 		)
 		(pin "1"
-			(uuid "0ca9aed3-67e6-45d6-8315-64b3aa7fc98b")
+			(uuid "3c7bb091-5dc8-40f1-aa0f-edc2648ef2b4")
 		)
 		(instances
 			(project "Ekraan_7x7"
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/040d2874-1431-440a-b35f-52b0e81710ef"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/74e03272-9f4d-4cf1-b6bd-25e9aaeed2bf"
 					(reference "C68")
 					(unit 1)
 				)
@@ -4540,16 +4540,16 @@
 					(reference "C54")
 					(unit 1)
 				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ab032851-5538-4364-bd0a-98ccc0f689c1"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/b2b68079-6409-4bc6-877f-b17121894514"
 					(reference "C82")
+					(unit 1)
+				)
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/bb2b52cc-9e7f-4765-b20e-ca070d205cbf"
+					(reference "C96")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/c118b764-b25b-449f-8848-54cc104858ab"
 					(reference "C17")
-					(unit 1)
-				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/cecf6b9f-00cc-4f15-b7de-dea5a559bc6e"
-					(reference "C96")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ec8b493e-54df-4df1-8933-c03eae6d681c"
@@ -4612,14 +4612,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "e76aadb0-c986-408f-8b22-1be67a524018")
+			(uuid "9e3ca7ad-6153-4632-89f7-1ccc64e03bc1")
 		)
 		(pin "1"
-			(uuid "c0dd2c63-a598-4758-9030-c06c10e58861")
+			(uuid "90efd031-6843-4d29-95de-4186e28e55ba")
 		)
 		(instances
 			(project "Ekraan_7x7"
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/040d2874-1431-440a-b35f-52b0e81710ef"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/74e03272-9f4d-4cf1-b6bd-25e9aaeed2bf"
 					(reference "R65")
 					(unit 1)
 				)
@@ -4631,16 +4631,16 @@
 					(reference "R51")
 					(unit 1)
 				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ab032851-5538-4364-bd0a-98ccc0f689c1"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/b2b68079-6409-4bc6-877f-b17121894514"
 					(reference "R79")
+					(unit 1)
+				)
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/bb2b52cc-9e7f-4765-b20e-ca070d205cbf"
+					(reference "R93")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/c118b764-b25b-449f-8848-54cc104858ab"
 					(reference "R15")
-					(unit 1)
-				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/cecf6b9f-00cc-4f15-b7de-dea5a559bc6e"
-					(reference "R93")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ec8b493e-54df-4df1-8933-c03eae6d681c"
@@ -4703,14 +4703,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "d75c3530-4a67-44eb-be31-2b19b32c43fc")
+			(uuid "c318b822-bac2-4798-bb64-039d04caf79c")
 		)
 		(pin "1"
-			(uuid "b6d2abcd-1540-469b-b8ee-109b4f1a7607")
+			(uuid "d85bacd0-376d-4412-b300-f95dc1e8d788")
 		)
 		(instances
 			(project "Ekraan_7x7"
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/040d2874-1431-440a-b35f-52b0e81710ef"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/74e03272-9f4d-4cf1-b6bd-25e9aaeed2bf"
 					(reference "C62")
 					(unit 1)
 				)
@@ -4722,16 +4722,16 @@
 					(reference "C48")
 					(unit 1)
 				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ab032851-5538-4364-bd0a-98ccc0f689c1"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/b2b68079-6409-4bc6-877f-b17121894514"
 					(reference "C76")
+					(unit 1)
+				)
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/bb2b52cc-9e7f-4765-b20e-ca070d205cbf"
+					(reference "C90")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/c118b764-b25b-449f-8848-54cc104858ab"
 					(reference "C6")
-					(unit 1)
-				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/cecf6b9f-00cc-4f15-b7de-dea5a559bc6e"
-					(reference "C90")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ec8b493e-54df-4df1-8933-c03eae6d681c"
@@ -4847,26 +4847,26 @@
 			)
 		)
 		(pin "4"
-			(uuid "9cd3e1a9-4b17-40dd-9bbf-c078a3619d1a")
+			(uuid "20cb859b-2fc5-4f66-8fb4-7ec9d09b3323")
 		)
 		(pin "5"
-			(uuid "b0294a4f-749e-4ef7-b604-2ae92427bfbc")
+			(uuid "f0f81481-cfae-4753-8766-ba9d8d998828")
 		)
 		(pin "6"
-			(uuid "7dfb6647-43ca-4ef5-8982-f8e606e30776")
+			(uuid "d9f998dd-b86d-4023-957f-d6752d8488ef")
 		)
 		(pin "3"
-			(uuid "f2e71843-3856-44d3-a3f9-7f0ea4560b17")
+			(uuid "9362b376-5cf0-4f19-b21f-da8c57747227")
 		)
 		(pin "2"
-			(uuid "9fc5a4a2-a399-4d52-b3bb-aab4888702f8")
+			(uuid "3b0de257-28ff-4525-bb0d-e65e57e23f43")
 		)
 		(pin "1"
-			(uuid "1678965a-1fc5-4ef6-a0b7-006f80690242")
+			(uuid "a5817db6-0a4b-4011-9bae-23ffadefa704")
 		)
 		(instances
 			(project "Ekraan_7x7"
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/040d2874-1431-440a-b35f-52b0e81710ef"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/74e03272-9f4d-4cf1-b6bd-25e9aaeed2bf"
 					(reference "IC36")
 					(unit 1)
 				)
@@ -4878,16 +4878,16 @@
 					(reference "IC29")
 					(unit 1)
 				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ab032851-5538-4364-bd0a-98ccc0f689c1"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/b2b68079-6409-4bc6-877f-b17121894514"
 					(reference "IC43")
+					(unit 1)
+				)
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/bb2b52cc-9e7f-4765-b20e-ca070d205cbf"
+					(reference "IC50")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/c118b764-b25b-449f-8848-54cc104858ab"
 					(reference "IC11")
-					(unit 1)
-				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/cecf6b9f-00cc-4f15-b7de-dea5a559bc6e"
-					(reference "IC50")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ec8b493e-54df-4df1-8933-c03eae6d681c"
@@ -4951,50 +4951,50 @@
 			)
 		)
 		(pin "12"
-			(uuid "0f2799d0-0ff7-4af9-befd-0ef8183d7c4f")
+			(uuid "fd489ecb-522b-49c7-a4c6-1b1b16926dfd")
 		)
 		(pin "1"
-			(uuid "6d488763-4132-4c9e-8a76-281aafdc041b")
+			(uuid "afb44295-f927-489c-890b-2cd9ed9617b5")
 		)
 		(pin "14"
-			(uuid "9c7d666a-9444-42b6-874d-5e1ed404e43b")
+			(uuid "78300fac-2e38-4373-9466-4e8998fc88d6")
 		)
 		(pin "9"
-			(uuid "fb74a6c4-b895-4b96-8b99-c74a326348b2")
+			(uuid "edb25be5-d127-4ffb-aeba-d9e5e993f486")
 		)
 		(pin "3"
-			(uuid "47ec2b5c-2263-47bc-9a1a-b37b6652d572")
+			(uuid "1b953c20-f04e-48d2-bd40-42088f84aa3b")
 		)
 		(pin "6"
-			(uuid "07caf683-8389-4679-8e1c-3de6a5473ee4")
+			(uuid "0adac31e-9f21-42a3-aba3-47d7d623a331")
 		)
 		(pin "10"
-			(uuid "0fe23493-f2a1-4fe2-8ad7-cb58e7a0972c")
+			(uuid "b1c3a7d1-b342-4ab4-9be7-f705d794a01e")
 		)
 		(pin "8"
-			(uuid "ee78bfa1-9122-4d96-960f-1002526c3e86")
+			(uuid "6c02db5a-9dbe-4aca-bb85-b62b5465d2aa")
 		)
 		(pin "13"
-			(uuid "edc53847-7b30-4a7b-9480-efade14cdcea")
+			(uuid "c4875e46-7017-4e06-8024-f5d46f2f1ba7")
 		)
 		(pin "5"
-			(uuid "e7c4967d-aa74-4e57-b3fa-b26d42c72f36")
+			(uuid "c739e302-563a-415a-9391-6621d4e20c83")
 		)
 		(pin "4"
-			(uuid "4ba696b7-813d-445d-8296-400a9dd8731e")
+			(uuid "141712d7-e91d-4b69-9a0f-0c75e77cb413")
 		)
 		(pin "11"
-			(uuid "35ddbb01-b177-416e-9a39-e658356e29ae")
+			(uuid "ea8a9f10-cbbe-4cfe-8a97-c0ed520ab7c0")
 		)
 		(pin "2"
-			(uuid "44182976-be5c-4dfb-a836-13cc667eec6d")
+			(uuid "762f905b-3f0b-4c54-9a1e-d64dbf205d03")
 		)
 		(pin "7"
-			(uuid "ff2e1614-4113-4eb7-8060-eeba0e93f1bb")
+			(uuid "9db394f2-1c84-4653-94aa-a56e18ce3f82")
 		)
 		(instances
 			(project "Ekraan_7x7"
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/040d2874-1431-440a-b35f-52b0e81710ef"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/74e03272-9f4d-4cf1-b6bd-25e9aaeed2bf"
 					(reference "U5")
 					(unit 1)
 				)
@@ -5006,16 +5006,16 @@
 					(reference "U4")
 					(unit 1)
 				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ab032851-5538-4364-bd0a-98ccc0f689c1"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/b2b68079-6409-4bc6-877f-b17121894514"
 					(reference "U6")
+					(unit 1)
+				)
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/bb2b52cc-9e7f-4765-b20e-ca070d205cbf"
+					(reference "U7")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/c118b764-b25b-449f-8848-54cc104858ab"
 					(reference "U1")
-					(unit 1)
-				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/cecf6b9f-00cc-4f15-b7de-dea5a559bc6e"
-					(reference "U7")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ec8b493e-54df-4df1-8933-c03eae6d681c"
@@ -5079,14 +5079,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "6abd437c-74be-40e0-a7b8-dfc7cdf5a5c1")
+			(uuid "0c254a06-2067-4e38-8a72-90b1e34b9c1f")
 		)
 		(pin "1"
-			(uuid "d9c3b008-aa14-4445-b81f-8efdbdb3bd73")
+			(uuid "c0f40df2-f4cc-4322-b763-26eb60a15881")
 		)
 		(instances
 			(project "Ekraan_7x7"
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/040d2874-1431-440a-b35f-52b0e81710ef"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/74e03272-9f4d-4cf1-b6bd-25e9aaeed2bf"
 					(reference "C66")
 					(unit 1)
 				)
@@ -5098,16 +5098,16 @@
 					(reference "C52")
 					(unit 1)
 				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ab032851-5538-4364-bd0a-98ccc0f689c1"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/b2b68079-6409-4bc6-877f-b17121894514"
 					(reference "C80")
+					(unit 1)
+				)
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/bb2b52cc-9e7f-4765-b20e-ca070d205cbf"
+					(reference "C94")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/c118b764-b25b-449f-8848-54cc104858ab"
 					(reference "C15")
-					(unit 1)
-				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/cecf6b9f-00cc-4f15-b7de-dea5a559bc6e"
-					(reference "C94")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ec8b493e-54df-4df1-8933-c03eae6d681c"
@@ -5171,14 +5171,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "d1a97fd0-137a-4e8b-ba51-3f2661d4c2ad")
+			(uuid "a047a203-6262-46f2-a05d-7ff0cd93e206")
 		)
 		(pin "1"
-			(uuid "4cbdda7b-5c01-447f-9e63-413dde8880bb")
+			(uuid "ed360098-959b-4465-b9ab-b465bae4a4ef")
 		)
 		(instances
 			(project "Ekraan_7x7"
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/040d2874-1431-440a-b35f-52b0e81710ef"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/74e03272-9f4d-4cf1-b6bd-25e9aaeed2bf"
 					(reference "C63")
 					(unit 1)
 				)
@@ -5190,16 +5190,16 @@
 					(reference "C49")
 					(unit 1)
 				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ab032851-5538-4364-bd0a-98ccc0f689c1"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/b2b68079-6409-4bc6-877f-b17121894514"
 					(reference "C77")
+					(unit 1)
+				)
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/bb2b52cc-9e7f-4765-b20e-ca070d205cbf"
+					(reference "C91")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/c118b764-b25b-449f-8848-54cc104858ab"
 					(reference "C7")
-					(unit 1)
-				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/cecf6b9f-00cc-4f15-b7de-dea5a559bc6e"
-					(reference "C91")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ec8b493e-54df-4df1-8933-c03eae6d681c"
@@ -5315,26 +5315,26 @@
 			)
 		)
 		(pin "4"
-			(uuid "f9b2fd03-d4bb-407e-9ae2-7bdfd5edaafe")
+			(uuid "671d046d-daf1-4a8e-9634-b22f2086fe06")
 		)
 		(pin "5"
-			(uuid "815ded39-e4e2-476e-be4d-cf03d1baf1b2")
+			(uuid "6e26357d-306e-4e34-bf05-8a93064deb54")
 		)
 		(pin "6"
-			(uuid "b7a580ba-66a8-41f6-8bc8-a3dab23355fa")
+			(uuid "9a20a8cd-6071-4915-8356-103621cf41f6")
 		)
 		(pin "3"
-			(uuid "0055c279-b6b4-423a-b5e6-858347ebd92e")
+			(uuid "99f208d1-55d2-47ce-acf4-4e08d6b723cc")
 		)
 		(pin "2"
-			(uuid "b40d4f42-089e-4c56-9148-63b847e10846")
+			(uuid "4c29edd6-ed97-409b-aac1-503a79dcfe05")
 		)
 		(pin "1"
-			(uuid "2f22e38f-8a6c-42a5-aadc-a6605fbfd8af")
+			(uuid "2337153a-0980-46ec-bb29-4a718658bacd")
 		)
 		(instances
 			(project "Ekraan_7x7"
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/040d2874-1431-440a-b35f-52b0e81710ef"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/74e03272-9f4d-4cf1-b6bd-25e9aaeed2bf"
 					(reference "IC31")
 					(unit 1)
 				)
@@ -5346,16 +5346,16 @@
 					(reference "IC24")
 					(unit 1)
 				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ab032851-5538-4364-bd0a-98ccc0f689c1"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/b2b68079-6409-4bc6-877f-b17121894514"
 					(reference "IC38")
+					(unit 1)
+				)
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/bb2b52cc-9e7f-4765-b20e-ca070d205cbf"
+					(reference "IC45")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/c118b764-b25b-449f-8848-54cc104858ab"
 					(reference "IC6")
-					(unit 1)
-				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/cecf6b9f-00cc-4f15-b7de-dea5a559bc6e"
-					(reference "IC45")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ec8b493e-54df-4df1-8933-c03eae6d681c"
@@ -5418,14 +5418,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "c6334c0f-8b45-4697-8691-7a183a6ecf16")
+			(uuid "e02e3aa8-afdc-433a-8b06-e51fc87239cd")
 		)
 		(pin "1"
-			(uuid "e2e5ecca-7d9c-4b6e-a1ba-498315e686b2")
+			(uuid "a6d1f630-75f3-482d-a76e-241af2d24f5c")
 		)
 		(instances
 			(project "Ekraan_7x7"
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/040d2874-1431-440a-b35f-52b0e81710ef"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/74e03272-9f4d-4cf1-b6bd-25e9aaeed2bf"
 					(reference "R59")
 					(unit 1)
 				)
@@ -5437,16 +5437,16 @@
 					(reference "R45")
 					(unit 1)
 				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ab032851-5538-4364-bd0a-98ccc0f689c1"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/b2b68079-6409-4bc6-877f-b17121894514"
 					(reference "R73")
+					(unit 1)
+				)
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/bb2b52cc-9e7f-4765-b20e-ca070d205cbf"
+					(reference "R87")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/c118b764-b25b-449f-8848-54cc104858ab"
 					(reference "R9")
-					(unit 1)
-				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/cecf6b9f-00cc-4f15-b7de-dea5a559bc6e"
-					(reference "R87")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ec8b493e-54df-4df1-8933-c03eae6d681c"
@@ -5509,14 +5509,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "bbd03a9c-cd3f-4f8e-8c67-051af7a3d4ce")
+			(uuid "578adefd-f1f5-4e17-a540-f223f316d9da")
 		)
 		(pin "1"
-			(uuid "d3d5aa39-1987-4440-8228-f5ae1c0c6784")
+			(uuid "3f10fd60-f1fe-4e8c-a1b1-95b4c82c9dc0")
 		)
 		(instances
 			(project "Ekraan_7x7"
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/040d2874-1431-440a-b35f-52b0e81710ef"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/74e03272-9f4d-4cf1-b6bd-25e9aaeed2bf"
 					(reference "R58")
 					(unit 1)
 				)
@@ -5528,16 +5528,16 @@
 					(reference "R44")
 					(unit 1)
 				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ab032851-5538-4364-bd0a-98ccc0f689c1"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/b2b68079-6409-4bc6-877f-b17121894514"
 					(reference "R72")
+					(unit 1)
+				)
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/bb2b52cc-9e7f-4765-b20e-ca070d205cbf"
+					(reference "R86")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/c118b764-b25b-449f-8848-54cc104858ab"
 					(reference "R4")
-					(unit 1)
-				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/cecf6b9f-00cc-4f15-b7de-dea5a559bc6e"
-					(reference "R86")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ec8b493e-54df-4df1-8933-c03eae6d681c"
@@ -5653,26 +5653,26 @@
 			)
 		)
 		(pin "4"
-			(uuid "36d520d7-fa37-4a43-b484-06a43dcf9eb4")
+			(uuid "de2da201-5c0b-4d8c-b122-743e7f455370")
 		)
 		(pin "5"
-			(uuid "6424e947-1e77-4217-adf0-bc2dc0639d50")
+			(uuid "3ad715b8-e721-4cda-b09a-8f842b3888b5")
 		)
 		(pin "6"
-			(uuid "82e2391c-30f3-4db2-8233-b851e99632a5")
+			(uuid "81fe9b12-e916-434e-9f68-b1c3e5871128")
 		)
 		(pin "3"
-			(uuid "9d1ccdf7-c6c4-474e-ad27-76011662a280")
+			(uuid "02b09ad9-1bfa-45dd-ab1b-47966d5eb0b7")
 		)
 		(pin "2"
-			(uuid "a8533785-c9aa-4ee0-a42a-cb61f1684eb5")
+			(uuid "7811bc38-6815-4a2c-8593-a77827df11fd")
 		)
 		(pin "1"
-			(uuid "b97f5436-93b6-4a11-8bc0-fd4d24add09a")
+			(uuid "295672de-060d-4146-a3a4-f99cc011cfc1")
 		)
 		(instances
 			(project "Ekraan_7x7"
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/040d2874-1431-440a-b35f-52b0e81710ef"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/74e03272-9f4d-4cf1-b6bd-25e9aaeed2bf"
 					(reference "IC32")
 					(unit 1)
 				)
@@ -5684,16 +5684,16 @@
 					(reference "IC25")
 					(unit 1)
 				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ab032851-5538-4364-bd0a-98ccc0f689c1"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/b2b68079-6409-4bc6-877f-b17121894514"
 					(reference "IC39")
+					(unit 1)
+				)
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/bb2b52cc-9e7f-4765-b20e-ca070d205cbf"
+					(reference "IC46")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/c118b764-b25b-449f-8848-54cc104858ab"
 					(reference "IC7")
-					(unit 1)
-				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/cecf6b9f-00cc-4f15-b7de-dea5a559bc6e"
-					(reference "IC46")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ec8b493e-54df-4df1-8933-c03eae6d681c"
@@ -5756,14 +5756,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "98e19cb6-753e-4783-85e4-eac709ffc64f")
+			(uuid "66a34b7f-427b-4fcb-a80a-c0b6e79cbdff")
 		)
 		(pin "1"
-			(uuid "ff78dc5a-0d8e-4772-8372-f73b616a9576")
+			(uuid "a74c64f9-ddc7-4000-8f2b-88c83fc30540")
 		)
 		(instances
 			(project "Ekraan_7x7"
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/040d2874-1431-440a-b35f-52b0e81710ef"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/74e03272-9f4d-4cf1-b6bd-25e9aaeed2bf"
 					(reference "R69")
 					(unit 1)
 				)
@@ -5775,16 +5775,16 @@
 					(reference "R55")
 					(unit 1)
 				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ab032851-5538-4364-bd0a-98ccc0f689c1"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/b2b68079-6409-4bc6-877f-b17121894514"
 					(reference "R83")
+					(unit 1)
+				)
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/bb2b52cc-9e7f-4765-b20e-ca070d205cbf"
+					(reference "R97")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/c118b764-b25b-449f-8848-54cc104858ab"
 					(reference "R19")
-					(unit 1)
-				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/cecf6b9f-00cc-4f15-b7de-dea5a559bc6e"
-					(reference "R97")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ec8b493e-54df-4df1-8933-c03eae6d681c"
@@ -5847,14 +5847,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "9e886f33-6131-42bc-9401-ba0b9c3f809f")
+			(uuid "33220e47-0ce7-4e9c-8981-21d70ff6cc08")
 		)
 		(pin "1"
-			(uuid "dfeea708-1cbd-4119-81b4-811ecc89c3b5")
+			(uuid "1f47fdf8-ce7b-4a40-a605-beff0d2e8efe")
 		)
 		(instances
 			(project "Ekraan_7x7"
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/040d2874-1431-440a-b35f-52b0e81710ef"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/74e03272-9f4d-4cf1-b6bd-25e9aaeed2bf"
 					(reference "R70")
 					(unit 1)
 				)
@@ -5866,16 +5866,16 @@
 					(reference "R56")
 					(unit 1)
 				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ab032851-5538-4364-bd0a-98ccc0f689c1"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/b2b68079-6409-4bc6-877f-b17121894514"
 					(reference "R84")
+					(unit 1)
+				)
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/bb2b52cc-9e7f-4765-b20e-ca070d205cbf"
+					(reference "R98")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/c118b764-b25b-449f-8848-54cc104858ab"
 					(reference "R20")
-					(unit 1)
-				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/cecf6b9f-00cc-4f15-b7de-dea5a559bc6e"
-					(reference "R98")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ec8b493e-54df-4df1-8933-c03eae6d681c"
@@ -5939,14 +5939,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "0dc22ea2-ea66-430b-b65c-7c174a1db4b0")
+			(uuid "7cfbe098-20b7-4b72-8162-19bf1499d2bd")
 		)
 		(pin "1"
-			(uuid "1338956d-2256-4ac4-ae2a-2283383569a1")
+			(uuid "0c1f8f5a-8b7a-4026-abb5-aa3ee024d454")
 		)
 		(instances
 			(project "Ekraan_7x7"
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/040d2874-1431-440a-b35f-52b0e81710ef"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/74e03272-9f4d-4cf1-b6bd-25e9aaeed2bf"
 					(reference "C59")
 					(unit 1)
 				)
@@ -5958,16 +5958,16 @@
 					(reference "C45")
 					(unit 1)
 				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ab032851-5538-4364-bd0a-98ccc0f689c1"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/b2b68079-6409-4bc6-877f-b17121894514"
 					(reference "C73")
+					(unit 1)
+				)
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/bb2b52cc-9e7f-4765-b20e-ca070d205cbf"
+					(reference "C87")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/c118b764-b25b-449f-8848-54cc104858ab"
 					(reference "C3")
-					(unit 1)
-				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/cecf6b9f-00cc-4f15-b7de-dea5a559bc6e"
-					(reference "C87")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ec8b493e-54df-4df1-8933-c03eae6d681c"
@@ -6031,14 +6031,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "fc8fc603-9fda-4817-8a14-4c5605e74989")
+			(uuid "29d23e77-9d6b-4508-8558-66d43f630aa8")
 		)
 		(pin "1"
-			(uuid "b52c70e9-1c83-429c-b0c1-5942378d36b4")
+			(uuid "1173300c-089c-4169-bd8b-e3546c5ea1af")
 		)
 		(instances
 			(project "Ekraan_7x7"
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/040d2874-1431-440a-b35f-52b0e81710ef"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/74e03272-9f4d-4cf1-b6bd-25e9aaeed2bf"
 					(reference "C64")
 					(unit 1)
 				)
@@ -6050,16 +6050,16 @@
 					(reference "C50")
 					(unit 1)
 				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ab032851-5538-4364-bd0a-98ccc0f689c1"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/b2b68079-6409-4bc6-877f-b17121894514"
 					(reference "C78")
+					(unit 1)
+				)
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/bb2b52cc-9e7f-4765-b20e-ca070d205cbf"
+					(reference "C92")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/c118b764-b25b-449f-8848-54cc104858ab"
 					(reference "C8")
-					(unit 1)
-				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/cecf6b9f-00cc-4f15-b7de-dea5a559bc6e"
-					(reference "C92")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ec8b493e-54df-4df1-8933-c03eae6d681c"
@@ -6175,26 +6175,26 @@
 			)
 		)
 		(pin "4"
-			(uuid "d9c21291-81d9-4005-b12f-e25b92a6022b")
+			(uuid "d1476a98-c39c-452b-9b3d-bdf160459af8")
 		)
 		(pin "5"
-			(uuid "d2a8186c-3972-4f04-9b6b-b8723d49c816")
+			(uuid "5f2c1415-8172-4cf1-8aed-a8e28d1322a1")
 		)
 		(pin "6"
-			(uuid "c6a90d9e-d2e7-4b92-8f55-8391dcd63f3b")
+			(uuid "adbbc89b-0d53-4724-b866-536684aed968")
 		)
 		(pin "3"
-			(uuid "de146db1-ade4-42de-9c53-bebb763530ad")
+			(uuid "c92928db-d2a5-4dc1-8594-dfd85d9efdda")
 		)
 		(pin "2"
-			(uuid "5e90b0e1-bb6c-4cc6-9154-da8115a87904")
+			(uuid "96e055d9-ac54-4d09-b196-445e7622f661")
 		)
 		(pin "1"
-			(uuid "ca8c95a4-1dd8-44c4-b0cb-3c73519a48d5")
+			(uuid "c59b45c8-6ede-45ad-8959-2dd49c6c3062")
 		)
 		(instances
 			(project "Ekraan_7x7"
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/040d2874-1431-440a-b35f-52b0e81710ef"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/74e03272-9f4d-4cf1-b6bd-25e9aaeed2bf"
 					(reference "IC34")
 					(unit 1)
 				)
@@ -6206,16 +6206,16 @@
 					(reference "IC27")
 					(unit 1)
 				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ab032851-5538-4364-bd0a-98ccc0f689c1"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/b2b68079-6409-4bc6-877f-b17121894514"
 					(reference "IC41")
+					(unit 1)
+				)
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/bb2b52cc-9e7f-4765-b20e-ca070d205cbf"
+					(reference "IC48")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/c118b764-b25b-449f-8848-54cc104858ab"
 					(reference "IC9")
-					(unit 1)
-				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/cecf6b9f-00cc-4f15-b7de-dea5a559bc6e"
-					(reference "IC48")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ec8b493e-54df-4df1-8933-c03eae6d681c"
@@ -6278,14 +6278,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "0ad4185c-63ec-4254-8046-6415b5df4268")
+			(uuid "bc872b53-f10b-458c-a7f2-ccfb85332ef3")
 		)
 		(pin "1"
-			(uuid "f5000026-0d4d-4430-a512-7b4ef184ef82")
+			(uuid "b7c93b64-c401-41b9-bd66-1d6c79686f6b")
 		)
 		(instances
 			(project "Ekraan_7x7"
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/040d2874-1431-440a-b35f-52b0e81710ef"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/74e03272-9f4d-4cf1-b6bd-25e9aaeed2bf"
 					(reference "C58")
 					(unit 1)
 				)
@@ -6297,16 +6297,16 @@
 					(reference "C44")
 					(unit 1)
 				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ab032851-5538-4364-bd0a-98ccc0f689c1"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/b2b68079-6409-4bc6-877f-b17121894514"
 					(reference "C72")
+					(unit 1)
+				)
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/bb2b52cc-9e7f-4765-b20e-ca070d205cbf"
+					(reference "C86")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/c118b764-b25b-449f-8848-54cc104858ab"
 					(reference "C2")
-					(unit 1)
-				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/cecf6b9f-00cc-4f15-b7de-dea5a559bc6e"
-					(reference "C86")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ec8b493e-54df-4df1-8933-c03eae6d681c"
@@ -6369,14 +6369,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "b2aaa6c1-6d8b-44f8-98b5-4d63825f628d")
+			(uuid "015fb7c8-b142-4846-8b29-2da517c58a75")
 		)
 		(pin "1"
-			(uuid "9755622a-adef-4e72-bc5d-1841ad84d14a")
+			(uuid "57c10612-c13d-4b5c-afd6-ffb939c6e298")
 		)
 		(instances
 			(project "Ekraan_7x7"
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/040d2874-1431-440a-b35f-52b0e81710ef"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/74e03272-9f4d-4cf1-b6bd-25e9aaeed2bf"
 					(reference "C67")
 					(unit 1)
 				)
@@ -6388,16 +6388,16 @@
 					(reference "C53")
 					(unit 1)
 				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ab032851-5538-4364-bd0a-98ccc0f689c1"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/b2b68079-6409-4bc6-877f-b17121894514"
 					(reference "C81")
+					(unit 1)
+				)
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/bb2b52cc-9e7f-4765-b20e-ca070d205cbf"
+					(reference "C95")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/c118b764-b25b-449f-8848-54cc104858ab"
 					(reference "C16")
-					(unit 1)
-				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/cecf6b9f-00cc-4f15-b7de-dea5a559bc6e"
-					(reference "C95")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ec8b493e-54df-4df1-8933-c03eae6d681c"
@@ -6460,14 +6460,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "5648fc85-11fb-4123-ace9-c9bf29e1e3c2")
+			(uuid "e49d539c-1e1b-4c4e-8681-8a1762aa890d")
 		)
 		(pin "1"
-			(uuid "03f7b764-5b0d-487e-b51c-86ebeaa1f512")
+			(uuid "3a7d138c-3fdb-49bf-8e73-eb91eac4bf1d")
 		)
 		(instances
 			(project "Ekraan_7x7"
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/040d2874-1431-440a-b35f-52b0e81710ef"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/74e03272-9f4d-4cf1-b6bd-25e9aaeed2bf"
 					(reference "R67")
 					(unit 1)
 				)
@@ -6479,16 +6479,16 @@
 					(reference "R53")
 					(unit 1)
 				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ab032851-5538-4364-bd0a-98ccc0f689c1"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/b2b68079-6409-4bc6-877f-b17121894514"
 					(reference "R81")
+					(unit 1)
+				)
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/bb2b52cc-9e7f-4765-b20e-ca070d205cbf"
+					(reference "R95")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/c118b764-b25b-449f-8848-54cc104858ab"
 					(reference "R17")
-					(unit 1)
-				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/cecf6b9f-00cc-4f15-b7de-dea5a559bc6e"
-					(reference "R95")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ec8b493e-54df-4df1-8933-c03eae6d681c"
@@ -6551,14 +6551,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "b89dd941-6098-4906-a122-6786baec0827")
+			(uuid "3362a620-be77-4394-893e-387c5bd201a4")
 		)
 		(pin "1"
-			(uuid "18c596b7-c71e-4a2f-b0c8-c78975eeb413")
+			(uuid "a849dcba-948b-474a-bea8-a7c63589f7bc")
 		)
 		(instances
 			(project "Ekraan_7x7"
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/040d2874-1431-440a-b35f-52b0e81710ef"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/74e03272-9f4d-4cf1-b6bd-25e9aaeed2bf"
 					(reference "R68")
 					(unit 1)
 				)
@@ -6570,16 +6570,16 @@
 					(reference "R54")
 					(unit 1)
 				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ab032851-5538-4364-bd0a-98ccc0f689c1"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/b2b68079-6409-4bc6-877f-b17121894514"
 					(reference "R82")
+					(unit 1)
+				)
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/bb2b52cc-9e7f-4765-b20e-ca070d205cbf"
+					(reference "R96")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/c118b764-b25b-449f-8848-54cc104858ab"
 					(reference "R18")
-					(unit 1)
-				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/cecf6b9f-00cc-4f15-b7de-dea5a559bc6e"
-					(reference "R96")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ec8b493e-54df-4df1-8933-c03eae6d681c"
@@ -6642,14 +6642,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "a4ea6734-d96d-4dd0-b843-21c77a07b3bf")
+			(uuid "236d9473-6d9c-45f2-a77c-0b787d46215b")
 		)
 		(pin "1"
-			(uuid "ade1dafd-641a-4b10-9445-777253aeb503")
+			(uuid "dcc0644d-31ea-4a88-9405-c790ab7b8fbf")
 		)
 		(instances
 			(project "Ekraan_7x7"
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/040d2874-1431-440a-b35f-52b0e81710ef"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/74e03272-9f4d-4cf1-b6bd-25e9aaeed2bf"
 					(reference "C57")
 					(unit 1)
 				)
@@ -6661,16 +6661,16 @@
 					(reference "C43")
 					(unit 1)
 				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ab032851-5538-4364-bd0a-98ccc0f689c1"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/b2b68079-6409-4bc6-877f-b17121894514"
 					(reference "C71")
+					(unit 1)
+				)
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/bb2b52cc-9e7f-4765-b20e-ca070d205cbf"
+					(reference "C85")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/c118b764-b25b-449f-8848-54cc104858ab"
 					(reference "C1")
-					(unit 1)
-				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/cecf6b9f-00cc-4f15-b7de-dea5a559bc6e"
-					(reference "C85")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ec8b493e-54df-4df1-8933-c03eae6d681c"
@@ -6733,14 +6733,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "d4e843db-1376-4ff0-8775-6b8801e9a0d2")
+			(uuid "8b3afe41-b405-4616-b533-d47ff6c6b238")
 		)
 		(pin "1"
-			(uuid "a5b22e3c-4cb1-4e54-a32a-f2a787fb9ba9")
+			(uuid "3d62d2f1-c9e7-4a86-b747-bc3db899878b")
 		)
 		(instances
 			(project "Ekraan_7x7"
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/040d2874-1431-440a-b35f-52b0e81710ef"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/74e03272-9f4d-4cf1-b6bd-25e9aaeed2bf"
 					(reference "C65")
 					(unit 1)
 				)
@@ -6752,16 +6752,16 @@
 					(reference "C51")
 					(unit 1)
 				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ab032851-5538-4364-bd0a-98ccc0f689c1"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/b2b68079-6409-4bc6-877f-b17121894514"
 					(reference "C79")
+					(unit 1)
+				)
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/bb2b52cc-9e7f-4765-b20e-ca070d205cbf"
+					(reference "C93")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/c118b764-b25b-449f-8848-54cc104858ab"
 					(reference "C9")
-					(unit 1)
-				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/cecf6b9f-00cc-4f15-b7de-dea5a559bc6e"
-					(reference "C93")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ec8b493e-54df-4df1-8933-c03eae6d681c"
@@ -6824,14 +6824,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "59226815-67ad-4423-9661-874a6b3c6395")
+			(uuid "52b8f91b-29e7-4a42-9c63-5363d840289d")
 		)
 		(pin "1"
-			(uuid "bdc63187-bd11-4d65-a273-7393cb19adfd")
+			(uuid "8b771a4a-98de-459f-b531-2b927c3b0199")
 		)
 		(instances
 			(project "Ekraan_7x7"
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/040d2874-1431-440a-b35f-52b0e81710ef"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/74e03272-9f4d-4cf1-b6bd-25e9aaeed2bf"
 					(reference "R64")
 					(unit 1)
 				)
@@ -6843,16 +6843,16 @@
 					(reference "R50")
 					(unit 1)
 				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ab032851-5538-4364-bd0a-98ccc0f689c1"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/b2b68079-6409-4bc6-877f-b17121894514"
 					(reference "R78")
+					(unit 1)
+				)
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/bb2b52cc-9e7f-4765-b20e-ca070d205cbf"
+					(reference "R92")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/c118b764-b25b-449f-8848-54cc104858ab"
 					(reference "R14")
-					(unit 1)
-				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/cecf6b9f-00cc-4f15-b7de-dea5a559bc6e"
-					(reference "R92")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ec8b493e-54df-4df1-8933-c03eae6d681c"
@@ -6915,14 +6915,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "857af76e-5018-4a22-928e-74ddaad45195")
+			(uuid "036f26d3-a818-473c-8845-863abc5a9455")
 		)
 		(pin "1"
-			(uuid "63c3425d-fc50-46a8-8abb-af0a76b75a22")
+			(uuid "b2770e83-f7a5-44fa-b2e6-d7d1ad39cdfa")
 		)
 		(instances
 			(project "Ekraan_7x7"
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/040d2874-1431-440a-b35f-52b0e81710ef"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/74e03272-9f4d-4cf1-b6bd-25e9aaeed2bf"
 					(reference "R62")
 					(unit 1)
 				)
@@ -6934,16 +6934,16 @@
 					(reference "R48")
 					(unit 1)
 				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ab032851-5538-4364-bd0a-98ccc0f689c1"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/b2b68079-6409-4bc6-877f-b17121894514"
 					(reference "R76")
+					(unit 1)
+				)
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/bb2b52cc-9e7f-4765-b20e-ca070d205cbf"
+					(reference "R90")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/c118b764-b25b-449f-8848-54cc104858ab"
 					(reference "R12")
-					(unit 1)
-				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/cecf6b9f-00cc-4f15-b7de-dea5a559bc6e"
-					(reference "R90")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ec8b493e-54df-4df1-8933-c03eae6d681c"
@@ -7006,14 +7006,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "c1fa5045-8d7c-4869-9fdc-9dc2e59066d9")
+			(uuid "e3c1bb80-7e81-415a-b0c1-a47075b2ab08")
 		)
 		(pin "1"
-			(uuid "1f33f5e5-fd00-44aa-bd0c-379e2c058d89")
+			(uuid "5e46e9f5-8e24-40f8-a71c-9bba5ff20570")
 		)
 		(instances
 			(project "Ekraan_7x7"
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/040d2874-1431-440a-b35f-52b0e81710ef"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/74e03272-9f4d-4cf1-b6bd-25e9aaeed2bf"
 					(reference "R63")
 					(unit 1)
 				)
@@ -7025,16 +7025,16 @@
 					(reference "R49")
 					(unit 1)
 				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ab032851-5538-4364-bd0a-98ccc0f689c1"
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/b2b68079-6409-4bc6-877f-b17121894514"
 					(reference "R77")
+					(unit 1)
+				)
+				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/bb2b52cc-9e7f-4765-b20e-ca070d205cbf"
+					(reference "R91")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/c118b764-b25b-449f-8848-54cc104858ab"
 					(reference "R13")
-					(unit 1)
-				)
-				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/cecf6b9f-00cc-4f15-b7de-dea5a559bc6e"
-					(reference "R91")
 					(unit 1)
 				)
 				(path "/fe273b71-9b0b-436e-b9e1-0c9141f31bf9/ec8b493e-54df-4df1-8933-c03eae6d681c"
