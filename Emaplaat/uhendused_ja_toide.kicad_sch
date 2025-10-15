@@ -882,7 +882,7 @@
 						(type background)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
 					(name "VCC"
@@ -900,7 +900,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -2.54 0)
 					(length 5.08)
 					(name "VCCIO"
@@ -1646,7 +1646,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin bidirectional line
 					(at 30.48 0 180)
 					(length 5.08)
 					(name "SW1"
@@ -1664,7 +1664,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin bidirectional line
 					(at 30.48 -2.54 180)
 					(length 5.08)
 					(name "SW2"
@@ -1736,7 +1736,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin bidirectional line
 					(at 30.48 -17.78 180)
 					(length 5.08)
 					(name "PGND2"
@@ -1754,7 +1754,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin bidirectional line
 					(at 30.48 -20.32 180)
 					(length 5.08)
 					(name "PGND1"
@@ -1772,7 +1772,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin bidirectional line
 					(at 30.48 -22.86 180)
 					(length 5.08)
 					(name "PAD"
@@ -2127,7 +2127,7 @@
 						(type background)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 33.02 0 180)
 					(length 5.08)
 					(name "VBUS_1"
@@ -2145,7 +2145,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 33.02 0 180)
 					(length 5.08)
 					(hide yes)
@@ -2312,7 +2312,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 33.02 -16.51 180)
 					(length 5.08)
 					(name "GND_1"
@@ -2330,7 +2330,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 33.02 -16.51 180)
 					(length 5.08)
 					(hide yes)
@@ -2349,7 +2349,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 33.02 -16.51 180)
 					(length 5.08)
 					(hide yes)
@@ -2368,7 +2368,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 33.02 -16.51 180)
 					(length 5.08)
 					(hide yes)
@@ -2387,7 +2387,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 33.02 -16.51 180)
 					(length 5.08)
 					(hide yes)
@@ -2406,7 +2406,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 33.02 -16.51 180)
 					(length 5.08)
 					(hide yes)
