@@ -615,8 +615,72 @@
       "Root"
     ],
     [
+      "8ba2ca1a-4991-41ea-964c-c86657f040aa",
+      "array"
+    ],
+    [
       "902edf26-f9ad-46ee-8658-d4b7491aa9c7",
       "uhendused_ja_toide"
+    ],
+    [
+      "1d123e2b-7c0a-4548-ab70-18ecbd0f3e35",
+      "ekraan"
+    ],
+    [
+      "bb2c1caf-fa87-4ecd-9d6e-52387844ddfd",
+      "array1"
+    ],
+    [
+      "59405a63-9ba7-426a-b4ba-13e184f34f5f",
+      "array2"
+    ],
+    [
+      "6e0530d5-1faf-4a85-93fe-5cad75a49350",
+      "array3"
+    ],
+    [
+      "83680b13-1c73-4db9-86a5-f411dd3de568",
+      "array4"
+    ],
+    [
+      "4f04489c-8a89-47c3-8b81-ffb826757474",
+      "array5"
+    ],
+    [
+      "b599f650-8de7-4585-9005-e7a3e9b2f9b4",
+      "array6"
+    ],
+    [
+      "0379d577-b358-46a3-97f9-5b60048e920a",
+      "ekraan1"
+    ],
+    [
+      "4f04489c-8a89-47c3-8b81-ffb826757474",
+      "array5"
+    ],
+    [
+      "b599f650-8de7-4585-9005-e7a3e9b2f9b4",
+      "array6"
+    ],
+    [
+      "8ba2ca1a-4991-41ea-964c-c86657f040aa",
+      "array"
+    ],
+    [
+      "bb2c1caf-fa87-4ecd-9d6e-52387844ddfd",
+      "array1"
+    ],
+    [
+      "6e0530d5-1faf-4a85-93fe-5cad75a49350",
+      "array3"
+    ],
+    [
+      "59405a63-9ba7-426a-b4ba-13e184f34f5f",
+      "array2"
+    ],
+    [
+      "83680b13-1c73-4db9-86a5-f411dd3de568",
+      "array4"
     ]
   ],
   "text_variables": {}
