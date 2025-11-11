@@ -597,6 +597,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -627,60 +635,60 @@
       "ekraan"
     ],
     [
-      "bb2c1caf-fa87-4ecd-9d6e-52387844ddfd",
+      "0966fc58-9fa4-4451-8acc-1d57f842d0d7",
       "array1"
     ],
     [
-      "59405a63-9ba7-426a-b4ba-13e184f34f5f",
-      "array2"
-    ],
-    [
-      "6e0530d5-1faf-4a85-93fe-5cad75a49350",
-      "array3"
-    ],
-    [
-      "83680b13-1c73-4db9-86a5-f411dd3de568",
-      "array4"
-    ],
-    [
-      "4f04489c-8a89-47c3-8b81-ffb826757474",
-      "array5"
-    ],
-    [
-      "b599f650-8de7-4585-9005-e7a3e9b2f9b4",
-      "array6"
-    ],
-    [
-      "0379d577-b358-46a3-97f9-5b60048e920a",
+      "3b355384-e54f-4d71-bb59-e822365f5dc2",
       "ekraan1"
     ],
     [
-      "4f04489c-8a89-47c3-8b81-ffb826757474",
-      "array5"
-    ],
-    [
-      "b599f650-8de7-4585-9005-e7a3e9b2f9b4",
-      "array6"
+      "3b158c75-c66a-4aab-bb7b-ef9dc7b1542f",
+      "array2"
     ],
     [
       "8ba2ca1a-4991-41ea-964c-c86657f040aa",
       "array"
     ],
     [
-      "bb2c1caf-fa87-4ecd-9d6e-52387844ddfd",
-      "array1"
-    ],
-    [
-      "6e0530d5-1faf-4a85-93fe-5cad75a49350",
+      "fd523a0d-05f0-4d1c-9feb-be75fdba6ac8",
       "array3"
     ],
     [
-      "59405a63-9ba7-426a-b4ba-13e184f34f5f",
-      "array2"
+      "0966fc58-9fa4-4451-8acc-1d57f842d0d7",
+      "array1"
     ],
     [
-      "83680b13-1c73-4db9-86a5-f411dd3de568",
+      "fd523a0d-05f0-4d1c-9feb-be75fdba6ac8",
+      "array3"
+    ],
+    [
+      "64fda60d-21c6-4cef-8ac0-3d387b31e912",
       "array4"
+    ],
+    [
+      "0f3b02d7-d2ee-4c99-9b8a-81cc54aa9441",
+      "array6"
+    ],
+    [
+      "64fda60d-21c6-4cef-8ac0-3d387b31e912",
+      "array4"
+    ],
+    [
+      "74c8a5c6-88ae-44e7-90d7-5685b3e41073",
+      "array5"
+    ],
+    [
+      "74c8a5c6-88ae-44e7-90d7-5685b3e41073",
+      "array5"
+    ],
+    [
+      "0f3b02d7-d2ee-4c99-9b8a-81cc54aa9441",
+      "array6"
+    ],
+    [
+      "3b158c75-c66a-4aab-bb7b-ef9dc7b1542f",
+      "array2"
     ],
     [
       "ac5852bd-1625-445e-9b6b-b65a0daab019",
