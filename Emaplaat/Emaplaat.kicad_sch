@@ -1737,6 +1737,17 @@
 		)
 		(uuid "909cd4d7-58f6-4bcf-b465-edd2ab92a34b")
 	)
+	(text "TODO:\n>led-idele suuremad takistid (1k) et ei oleks nii eredad\n>Kõikide 3v3 toite kohtade juurde kirjutada, mitu mA nad võtavad\n>eelmise järgi leida 24V -> 3v3V stepdown converter, docxsis on näited olemas\n>12V kõik muuta 24V\n>flipdotile uued draiverid leida, kuna praegune ei kannata 24V\n>usb->uart sillal kommentaarina, miks kondekad on usb data pinnidel vajalikud\n>esd diac asendada dioodidega\n"
+		(exclude_from_sim no)
+		(at 192.786 146.304 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d716fb63-f55e-49cb-9cd7-da7325b03111")
+	)
 	(junction
 		(at 120.65 54.61)
 		(diameter 0)

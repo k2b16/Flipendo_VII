@@ -24,6 +24,11 @@
           "color": "rgb(55, 126, 184)",
           "signal": "I(C1)",
           "trace_type": 2
+        },
+        {
+          "color": "rgb(228, 26, 28)",
+          "signal": "V(Net-_C1-Pad1_)",
+          "trace_type": 257
         }
       ]
     }
