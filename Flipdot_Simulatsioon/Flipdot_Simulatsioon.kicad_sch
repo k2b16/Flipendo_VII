@@ -5614,7 +5614,7 @@
 				)
 			)
 		)
-		(property "Value" "50u"
+		(property "Value" "20u"
 			(at 96.52 176.53 90)
 			(effects
 				(font
@@ -5815,7 +5815,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Params" "y1=0 y2=12 td=2n tr=15n tf=15n tw=33m per=66m"
+		(property "Sim.Params" "y1=0 y2=24 td=2n tr=15n tf=15n tw=33m per=66m"
 			(at 86.36 167.7697 0)
 			(effects
 				(font
