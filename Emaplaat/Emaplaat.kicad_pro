@@ -623,10 +623,6 @@
       "Root"
     ],
     [
-      "8ba2ca1a-4991-41ea-964c-c86657f040aa",
-      "array"
-    ],
-    [
       "902edf26-f9ad-46ee-8658-d4b7491aa9c7",
       "uhendused_ja_toide"
     ],
@@ -635,8 +631,100 @@
       "ekraan"
     ],
     [
+      "e40b4959-4e04-4f58-b28b-16ba85ca50e5",
+      "row_signal_to_power1"
+    ],
+    [
+      "d53c2f6f-4747-4314-b5f0-98fea833cab1",
+      "row_signal_to_power2"
+    ],
+    [
+      "2fc7aa96-d547-4b2d-b311-372c32d95449",
+      "row_signal_to_power"
+    ],
+    [
+      "07a510d3-c099-46a7-9717-c70cc79e70f4",
+      "column_signal_to_power"
+    ],
+    [
+      "966772b1-8ed9-4604-8b2f-51e7d82f5fee",
+      "row_signal_to_power3"
+    ],
+    [
+      "9c7002f1-7e69-43bd-ab73-e01a6d2e38cc",
+      "row_signal_to_power4"
+    ],
+    [
+      "00dd078c-5bcb-40ec-b1ce-9fd40495c7b0",
+      "row_signal_to_power5"
+    ],
+    [
+      "9b8ceeda-6acd-4158-99c5-fdbb77ea312c",
+      "row_signal_to_power6"
+    ],
+    [
       "ac5852bd-1625-445e-9b6b-b65a0daab019",
       "perifeeria"
+    ],
+    [
+      "0addfcfb-9b16-4ec0-a861-662ff4bff957",
+      "array"
+    ],
+    [
+      "dd09fe82-3147-4776-a573-cffe5b537a97",
+      "Flixlite_maatriks"
+    ],
+    [
+      "38a699d1-5b42-499e-a16e-d64b31480356",
+      "array1"
+    ],
+    [
+      "c536256f-31f4-40d8-b374-6515a6a15cf2",
+      "array2"
+    ],
+    [
+      "6d020080-e4fc-49fe-9a92-a3736184044d",
+      "array3"
+    ],
+    [
+      "f745b3f4-edde-4679-a10b-0792b847b2bb",
+      "array4"
+    ],
+    [
+      "e7ac3b9e-fa7e-4c26-9fd6-fc828cd38a6f",
+      "array5"
+    ],
+    [
+      "cfd2b33f-3e40-4b58-93e2-f69ca1200774",
+      "array6"
+    ],
+    [
+      "af685522-01b0-4167-bdc5-f606a224b345",
+      "array7"
+    ],
+    [
+      "190c139e-8ca4-4210-9de8-43bc8dfc1984",
+      "array8"
+    ],
+    [
+      "bed69577-30fe-4338-bbe8-907688407173",
+      "array9"
+    ],
+    [
+      "8c2dab40-7108-424f-abfb-2cf476f3267a",
+      "array10"
+    ],
+    [
+      "8ba5ae10-a640-4e5f-8e86-d15306451cc3",
+      "array11"
+    ],
+    [
+      "38925c8a-294d-423b-8d98-8a6cc7ad56fb",
+      "array12"
+    ],
+    [
+      "7ac1e3c3-f00a-4801-9be8-a1a78484277b",
+      "array13"
     ]
   ],
   "text_variables": {}
