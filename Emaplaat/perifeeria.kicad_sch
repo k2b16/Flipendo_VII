@@ -2822,9 +2822,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Buzzer"
+	(text "Buzzer\nVoolutarve max: 150mA"
 		(exclude_from_sim no)
-		(at 231.902 93.726 0)
+		(at 230.886 87.376 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2832,7 +2832,7 @@
 		)
 		(uuid "476349c9-eb8b-47c9-abcb-f83efffeb436")
 	)
-	(text "4 klaviatuuri nuppu"
+	(text "4 klaviatuuri nuppu\nVoolutarve max: 0.33*4=1.32mA"
 		(exclude_from_sim no)
 		(at 148.082 51.181 0)
 		(effects
@@ -2842,7 +2842,7 @@
 		)
 		(uuid "8e32df75-15a4-4825-875d-b3567081b78f")
 	)
-	(text "Joystick socket connector"
+	(text "Joystick socket connector\nVoolutarve: ??? pakun et max 100mA"
 		(exclude_from_sim no)
 		(at 64.008 64.008 0)
 		(effects
@@ -2852,7 +2852,7 @@
 		)
 		(uuid "c2773954-abc5-4392-9a14-6abf6346cee3")
 	)
-	(text "BOOT ja EN nupud"
+	(text "BOOT ja EN nupud\nVoolutarve max: 0.033mA"
 		(exclude_from_sim no)
 		(at 82.804 132.842 0)
 		(effects

@@ -2881,7 +2881,17 @@
 		)
 		(uuid "081f2aca-8abf-4c1a-a352-670ba882952d")
 	)
-	(text "USB -> UART sild progemiseks, mitte 3V3 toiteks,\nKõik komponendid võetud andmelehest"
+	(text "Väljund vool max 8A\nVoolu tarve seadmetelt:\n(3.7 + 2000 + 0.32 + 10.5 + \n100 + 0.033 + 1.32 + 150 + 7.2)= \n2273.073mA = 2.2A"
+		(exclude_from_sim no)
+		(at 256.794 70.104 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "314707d3-c2a7-491c-a4ec-b9ce46c026c4")
+	)
+	(text "USB -> UART sild progemiseks, mitte 3V3 toiteks,\nKõik komponendid võetud andmelehest\nVoolutarve: 7mA, aga kuna seda toidetakse ainult progemiseks \nUSB-ist siis ei loe"
 		(exclude_from_sim no)
 		(at 101.346 89.916 0)
 		(effects
@@ -2900,6 +2910,16 @@
 			)
 		)
 		(uuid "cce99fdf-8ba3-4781-955e-93871fcacfd0")
+	)
+	(text "Voolutarve: 3.6 + 3.6 = 7.2mA"
+		(exclude_from_sim no)
+		(at 203.454 97.282 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dacf4ea3-b935-4c5a-b7ac-a073d10d3aea")
 	)
 	(junction
 		(at 81.28 54.61)
@@ -5993,7 +6013,7 @@
 				)
 			)
 		)
-		(property "Value" "50"
+		(property "Value" "360"
 			(at 199.136 125.984 0)
 			(effects
 				(font
@@ -7035,7 +7055,7 @@
 				)
 			)
 		)
-		(property "Value" "50"
+		(property "Value" "360"
 			(at 209.296 125.984 0)
 			(effects
 				(font

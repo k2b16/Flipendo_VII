@@ -25,7 +25,7 @@
 		)
 		(uuid "5e3a89ce-7274-49b5-b90f-162a4b9ac299")
 	)
-	(text "Ridade signaalid läbi draiveri"
+	(text "Ridade signaalid läbi draiveri\nVoolutarve max: 0.524 * 7 = 3.7mA"
 		(exclude_from_sim no)
 		(at 143.764 21.082 0)
 		(effects
