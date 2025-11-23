@@ -310,6 +310,1302 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "CPDH3V3UP-HF:CPDH3V3UP-HF"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D9"
+				(at 5.842 1.016 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "CPDH3V3UP-HF"
+				(at 20.32 -10.922 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "SODFL1608X77N"
+				(at 10.16 -93.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA26/1842371.pdf"
+				(at 10.16 -193.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "ESD Suppressors / TVS Diodes 5.5V, 15Kv"
+				(at 2.032 21.336 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.77"
+				(at 10.16 -393.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "750-CPDH3V3UP-HF"
+				(at 10.16 -493.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Comchip-Technology/CPDH3V3UP-HF?qs=XEIV%2Fho1H6em2DT135enQw%3D%3D"
+				(at 10.16 -593.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Comchip Technology"
+				(at 10.16 -693.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "CPDH3V3UP-HF"
+				(at 10.16 -793.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "CPDH3V3UP-HF_1_1"
+				(polyline
+					(pts
+						(xy 6.858 1.524) (xy 7.62 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 10.16 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -1.016) (xy 7.62 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -1.016) (xy 8.382 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -1.27) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -1.27) (xy 10.16 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "CPDH3V3UP-HF_1"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D9"
+				(at 5.842 1.016 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "CPDH3V3UP-HF"
+				(at 20.32 -10.922 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "SODFL1608X77N"
+				(at 10.16 -93.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA26/1842371.pdf"
+				(at 10.16 -193.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "ESD Suppressors / TVS Diodes 5.5V, 15Kv"
+				(at 2.032 21.336 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.77"
+				(at 10.16 -393.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "750-CPDH3V3UP-HF"
+				(at 10.16 -493.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Comchip-Technology/CPDH3V3UP-HF?qs=XEIV%2Fho1H6em2DT135enQw%3D%3D"
+				(at 10.16 -593.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Comchip Technology"
+				(at 10.16 -693.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "CPDH3V3UP-HF"
+				(at 10.16 -793.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "CPDH3V3UP-HF_1_1_1"
+				(polyline
+					(pts
+						(xy 6.858 1.524) (xy 7.62 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 10.16 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -1.016) (xy 7.62 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -1.016) (xy 8.382 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -1.27) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -1.27) (xy 10.16 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "CPDH3V3UP-HF_2"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D9"
+				(at 5.842 1.016 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "CPDH3V3UP-HF"
+				(at 20.32 -10.922 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "SODFL1608X77N"
+				(at 10.16 -93.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA26/1842371.pdf"
+				(at 10.16 -193.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "ESD Suppressors / TVS Diodes 5.5V, 15Kv"
+				(at 2.032 21.336 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.77"
+				(at 10.16 -393.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "750-CPDH3V3UP-HF"
+				(at 10.16 -493.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Comchip-Technology/CPDH3V3UP-HF?qs=XEIV%2Fho1H6em2DT135enQw%3D%3D"
+				(at 10.16 -593.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Comchip Technology"
+				(at 10.16 -693.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "CPDH3V3UP-HF"
+				(at 10.16 -793.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "CPDH3V3UP-HF_2_1_1"
+				(polyline
+					(pts
+						(xy 6.858 1.524) (xy 7.62 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 10.16 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -1.016) (xy 7.62 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -1.016) (xy 8.382 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -1.27) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -1.27) (xy 10.16 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "CPDH3V3UP-HF_3"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D9"
+				(at 5.842 1.016 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "CPDH3V3UP-HF"
+				(at 20.32 -10.922 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "SODFL1608X77N"
+				(at 10.16 -93.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA26/1842371.pdf"
+				(at 10.16 -193.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "ESD Suppressors / TVS Diodes 5.5V, 15Kv"
+				(at 2.032 21.336 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.77"
+				(at 10.16 -393.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "750-CPDH3V3UP-HF"
+				(at 10.16 -493.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Comchip-Technology/CPDH3V3UP-HF?qs=XEIV%2Fho1H6em2DT135enQw%3D%3D"
+				(at 10.16 -593.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Comchip Technology"
+				(at 10.16 -693.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "CPDH3V3UP-HF"
+				(at 10.16 -793.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "CPDH3V3UP-HF_3_1_1"
+				(polyline
+					(pts
+						(xy 6.858 1.524) (xy 7.62 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 10.16 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -1.016) (xy 7.62 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -1.016) (xy 8.382 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -1.27) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -1.27) (xy 10.16 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "CPDH3V3UP-HF_4"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D9"
+				(at 5.842 1.016 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "CPDH3V3UP-HF"
+				(at 20.32 -10.922 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "SODFL1608X77N"
+				(at 10.16 -93.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA26/1842371.pdf"
+				(at 10.16 -193.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "ESD Suppressors / TVS Diodes 5.5V, 15Kv"
+				(at 2.032 21.336 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.77"
+				(at 10.16 -393.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "750-CPDH3V3UP-HF"
+				(at 10.16 -493.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Comchip-Technology/CPDH3V3UP-HF?qs=XEIV%2Fho1H6em2DT135enQw%3D%3D"
+				(at 10.16 -593.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Comchip Technology"
+				(at 10.16 -693.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "CPDH3V3UP-HF"
+				(at 10.16 -793.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "CPDH3V3UP-HF_4_1_1"
+				(polyline
+					(pts
+						(xy 6.858 1.524) (xy 7.62 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 10.16 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -1.016) (xy 7.62 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -1.016) (xy 8.382 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -1.27) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -1.27) (xy 10.16 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "CPDH3V3UP-HF_5"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D9"
+				(at 5.842 1.016 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "CPDH3V3UP-HF"
+				(at 20.32 -10.922 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "SODFL1608X77N"
+				(at 10.16 -93.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA26/1842371.pdf"
+				(at 10.16 -193.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "ESD Suppressors / TVS Diodes 5.5V, 15Kv"
+				(at 2.032 21.336 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.77"
+				(at 10.16 -393.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "750-CPDH3V3UP-HF"
+				(at 10.16 -493.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Comchip-Technology/CPDH3V3UP-HF?qs=XEIV%2Fho1H6em2DT135enQw%3D%3D"
+				(at 10.16 -593.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Comchip Technology"
+				(at 10.16 -693.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "CPDH3V3UP-HF"
+				(at 10.16 -793.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "CPDH3V3UP-HF_5_1_1"
+				(polyline
+					(pts
+						(xy 6.858 1.524) (xy 7.62 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 10.16 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -1.016) (xy 7.62 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -1.016) (xy 8.382 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -1.27) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -1.27) (xy 10.16 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x05_Socket"
 			(pin_names
 				(offset 1.016)
@@ -1228,258 +2524,6 @@
 					(at 0 -2.54 0)
 					(length 5.08)
 					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "PESD1ETH10L-QYL_1"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D2"
-				(at 6.35 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "PESD1ETH10L-QYL"
-				(at 19.05 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" "PESD1ETH10LQYL"
-				(at 15.24 -93.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD1ETH10L-Q.pdf"
-				(at 15.24 -193.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "ESD protection for in-vehicle networks  18 kV High trigger voltage: Vt1 = 100 V min"
-				(at 1.27 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "0.5"
-				(at 15.24 -393.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" ""
-				(at 15.24 -493.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" ""
-				(at 15.24 -593.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Nexperia"
-				(at 15.24 -693.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "PESD1ETH10L-QYL"
-				(at 15.24 -793.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(symbol "PESD1ETH10L-QYL_1_1_1"
-				(polyline
-					(pts
-						(xy 7.62 1.27) (xy 7.62 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 1.27) (xy 10.16 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.1179 -1.2843) (xy 9.1019 -1.7923)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 7.62 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 12.7 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -1.27) (xy 10.16 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 11.1955 1.7884) (xy 10.1795 1.2804)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 1.27) (xy 10.16 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 1.27) (xy 12.7 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 0)
-					(length 2.54)
-					(name "K1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 0 180)
-					(length 2.54)
-					(name "K2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2875,16 +3919,10 @@
 		(uuid "0956064d-840a-433c-88fa-afb4244fec60")
 	)
 	(junction
-		(at 122.555 101.6)
+		(at 121.92 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "16671486-8249-4c13-a615-18b93dcc42b5")
-	)
-	(junction
-		(at 53.34 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "21649405-7a5c-4814-bead-f2787502923d")
+		(uuid "1efb5588-7ffc-460f-be57-55c6e79b2628")
 	)
 	(junction
 		(at 97.79 149.86)
@@ -2893,16 +3931,22 @@
 		(uuid "28735fb1-bd0a-45c0-8ad2-4fe7c3810242")
 	)
 	(junction
-		(at 162.56 68.58)
+		(at 158.75 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "331e0f78-aad6-4db4-9353-d24a0f10288a")
+		(uuid "378f297d-108f-4981-8fe5-2a8e490f35d2")
 	)
 	(junction
 		(at 104.14 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "37e8b9f6-7b38-4a98-9734-888d8c9f0f3e")
+	)
+	(junction
+		(at 162.56 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f0d3ed0-7648-4099-aad7-2407cbe76969")
 	)
 	(junction
 		(at 57.15 149.86)
@@ -2929,6 +3973,12 @@
 		(uuid "572757e6-967d-4312-87fd-9f2418e1b7b6")
 	)
 	(junction
+		(at 53.34 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e12c8f1-b776-4002-92c3-952540920d1d")
+	)
+	(junction
 		(at 184.15 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2953,12 +4003,6 @@
 		(uuid "77d45e2e-69b0-44a5-9f7b-a0e7172bcc6e")
 	)
 	(junction
-		(at 159.385 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "847cf710-a7e9-4a9f-8966-ac7ae73a72e2")
-	)
-	(junction
 		(at 144.145 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2969,12 +4013,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9294156b-b537-4e5f-b82a-8f6b9bab22e3")
-	)
-	(junction
-		(at 124.46 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9e51e7f8-c025-40b1-8c20-e0ee9c843086")
 	)
 	(junction
 		(at 167.005 68.58)
@@ -3005,6 +4043,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aea9002d-bba3-4383-9cb4-e976fc4e1a06")
+	)
+	(junction
+		(at 124.46 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2b02b08-6b85-4905-82bd-351da34303ec")
 	)
 	(junction
 		(at 124.46 149.86)
@@ -3148,16 +4192,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 149.86) (xy 57.15 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ef19e58-6d71-4a1d-a999-92331645ba84")
-	)
-	(wire
-		(pts
 			(xy 170.815 71.12) (xy 173.355 71.12)
 		)
 		(stroke
@@ -3165,6 +4199,16 @@
 			(type default)
 		)
 		(uuid "0fbfc98c-b2f7-4c63-8faf-d4b3d437df82")
+	)
+	(wire
+		(pts
+			(xy 121.92 111.76) (xy 137.795 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "104704d1-1dd9-43a4-afaf-9dfbb866a387")
 	)
 	(wire
 		(pts
@@ -3208,7 +4252,7 @@
 	)
 	(wire
 		(pts
-			(xy 122.555 101.6) (xy 127 101.6)
+			(xy 118.11 101.6) (xy 121.92 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3228,13 +4272,13 @@
 	)
 	(wire
 		(pts
-			(xy 159.385 110.49) (xy 174.625 110.49)
+			(xy 97.79 149.86) (xy 97.79 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "20c38d3d-c81e-41ee-bd81-63694a15cbcc")
+		(uuid "21331ff5-dfc6-4fc8-8943-f983324ff0ab")
 	)
 	(wire
 		(pts
@@ -3255,6 +4299,16 @@
 			(type default)
 		)
 		(uuid "2804c629-30ec-4715-9357-00a15e6828a7")
+	)
+	(wire
+		(pts
+			(xy 121.92 110.49) (xy 121.92 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dd40af6-f008-4c48-9820-4c270da64bc8")
 	)
 	(wire
 		(pts
@@ -3295,6 +4349,16 @@
 			(type default)
 		)
 		(uuid "34ac7c88-def9-41f1-b8b0-b95f6068e52f")
+	)
+	(wire
+		(pts
+			(xy 162.56 68.58) (xy 167.005 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34e1709f-1db0-43b4-b3a7-b6bc2c3e799c")
 	)
 	(wire
 		(pts
@@ -3368,6 +4432,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 78.74) (xy 124.46 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "442b78ae-45d9-4ad2-a06b-af649cc105b1")
+	)
+	(wire
+		(pts
 			(xy 139.7 80.01) (xy 148.59 80.01)
 		)
 		(stroke
@@ -3385,6 +4459,16 @@
 			(type default)
 		)
 		(uuid "483a2a8e-bfcd-44d7-b107-3646bb504eab")
+	)
+	(wire
+		(pts
+			(xy 158.75 109.22) (xy 158.75 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48f0b9df-5b50-4364-9f2c-088924db40b8")
 	)
 	(wire
 		(pts
@@ -3468,6 +4552,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 69.85) (xy 128.905 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c6a45dd-6bed-4e24-bf55-36a9706c6069")
+	)
+	(wire
+		(pts
 			(xy 228.6 121.92) (xy 228.6 124.46)
 		)
 		(stroke
@@ -3505,6 +4599,16 @@
 			(type default)
 		)
 		(uuid "70062dd9-1ed2-4309-90c0-852fec8969cb")
+	)
+	(wire
+		(pts
+			(xy 124.46 69.85) (xy 124.46 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7060251b-84c0-46a7-8716-01ff4884ff0f")
 	)
 	(wire
 		(pts
@@ -3578,6 +4682,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 77.47) (xy 162.56 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7da0da45-93d4-40ab-8977-74065975f4ba")
+	)
+	(wire
+		(pts
 			(xy 57.15 158.75) (xy 63.5 158.75)
 		)
 		(stroke
@@ -3608,7 +4722,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 166.37) (xy 97.79 160.02)
+			(xy 97.79 158.75) (xy 97.79 166.37)
 		)
 		(stroke
 			(width 0)
@@ -3648,13 +4762,23 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 100.33) (xy 159.385 100.33)
+			(xy 154.94 100.33) (xy 158.75 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "927c2800-144e-4d4d-8c07-00dd9982d97c")
+	)
+	(wire
+		(pts
+			(xy 158.75 110.49) (xy 174.625 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94225c7c-3f87-4c72-9a7b-295dcfd1aefd")
 	)
 	(wire
 		(pts
@@ -3715,6 +4839,16 @@
 			(type default)
 		)
 		(uuid "9f36f19a-c106-48ce-836a-1a8ec51814c7")
+	)
+	(wire
+		(pts
+			(xy 53.34 149.86) (xy 53.34 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f8ad03c-e371-4c06-a6ba-bfbacdd16ff2")
 	)
 	(wire
 		(pts
@@ -3788,6 +4922,26 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 101.6) (xy 127 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5896bb1-d80c-4b69-ac93-580d75cb584f")
+	)
+	(wire
+		(pts
+			(xy 162.56 68.58) (xy 162.56 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b968d389-7a55-4c4b-a72b-bd174ad28005")
+	)
+	(wire
+		(pts
 			(xy 146.685 101.6) (xy 146.685 111.76)
 		)
 		(stroke
@@ -3798,23 +4952,33 @@
 	)
 	(wire
 		(pts
-			(xy 122.555 111.76) (xy 137.795 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be515787-3859-4947-af68-2c05fb99b31f")
-	)
-	(wire
-		(pts
-			(xy 53.34 166.37) (xy 53.34 160.02)
+			(xy 53.34 158.75) (xy 53.34 166.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bf014590-2ce1-4b7b-a43d-e67ac6bbc216")
+	)
+	(wire
+		(pts
+			(xy 158.75 100.33) (xy 163.83 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf2d5ee8-9345-43ab-b77a-3bbd4e2c66a6")
+	)
+	(wire
+		(pts
+			(xy 53.34 149.86) (xy 57.15 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3db88b8-cbc0-4c30-a399-bc04e1a2b985")
 	)
 	(wire
 		(pts
@@ -3858,7 +5022,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 69.85) (xy 128.905 69.85)
+			(xy 120.015 69.85) (xy 124.46 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3928,13 +5092,13 @@
 	)
 	(wire
 		(pts
-			(xy 120.015 69.85) (xy 124.46 69.85)
+			(xy 158.75 100.33) (xy 158.75 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d8101ac3-b618-4f97-b695-340f7522655b")
+		(uuid "d90a05b7-bfc5-4006-8cf0-7069a8101863")
 	)
 	(wire
 		(pts
@@ -3978,16 +5142,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 101.6) (xy 122.555 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd41530d-ce93-45e6-89d8-69c191bf875f")
-	)
-	(wire
-		(pts
 			(xy 167.005 59.69) (xy 167.005 60.96)
 		)
 		(stroke
@@ -4005,6 +5159,16 @@
 			(type default)
 		)
 		(uuid "e5ad9cc9-018b-4626-957c-81ac43030bbd")
+	)
+	(wire
+		(pts
+			(xy 121.92 101.6) (xy 121.92 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e97c95ab-1cde-4860-820e-4a396b98fb03")
 	)
 	(wire
 		(pts
@@ -4035,26 +5199,6 @@
 			(type default)
 		)
 		(uuid "edcb7e69-d24a-4d86-a14f-9806a25d0704")
-	)
-	(wire
-		(pts
-			(xy 162.56 68.58) (xy 167.005 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f07922de-d48e-4400-a497-0c51a32188b7")
-	)
-	(wire
-		(pts
-			(xy 159.385 100.33) (xy 163.83 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0ee4114-8e4a-4cd1-a852-066e893ddcdc")
 	)
 	(wire
 		(pts
@@ -4217,45 +5361,35 @@
 		(uuid "e790d0b6-9cea-4c98-8aac-760f085f790d")
 	)
 	(symbol
-		(lib_name "PESD1ETH10L-QYL_1")
-		(lib_id "PESD1ETH10L-QYL:PESD1ETH10L-QYL")
-		(at 162.56 63.5 270)
+		(lib_name "CPDH3V3UP-HF_3")
+		(lib_id "CPDH3V3UP-HF:CPDH3V3UP-HF")
+		(at 162.56 64.77 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "05bb5eb1-dbc5-4684-ba75-4267f73d72a3")
+		(uuid "09c5aca9-f6c3-4841-b51c-ce23cdaf2bca")
 		(property "Reference" "D10"
-			(at 159.258 76.454 90)
+			(at 163.576 70.612 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "PESD1ETH10L-QYL"
-			(at 171.45 81.915 90)
+		(property "Value" "CPDH3V3UP-HF"
+			(at 154.94 80.518 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "PESD1ETH10LQYL"
-			(at 68.91 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD1ETH10L-Q.pdf"
-			(at -31.09 78.74 0)
+		(property "Footprint" "SODFL1608X77N"
+			(at 68.91 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4264,17 +5398,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "ESD protection for in-vehicle networks  18 kV High trigger voltage: Vt1 = 100 V min"
-			(at 153.67 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.5"
-			(at -231.09 78.74 0)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA26/1842371.pdf"
+			(at -31.09 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4283,8 +5408,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at -331.09 78.74 0)
+		(property "Description" "ESD Suppressors / TVS Diodes 5.5V, 15Kv"
+			(at 183.896 66.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.77"
+			(at -231.09 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4293,8 +5427,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" ""
-			(at -431.09 78.74 0)
+		(property "Mouser Part Number" "750-CPDH3V3UP-HF"
+			(at -331.09 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4303,8 +5437,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Nexperia"
-			(at -531.09 78.74 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Comchip-Technology/CPDH3V3UP-HF?qs=XEIV%2Fho1H6em2DT135enQw%3D%3D"
+			(at -431.09 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4313,8 +5447,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "PESD1ETH10L-QYL"
-			(at -631.09 78.74 0)
+		(property "Manufacturer_Name" "Comchip Technology"
+			(at -531.09 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4323,11 +5457,21 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "369ff5ce-c693-41ed-9e07-8d38f0040137")
+		(property "Manufacturer_Part_Number" "CPDH3V3UP-HF"
+			(at -631.09 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
 		)
-		(pin "1"
-			(uuid "dceb670a-58a5-4975-9d4b-56a13c43ac29")
+		(pin ""
+			(uuid "51d5336a-635d-4139-a3e1-d419297fcf76")
+		)
+		(pin ""
+			(uuid "5917036f-37b3-48dd-857c-2abf84c93a46")
 		)
 		(instances
 			(project "Emaplaat"
@@ -4339,45 +5483,35 @@
 		)
 	)
 	(symbol
-		(lib_name "PESD1ETH10L-QYL_1")
-		(lib_id "PESD1ETH10L-QYL:PESD1ETH10L-QYL")
-		(at 53.34 144.78 270)
+		(lib_name "CPDH3V3UP-HF_2")
+		(lib_id "CPDH3V3UP-HF:CPDH3V3UP-HF")
+		(at 124.46 66.04 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "07ef36d6-83dd-46db-83e8-c3c46ddfca6b")
-		(property "Reference" "D14"
-			(at 50.419 157.226 90)
+		(uuid "0e0488a9-5365-4136-b434-70f31bb863cb")
+		(property "Reference" "D5"
+			(at 125.476 71.882 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "PESD1ETH10L-QYL"
-			(at 62.23 163.195 90)
+		(property "Value" "CPDH3V3UP-HF"
+			(at 116.84 81.534 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "PESD1ETH10LQYL"
-			(at -40.31 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD1ETH10L-Q.pdf"
-			(at -140.31 160.02 0)
+		(property "Footprint" "SODFL1608X77N"
+			(at 30.81 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4386,17 +5520,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "ESD protection for in-vehicle networks  18 kV High trigger voltage: Vt1 = 100 V min"
-			(at 44.45 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.5"
-			(at -340.31 160.02 0)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA26/1842371.pdf"
+			(at -69.19 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4405,8 +5530,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at -440.31 160.02 0)
+		(property "Description" "ESD Suppressors / TVS Diodes 5.5V, 15Kv"
+			(at 145.796 68.072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.77"
+			(at -269.19 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4415,8 +5549,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" ""
-			(at -540.31 160.02 0)
+		(property "Mouser Part Number" "750-CPDH3V3UP-HF"
+			(at -369.19 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4425,8 +5559,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Nexperia"
-			(at -640.31 160.02 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Comchip-Technology/CPDH3V3UP-HF?qs=XEIV%2Fho1H6em2DT135enQw%3D%3D"
+			(at -469.19 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4435,8 +5569,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "PESD1ETH10L-QYL"
-			(at -740.31 160.02 0)
+		(property "Manufacturer_Name" "Comchip Technology"
+			(at -569.19 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4445,16 +5579,26 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "00870f0a-86c1-4f7c-afc1-1383f197c694")
+		(property "Manufacturer_Part_Number" "CPDH3V3UP-HF"
+			(at -669.19 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
 		)
-		(pin "1"
-			(uuid "ef9cc9c2-7a8c-481d-b95e-61733baa429a")
+		(pin ""
+			(uuid "6bc508e8-e9f2-437c-8dcc-b0076c1b1e43")
+		)
+		(pin ""
+			(uuid "faa73aaf-6fe5-41dc-b0d3-426d0d6ae9e6")
 		)
 		(instances
 			(project "Emaplaat"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/ac5852bd-1625-445e-9b6b-b65a0daab019"
-					(reference "D14")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -4683,6 +5827,128 @@
 		)
 	)
 	(symbol
+		(lib_name "CPDH3V3UP-HF_5")
+		(lib_id "CPDH3V3UP-HF:CPDH3V3UP-HF")
+		(at 158.75 96.52 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "27c895fc-c43a-446c-b738-1d4d5e734b57")
+		(property "Reference" "D12"
+			(at 159.766 102.362 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CPDH3V3UP-HF"
+			(at 151.384 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SODFL1608X77N"
+			(at 65.1 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA26/1842371.pdf"
+			(at -34.9 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD Suppressors / TVS Diodes 5.5V, 15Kv"
+			(at 180.086 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.77"
+			(at -234.9 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "750-CPDH3V3UP-HF"
+			(at -334.9 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Comchip-Technology/CPDH3V3UP-HF?qs=XEIV%2Fho1H6em2DT135enQw%3D%3D"
+			(at -434.9 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Comchip Technology"
+			(at -534.9 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CPDH3V3UP-HF"
+			(at -634.9 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "4d1f1e4d-90ed-432a-ae77-8ce60f481948")
+		)
+		(pin ""
+			(uuid "8eb78621-a655-45f1-8595-60aeb38fc763")
+		)
+		(instances
+			(project "Emaplaat"
+				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/ac5852bd-1625-445e-9b6b-b65a0daab019"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x05_Socket")
 		(at 69.85 74.93 0)
 		(mirror x)
@@ -4895,45 +6161,35 @@
 		)
 	)
 	(symbol
-		(lib_name "PESD1ETH10L-QYL_1")
-		(lib_id "PESD1ETH10L-QYL:PESD1ETH10L-QYL")
-		(at 97.79 144.78 270)
+		(lib_name "CPDH3V3UP-HF_1")
+		(lib_id "CPDH3V3UP-HF:CPDH3V3UP-HF")
+		(at 53.34 146.05 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4dd20ce2-12f1-479c-8bcc-045a836a6631")
-		(property "Reference" "D13"
-			(at 94.869 157.226 90)
+		(uuid "39b7c717-50e0-42bb-83aa-020a6c5386d8")
+		(property "Reference" "D14"
+			(at 54.356 151.892 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "PESD1ETH10L-QYL"
-			(at 106.68 163.195 90)
+		(property "Value" "CPDH3V3UP-HF"
+			(at 37.084 158.242 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "PESD1ETH10LQYL"
-			(at 4.14 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD1ETH10L-Q.pdf"
-			(at -95.86 160.02 0)
+		(property "Footprint" "SODFL1608X77N"
+			(at -40.31 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4942,17 +6198,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "ESD protection for in-vehicle networks  18 kV High trigger voltage: Vt1 = 100 V min"
-			(at 88.9 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.5"
-			(at -295.86 160.02 0)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA26/1842371.pdf"
+			(at -140.31 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4961,8 +6208,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at -395.86 160.02 0)
+		(property "Description" "ESD Suppressors / TVS Diodes 5.5V, 15Kv"
+			(at 74.676 148.082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.77"
+			(at -340.31 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4971,8 +6227,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" ""
-			(at -495.86 160.02 0)
+		(property "Mouser Part Number" "750-CPDH3V3UP-HF"
+			(at -440.31 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4981,8 +6237,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Nexperia"
-			(at -595.86 160.02 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Comchip-Technology/CPDH3V3UP-HF?qs=XEIV%2Fho1H6em2DT135enQw%3D%3D"
+			(at -540.31 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4991,8 +6247,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "PESD1ETH10L-QYL"
-			(at -695.86 160.02 0)
+		(property "Manufacturer_Name" "Comchip Technology"
+			(at -640.31 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5001,138 +6257,26 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "dad8ea6b-08cf-4e92-b3b0-dfa64b46448e")
+		(property "Manufacturer_Part_Number" "CPDH3V3UP-HF"
+			(at -740.31 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
 		)
-		(pin "1"
-			(uuid "e7aac45b-c9b1-469d-9352-de0eee62967d")
+		(pin ""
+			(uuid "e22dfaf8-db9e-4283-a7a6-c3c7840d241e")
+		)
+		(pin ""
+			(uuid "21a0068d-650d-435e-b555-1a3f3948586b")
 		)
 		(instances
 			(project "Emaplaat"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/ac5852bd-1625-445e-9b6b-b65a0daab019"
-					(reference "D13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "PESD1ETH10L-QYL_1")
-		(lib_id "PESD1ETH10L-QYL:PESD1ETH10L-QYL")
-		(at 122.555 96.52 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4f8c116c-4dba-43f1-96da-53afa6e040cb")
-		(property "Reference" "D11"
-			(at 119.634 108.966 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PESD1ETH10L-QYL"
-			(at 131.445 114.935 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "PESD1ETH10LQYL"
-			(at 28.905 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD1ETH10L-Q.pdf"
-			(at -71.095 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "ESD protection for in-vehicle networks  18 kV High trigger voltage: Vt1 = 100 V min"
-			(at 113.665 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.5"
-			(at -271.095 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at -371.095 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at -471.095 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Nexperia"
-			(at -571.095 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "PESD1ETH10L-QYL"
-			(at -671.095 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "08fffc0b-4eb7-466a-b782-27bfd8c32912")
-		)
-		(pin "1"
-			(uuid "6f443962-dce9-4413-a4c3-bc6a047e0526")
-		)
-		(instances
-			(project "Emaplaat"
-				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/ac5852bd-1625-445e-9b6b-b65a0daab019"
-					(reference "D11")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -6325,6 +7469,127 @@
 		)
 	)
 	(symbol
+		(lib_id "CPDH3V3UP-HF:CPDH3V3UP-HF")
+		(at 97.79 146.05 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "91f8a59f-e3b0-4fe6-aaa4-3a327950ac47")
+		(property "Reference" "D13"
+			(at 98.806 151.892 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CPDH3V3UP-HF"
+			(at 82.042 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SODFL1608X77N"
+			(at 4.14 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA26/1842371.pdf"
+			(at -95.86 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD Suppressors / TVS Diodes 5.5V, 15Kv"
+			(at 119.126 148.082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.77"
+			(at -295.86 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "750-CPDH3V3UP-HF"
+			(at -395.86 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Comchip-Technology/CPDH3V3UP-HF?qs=XEIV%2Fho1H6em2DT135enQw%3D%3D"
+			(at -495.86 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Comchip Technology"
+			(at -595.86 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CPDH3V3UP-HF"
+			(at -695.86 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "79206a35-fffd-4d80-9085-8e64b4bc8bcd")
+		)
+		(pin ""
+			(uuid "f6a51e9c-7c0d-412e-a7c3-4793b8e11deb")
+		)
+		(instances
+			(project "Emaplaat"
+				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/ac5852bd-1625-445e-9b6b-b65a0daab019"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 233.68 137.16 0)
 		(unit 1)
@@ -6656,129 +7921,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PESD1ETH10L-QYL_1")
-		(lib_id "PESD1ETH10L-QYL:PESD1ETH10L-QYL")
-		(at 159.385 95.25 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b283c3f1-55b0-4b5e-81f6-a3659e144411")
-		(property "Reference" "D12"
-			(at 155.956 108.712 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PESD1ETH10L-QYL"
-			(at 168.275 113.665 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "PESD1ETH10LQYL"
-			(at 65.735 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD1ETH10L-Q.pdf"
-			(at -34.265 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "ESD protection for in-vehicle networks  18 kV High trigger voltage: Vt1 = 100 V min"
-			(at 150.495 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.5"
-			(at -234.265 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at -334.265 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at -434.265 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Nexperia"
-			(at -534.265 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "PESD1ETH10L-QYL"
-			(at -634.265 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cb19cdf5-bb34-42e2-95a3-82b4f5cd6594")
-		)
-		(pin "1"
-			(uuid "88623d4d-1390-41df-9927-a4c096102a19")
-		)
-		(instances
-			(project "Emaplaat"
-				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/ac5852bd-1625-445e-9b6b-b65a0daab019"
-					(reference "D12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 228.6 128.27 180)
 		(unit 1)
@@ -6909,128 +8051,6 @@
 			(project "Emaplaat"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/ac5852bd-1625-445e-9b6b-b65a0daab019"
 					(reference "S4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "PESD1ETH10L-QYL_1")
-		(lib_id "PESD1ETH10L-QYL:PESD1ETH10L-QYL")
-		(at 124.46 64.77 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b8482f46-85e0-42de-a978-8a120eeb66b5")
-		(property "Reference" "D5"
-			(at 120.904 78.232 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PESD1ETH10L-QYL"
-			(at 133.35 83.185 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "PESD1ETH10LQYL"
-			(at 30.81 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD1ETH10L-Q.pdf"
-			(at -69.19 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "ESD protection for in-vehicle networks  18 kV High trigger voltage: Vt1 = 100 V min"
-			(at 115.57 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.5"
-			(at -269.19 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at -369.19 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at -469.19 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Nexperia"
-			(at -569.19 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "PESD1ETH10L-QYL"
-			(at -669.19 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b4cacad6-7c7c-4c30-adc3-800686c8ccdc")
-		)
-		(pin "1"
-			(uuid "8fe5500f-cda8-4405-b974-6f360ba954d6")
-		)
-		(instances
-			(project "Emaplaat"
-				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/ac5852bd-1625-445e-9b6b-b65a0daab019"
-					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -7816,6 +8836,128 @@
 			(project "Emaplaat"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/ac5852bd-1625-445e-9b6b-b65a0daab019"
 					(reference "R203")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "CPDH3V3UP-HF_4")
+		(lib_id "CPDH3V3UP-HF:CPDH3V3UP-HF")
+		(at 121.92 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f45edb00-cf57-4ade-be96-1f240efe91d0")
+		(property "Reference" "D11"
+			(at 122.936 103.632 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CPDH3V3UP-HF"
+			(at 114.554 113.792 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SODFL1608X77N"
+			(at 28.27 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA26/1842371.pdf"
+			(at -71.73 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD Suppressors / TVS Diodes 5.5V, 15Kv"
+			(at 143.256 99.822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.77"
+			(at -271.73 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "750-CPDH3V3UP-HF"
+			(at -371.73 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Comchip-Technology/CPDH3V3UP-HF?qs=XEIV%2Fho1H6em2DT135enQw%3D%3D"
+			(at -471.73 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Comchip Technology"
+			(at -571.73 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CPDH3V3UP-HF"
+			(at -671.73 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "628aa765-4d13-43b8-9b84-b138dc66fdec")
+		)
+		(pin ""
+			(uuid "efa114cc-19da-4a1d-845c-0aec5bf603f1")
+		)
+		(instances
+			(project "Emaplaat"
+				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/ac5852bd-1625-445e-9b6b-b65a0daab019"
+					(reference "D11")
 					(unit 1)
 				)
 			)
