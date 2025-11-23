@@ -2325,6 +2325,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "C43 - HF Bypass\nC44 ja C45 - Decoupler\nC46 ja C47 - shunt ESDle\n"
+		(exclude_from_sim no)
+		(at 107.95 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2d804bd8-743a-4135-9e8f-cdefc2edec03")
+	)
 	(text "USB -> UART sild progemiseks, mitte 3V3 toiteks,\nKõik komponendid võetud andmelehest"
 		(exclude_from_sim no)
 		(at 101.346 89.916 0)
@@ -2334,6 +2345,16 @@
 			)
 		)
 		(uuid "36045401-6b51-421d-b089-875d49bace2f")
+	)
+	(text ""
+		(exclude_from_sim no)
+		(at 117.602 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c80f5eea-a42a-4776-a225-af98e56b7642")
 	)
 	(text "Läpaka barrel connector"
 		(exclude_from_sim no)
