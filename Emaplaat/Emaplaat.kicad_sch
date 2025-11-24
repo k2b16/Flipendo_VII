@@ -2149,17 +2149,6 @@
 		)
 		(uuid "d060ad79-f5d0-4724-b2e5-01b1c1e2f477")
 	)
-	(text "TODO:\n1. usb->uart sillal kommentaarina, miks kondekad on usb data pinnidel vajalikud\n2. esd diac asendada dioodiga ja et nad oleks reaalselt joodetavas pakendis\n"
-		(exclude_from_sim no)
-		(at 178.816 144.272 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f89a17c9-0f14-4ef6-919a-db7a954f3a1f")
-	)
 	(junction
 		(at 109.22 184.15)
 		(diameter 0)
