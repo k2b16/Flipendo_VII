@@ -5107,7 +5107,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP65P640X110-16N"
+		(property "Footprint" "SOP65P640X110-16N:SOP65P640X110-16N"
 			(at 144.78 223.19 0)
 			(effects
 				(font
@@ -5614,7 +5614,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP65P640X110-16N"
+		(property "Footprint" "SOP65P640X110-16N:SOP65P640X110-16N"
 			(at 144.78 258.75 0)
 			(effects
 				(font
@@ -5843,7 +5843,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ESP32S3WROOM2N32R16V"
+		(property "Footprint" "ESP32S3WROOM2N32R16V:ESP32S3WROOM2N32R16V"
 			(at 180.34 140.64 0)
 			(effects
 				(font

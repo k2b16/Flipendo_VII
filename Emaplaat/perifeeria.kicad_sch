@@ -310,222 +310,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "CPDH3V3UP-HF:CPDH3V3UP-HF"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D3"
-				(at 5.8419 3.81 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "CPDH3V3UP-HF"
-				(at 8.3819 3.81 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "SODFL1608X77N"
-				(at 10.16 -93.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA26/1842371.pdf"
-				(at 10.16 -193.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "ESD Suppressors / TVS Diodes 5.5V, 15Kv"
-				(at -0.254 13.716 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "0.77"
-				(at 10.16 -393.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "750-CPDH3V3UP-HF"
-				(at 10.16 -493.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Comchip-Technology/CPDH3V3UP-HF?qs=XEIV%2Fho1H6em2DT135enQw%3D%3D"
-				(at 10.16 -593.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Comchip Technology"
-				(at 10.16 -693.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "CPDH3V3UP-HF"
-				(at 10.16 -793.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(symbol "CPDH3V3UP-HF_1_1"
-				(polyline
-					(pts
-						(xy 6.858 1.778) (xy 7.62 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 10.16 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -1.27) (xy 7.62 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -1.27) (xy 8.382 -1.778)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -1.27) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -1.27) (xy 10.16 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "CPDH3V3UP-HF_1"
 			(pin_names
 				(hide yes)
@@ -1495,6 +1279,222 @@
 				)
 			)
 			(symbol "CPDH3V3UP-HF_5_1_1"
+				(polyline
+					(pts
+						(xy 6.858 1.778) (xy 7.62 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 10.16 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -1.27) (xy 7.62 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -1.27) (xy 8.382 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -1.27) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -1.27) (xy 10.16 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "CPDH3V3UP-HF_6"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D3"
+				(at 5.8419 3.81 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "CPDH3V3UP-HF"
+				(at 8.3819 3.81 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "SODFL1608X77N"
+				(at 10.16 -93.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA26/1842371.pdf"
+				(at 10.16 -193.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "ESD Suppressors / TVS Diodes 5.5V, 15Kv"
+				(at -0.254 13.716 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.77"
+				(at 10.16 -393.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "750-CPDH3V3UP-HF"
+				(at 10.16 -493.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Comchip-Technology/CPDH3V3UP-HF?qs=XEIV%2Fho1H6em2DT135enQw%3D%3D"
+				(at 10.16 -593.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Comchip Technology"
+				(at 10.16 -693.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "CPDH3V3UP-HF"
+				(at 10.16 -793.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "CPDH3V3UP-HF_6_1_1"
 				(polyline
 					(pts
 						(xy 6.858 1.778) (xy 7.62 1.27)
@@ -5707,127 +5707,6 @@
 		)
 	)
 	(symbol
-		(lib_id "CPDH3V3UP-HF:CPDH3V3UP-HF")
-		(at 53.34 146.05 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "42524bd0-54ab-48d8-b0bb-c768af6b6575")
-		(property "Reference" "D15"
-			(at 47.244 154.178 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CPDH3V3UP-HF"
-			(at 37.338 159.258 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SODFL1608X77N"
-			(at -40.31 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA26/1842371.pdf"
-			(at -140.31 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "ESD Suppressors / TVS Diodes 5.5V, 15Kv"
-			(at 67.056 145.796 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.77"
-			(at -340.31 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "750-CPDH3V3UP-HF"
-			(at -440.31 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Comchip-Technology/CPDH3V3UP-HF?qs=XEIV%2Fho1H6em2DT135enQw%3D%3D"
-			(at -540.31 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Comchip Technology"
-			(at -640.31 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CPDH3V3UP-HF"
-			(at -740.31 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "2c9b14f8-538c-4054-9016-2ce3990cf39f")
-		)
-		(pin ""
-			(uuid "de71cade-1ede-4666-af46-866dc74ae1a7")
-		)
-		(instances
-			(project "Emaplaat"
-				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/ac5852bd-1625-445e-9b6b-b65a0daab019"
-					(reference "D15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 97.79 166.37 0)
 		(unit 1)
@@ -6019,128 +5898,6 @@
 			(project "Emaplaat"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/ac5852bd-1625-445e-9b6b-b65a0daab019"
 					(reference "C49")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "CPDH3V3UP-HF_1")
-		(lib_id "CPDH3V3UP-HF:CPDH3V3UP-HF")
-		(at 97.79 148.59 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "68c38fa7-7af1-4a1a-9f46-a21a7241ca70")
-		(property "Reference" "D16"
-			(at 91.44 156.718 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CPDH3V3UP-HF"
-			(at 81.788 162.052 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SODFL1608X77N"
-			(at 4.14 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA26/1842371.pdf"
-			(at -95.86 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "ESD Suppressors / TVS Diodes 5.5V, 15Kv"
-			(at 111.506 148.336 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.77"
-			(at -295.86 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "750-CPDH3V3UP-HF"
-			(at -395.86 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Comchip-Technology/CPDH3V3UP-HF?qs=XEIV%2Fho1H6em2DT135enQw%3D%3D"
-			(at -495.86 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Comchip Technology"
-			(at -595.86 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CPDH3V3UP-HF"
-			(at -695.86 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "2cce06fb-66f3-4bc8-acad-faafccecfd6e")
-		)
-		(pin ""
-			(uuid "9ce99825-1f55-4a69-8a49-2b0c9ca15b7b")
-		)
-		(instances
-			(project "Emaplaat"
-				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/ac5852bd-1625-445e-9b6b-b65a0daab019"
-					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -6513,7 +6270,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SOT95P240X120-3N"
+		(property "Footprint" "SOT95P240X120-3N:SOT95P240X120-3N"
 			(at 243.84 220.65 0)
 			(effects
 				(font
@@ -6969,7 +6726,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TL3305BF160QG"
+		(property "Footprint" "TL3305BF160QG:TL3305BF160QG"
 			(at 73.66 244.78 0)
 			(effects
 				(font
@@ -7070,55 +6827,17 @@
 		)
 	)
 	(symbol
-		(lib_name "CPDH3V3UP-HF_2")
-		(lib_id "CPDH3V3UP-HF:CPDH3V3UP-HF")
-		(at 124.46 66.04 270)
+		(lib_id "power:VCC")
+		(at 56.515 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8932d68f-8de9-4cca-94a0-02533b00df3f")
-		(property "Reference" "D11"
-			(at 119.126 73.914 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CPDH3V3UP-HF"
-			(at 112.522 81.534 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SODFL1608X77N"
-			(at 30.81 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA26/1842371.pdf"
-			(at -69.19 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "ESD Suppressors / TVS Diodes 5.5V, 15Kv"
-			(at 138.176 65.786 0)
+		(fields_autoplaced yes)
+		(uuid "90d3aaba-6156-462f-bf85-741949caa480")
+		(property "Reference" "#PWR0131"
+			(at 56.515 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7126,195 +6845,55 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.77"
-			(at -269.19 76.2 0)
+		(property "Value" "3V3"
+			(at 56.515 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
-				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "750-CPDH3V3UP-HF"
-			(at -369.19 76.2 0)
+		(property "Footprint" ""
+			(at 56.515 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Comchip-Technology/CPDH3V3UP-HF?qs=XEIV%2Fho1H6em2DT135enQw%3D%3D"
-			(at -469.19 76.2 0)
+		(property "Datasheet" ""
+			(at 56.515 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Comchip Technology"
-			(at -569.19 76.2 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 56.515 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CPDH3V3UP-HF"
-			(at -669.19 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "9ed3b084-af2f-4156-aa0f-d8b81b7c698f")
-		)
-		(pin ""
-			(uuid "9e0eab91-1ca6-4eb9-86f0-14edcbf2c678")
+		(pin "1"
+			(uuid "0d9d6667-a6e0-4622-8433-4281debc1d0b")
 		)
 		(instances
 			(project "Emaplaat"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/ac5852bd-1625-445e-9b6b-b65a0daab019"
-					(reference "D11")
+					(reference "#PWR0131")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "CPDH3V3UP-HF_5")
-		(lib_id "CPDH3V3UP-HF:CPDH3V3UP-HF")
-		(at 160.02 96.52 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "89db127d-3500-4547-9b6c-1d87e0b7c043")
-		(property "Reference" "D12"
-			(at 153.67 104.394 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CPDH3V3UP-HF"
-			(at 151.13 112.268 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SODFL1608X77N"
-			(at 66.37 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA26/1842371.pdf"
-			(at -33.63 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "ESD Suppressors / TVS Diodes 5.5V, 15Kv"
-			(at 173.736 96.266 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.77"
-			(at -233.63 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "750-CPDH3V3UP-HF"
-			(at -333.63 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Comchip-Technology/CPDH3V3UP-HF?qs=XEIV%2Fho1H6em2DT135enQw%3D%3D"
-			(at -433.63 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Comchip Technology"
-			(at -533.63 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CPDH3V3UP-HF"
-			(at -633.63 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "b77a8ce7-6f7f-4071-aa84-dc5f2ef657b2")
-		)
-		(pin ""
-			(uuid "147cc23f-3481-4b3e-9286-d27e7b7874a0")
-		)
-		(instances
-			(project "Emaplaat"
-				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/ac5852bd-1625-445e-9b6b-b65a0daab019"
-					(reference "D12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "CPDH3V3UP-HF_4")
+		(lib_name "CPDH3V3UP-HF_3")
 		(lib_id "CPDH3V3UP-HF:CPDH3V3UP-HF")
 		(at 123.19 97.79 270)
 		(unit 1)
@@ -7322,9 +6901,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "902389cf-440a-4528-9ab4-add7404276e9")
+		(uuid "9567f8ae-b39e-46a2-b9fe-7c2fb40f8c42")
 		(property "Reference" "D13"
-			(at 116.332 105.664 90)
+			(at 125.222 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7333,7 +6912,7 @@
 			)
 		)
 		(property "Value" "CPDH3V3UP-HF"
-			(at 110.998 113.792 90)
+			(at 116.84 113.538 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7341,7 +6920,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SODFL1608X77N"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 29.54 107.95 0)
 			(effects
 				(font
@@ -7421,10 +7000,10 @@
 			)
 		)
 		(pin ""
-			(uuid "baf5ba8a-3517-4fc7-b78b-2743496c46c4")
+			(uuid "860972db-9d02-476d-9ff5-e3d505d0995e")
 		)
 		(pin ""
-			(uuid "4b9eb30c-6082-44cd-95e1-85d1806efb17")
+			(uuid "d21e8ec5-fa2c-4cf6-9b9b-0ffb92b6436c")
 		)
 		(instances
 			(project "Emaplaat"
@@ -7436,17 +7015,55 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 56.515 77.47 0)
+		(lib_name "CPDH3V3UP-HF_1")
+		(lib_id "CPDH3V3UP-HF:CPDH3V3UP-HF")
+		(at 97.79 148.59 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "90d3aaba-6156-462f-bf85-741949caa480")
-		(property "Reference" "#PWR0131"
-			(at 56.515 81.28 0)
+		(uuid "98f1a4bb-6a2b-4d76-ae32-1d0056319fce")
+		(property "Reference" "D16"
+			(at 99.822 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CPDH3V3UP-HF"
+			(at 81.28 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 4.14 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA26/1842371.pdf"
+			(at -95.86 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD Suppressors / TVS Diodes 5.5V, 15Kv"
+			(at 111.506 148.336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7454,48 +7071,66 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3V3"
-			(at 56.515 72.39 0)
+		(property "Height" "0.77"
+			(at -295.86 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Footprint" ""
-			(at 56.515 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 56.515 77.47 0)
+		(property "Mouser Part Number" "750-CPDH3V3UP-HF"
+			(at -395.86 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 56.515 77.47 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Comchip-Technology/CPDH3V3UP-HF?qs=XEIV%2Fho1H6em2DT135enQw%3D%3D"
+			(at -495.86 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "0d9d6667-a6e0-4622-8433-4281debc1d0b")
+		(property "Manufacturer_Name" "Comchip Technology"
+			(at -595.86 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CPDH3V3UP-HF"
+			(at -695.86 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "d900d1e4-4519-4f81-8dc6-de53e2218976")
+		)
+		(pin ""
+			(uuid "7fc88810-9fee-4cd1-abe6-82284dd89e09")
 		)
 		(instances
 			(project "Emaplaat"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/ac5852bd-1625-445e-9b6b-b65a0daab019"
-					(reference "#PWR0131")
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -7628,6 +7263,128 @@
 			(project "Emaplaat"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/ac5852bd-1625-445e-9b6b-b65a0daab019"
 					(reference "C51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "CPDH3V3UP-HF_4")
+		(lib_id "CPDH3V3UP-HF:CPDH3V3UP-HF")
+		(at 124.46 66.04 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9fe37581-5be0-42bb-a04d-03aa228e733e")
+		(property "Reference" "D11"
+			(at 126.492 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CPDH3V3UP-HF"
+			(at 117.348 82.296 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 30.81 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA26/1842371.pdf"
+			(at -69.19 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD Suppressors / TVS Diodes 5.5V, 15Kv"
+			(at 138.176 65.786 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.77"
+			(at -269.19 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "750-CPDH3V3UP-HF"
+			(at -369.19 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Comchip-Technology/CPDH3V3UP-HF?qs=XEIV%2Fho1H6em2DT135enQw%3D%3D"
+			(at -469.19 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Comchip Technology"
+			(at -569.19 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CPDH3V3UP-HF"
+			(at -669.19 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "dfdcae5a-b854-4ba2-887a-6391e70690b3")
+		)
+		(pin ""
+			(uuid "ea8ac66a-e28f-48d3-bebc-881b2050ddb0")
+		)
+		(instances
+			(project "Emaplaat"
+				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/ac5852bd-1625-445e-9b6b-b65a0daab019"
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -7894,6 +7651,128 @@
 			(project "Emaplaat"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/ac5852bd-1625-445e-9b6b-b65a0daab019"
 					(reference "R79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "CPDH3V3UP-HF_5")
+		(lib_id "CPDH3V3UP-HF:CPDH3V3UP-HF")
+		(at 160.02 96.52 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b6ae2055-1ea4-4404-872f-215ace895d70")
+		(property "Reference" "D12"
+			(at 162.052 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CPDH3V3UP-HF"
+			(at 153.416 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 66.37 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA26/1842371.pdf"
+			(at -33.63 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD Suppressors / TVS Diodes 5.5V, 15Kv"
+			(at 173.736 96.266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.77"
+			(at -233.63 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "750-CPDH3V3UP-HF"
+			(at -333.63 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Comchip-Technology/CPDH3V3UP-HF?qs=XEIV%2Fho1H6em2DT135enQw%3D%3D"
+			(at -433.63 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Comchip Technology"
+			(at -533.63 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CPDH3V3UP-HF"
+			(at -633.63 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "8f55d889-7853-4c11-81ec-e2cc02788de6")
+		)
+		(pin ""
+			(uuid "7e27844d-6ac7-4a5b-a30e-73431f9e5333")
+		)
+		(instances
+			(project "Emaplaat"
+				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/ac5852bd-1625-445e-9b6b-b65a0daab019"
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -8283,7 +8162,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "KCG0603"
+		(property "Footprint" "KCG0603:KCG0603"
 			(at 251.46 207.95 0)
 			(effects
 				(font
@@ -8672,7 +8551,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TL3305BF160QG"
+		(property "Footprint" "TL3305BF160QG:TL3305BF160QG"
 			(at 120.65 244.78 0)
 			(effects
 				(font
@@ -8842,17 +8721,17 @@
 		)
 	)
 	(symbol
-		(lib_name "CPDH3V3UP-HF_3")
+		(lib_name "CPDH3V3UP-HF_6")
 		(lib_id "CPDH3V3UP-HF:CPDH3V3UP-HF")
-		(at 162.56 64.77 270)
+		(at 53.34 146.05 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f66693d5-3dbb-45da-8105-0ae2d5aa8776")
-		(property "Reference" "D10"
-			(at 155.956 72.644 90)
+		(uuid "f10136fe-4f4e-477e-9377-7abc4eca7c51")
+		(property "Reference" "D15"
+			(at 55.372 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8861,7 +8740,7 @@
 			)
 		)
 		(property "Value" "CPDH3V3UP-HF"
-			(at 151.638 80.772 90)
+			(at 36.83 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8869,7 +8748,129 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SODFL1608X77N"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at -40.31 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA26/1842371.pdf"
+			(at -140.31 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD Suppressors / TVS Diodes 5.5V, 15Kv"
+			(at 67.056 145.796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.77"
+			(at -340.31 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "750-CPDH3V3UP-HF"
+			(at -440.31 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Comchip-Technology/CPDH3V3UP-HF?qs=XEIV%2Fho1H6em2DT135enQw%3D%3D"
+			(at -540.31 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Comchip Technology"
+			(at -640.31 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CPDH3V3UP-HF"
+			(at -740.31 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "a077c9ef-4e8a-455b-8a29-30c237808adc")
+		)
+		(pin ""
+			(uuid "1212d4d8-d851-4b19-9b10-38d64c8fde08")
+		)
+		(instances
+			(project "Emaplaat"
+				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/ac5852bd-1625-445e-9b6b-b65a0daab019"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "CPDH3V3UP-HF_2")
+		(lib_id "CPDH3V3UP-HF:CPDH3V3UP-HF")
+		(at 162.56 64.77 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f448e624-910d-44d8-8b10-c47e8a91fd50")
+		(property "Reference" "D10"
+			(at 164.592 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CPDH3V3UP-HF"
+			(at 157.226 80.772 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 68.91 74.93 0)
 			(effects
 				(font
@@ -8949,10 +8950,10 @@
 			)
 		)
 		(pin ""
-			(uuid "c40b99eb-392f-4e55-b4eb-339cb6775c0e")
+			(uuid "6511d6e8-f9ee-4959-b214-7fcd30d0a3b8")
 		)
 		(pin ""
-			(uuid "6f9cb9bb-cd31-4513-90a0-4e64c6e673bd")
+			(uuid "0f7661a0-f680-42b8-9541-a1e4d1d0897d")
 		)
 		(instances
 			(project "Emaplaat"

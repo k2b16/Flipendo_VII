@@ -231,7 +231,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "IC3"
+			(property "Reference" "IC41"
 				(at 13.97 7.62 0)
 				(effects
 					(font
@@ -247,7 +247,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SOT95P275X110-5N"
+			(property "Footprint" "74HC1G04GV-Q100H:SOT95P275X110-5N"
 				(at 24.13 -94.92 0)
 				(effects
 					(font
@@ -459,7 +459,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin no_connect line
 					(at 27.94 -5.08 180)
 					(length 5.08)
 					(hide yes)
@@ -1912,7 +1912,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT95P280X145-6N"
+		(property "Footprint" "SOT95P280X145-6N:SOT95P280X145-6N"
 			(at 177.8 186.36 0)
 			(effects
 				(font
@@ -2158,7 +2158,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT65P212X110-5N"
+		(property "Footprint" "74LVC1G66GW,125:SOT65P212X110-5N"
 			(at 116.84 188.9 0)
 			(effects
 				(font
@@ -2855,7 +2855,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT95P280X145-6N"
+		(property "Footprint" "SOT95P280X145-6N:SOT95P280X145-6N"
 			(at 177.8 154.61 0)
 			(effects
 				(font
@@ -3191,7 +3191,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT95P275X110-5N"
+		(property "Footprint" "74HC1G04GV-Q100H:SOT95P275X110-5N"
 			(at 118.11 163.5 0)
 			(effects
 				(font
