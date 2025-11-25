@@ -4872,7 +4872,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 110.49) (xy 240.03 110.49)
+			(xy 231.14 110.49) (xy 240.03 110.49)
 		)
 		(stroke
 			(width 0)
@@ -5022,7 +5022,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 102.87) (xy 240.03 102.87)
+			(xy 231.14 102.87) (xy 240.03 102.87)
 		)
 		(stroke
 			(width 0)
@@ -5435,7 +5435,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "21ee7707-6f6c-4104-a122-188ab6c29af9")
-		(property "Reference" "S1"
+		(property "Reference" "S4"
 			(at 137.16 94.615 0)
 			(effects
 				(font
@@ -5452,7 +5452,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 137.16 99.695 0)
 			(effects
 				(font
@@ -5488,95 +5488,7 @@
 		(instances
 			(project "Emaplaat"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/ac5852bd-1625-445e-9b6b-b65a0daab019"
-					(reference "S1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 233.68 106.68 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "24d3c05b-2b67-4cd2-ba08-3f08abdf124c")
-		(property "Reference" "D1"
-			(at 236.22 105.4099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 236.22 107.9499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 233.68 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 233.68 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 233.68 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 233.68 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 233.68 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3367ead8-5dd5-4129-86c3-50a11f37ed7f")
-		)
-		(pin "2"
-			(uuid "463b8b3c-3ed6-45e9-81cb-af67d37539aa")
-		)
-		(instances
-			(project "Emaplaat"
-				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/ac5852bd-1625-445e-9b6b-b65a0daab019"
-					(reference "D1")
+					(reference "S4")
 					(unit 1)
 				)
 			)
@@ -5611,7 +5523,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Horizontal"
 			(at 69.85 74.93 0)
 			(effects
 				(font
@@ -5803,7 +5715,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "42524bd0-54ab-48d8-b0bb-c768af6b6575")
-		(property "Reference" "D13"
+		(property "Reference" "D15"
 			(at 47.244 154.178 90)
 			(effects
 				(font
@@ -5909,7 +5821,7 @@
 		(instances
 			(project "Emaplaat"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/ac5852bd-1625-445e-9b6b-b65a0daab019"
-					(reference "D13")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -6054,7 +5966,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5bb8e758-38b6-41af-baa4-53d840955662")
-		(property "Reference" "C271"
+		(property "Reference" "C49"
 			(at 174.879 74.93 90)
 			(effects
 				(font
@@ -6070,7 +5982,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 180.975 70.1548 0)
 			(effects
 				(font
@@ -6106,7 +6018,7 @@
 		(instances
 			(project "Emaplaat"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/ac5852bd-1625-445e-9b6b-b65a0daab019"
-					(reference "C271")
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -6122,7 +6034,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "68c38fa7-7af1-4a1a-9f46-a21a7241ca70")
-		(property "Reference" "D14"
+		(property "Reference" "D16"
 			(at 91.44 156.718 90)
 			(effects
 				(font
@@ -6228,7 +6140,7 @@
 		(instances
 			(project "Emaplaat"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/ac5852bd-1625-445e-9b6b-b65a0daab019"
-					(reference "D14")
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -6243,7 +6155,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "72f6df5d-96fa-4427-a01b-cec91931247d")
-		(property "Reference" "R216"
+		(property "Reference" "R76"
 			(at 121.92 64.77 0)
 			(effects
 				(font
@@ -6261,7 +6173,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 127.127 66.04 90)
 			(effects
 				(font
@@ -6297,7 +6209,7 @@
 		(instances
 			(project "Emaplaat"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/ac5852bd-1625-445e-9b6b-b65a0daab019"
-					(reference "R216")
+					(reference "R76")
 					(unit 1)
 				)
 			)
@@ -6379,7 +6291,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7399b99c-ef63-44ee-a5b2-e55124d3f74b")
-		(property "Reference" "R217"
+		(property "Reference" "R80"
 			(at 100.33 143.5099 0)
 			(effects
 				(font
@@ -6397,7 +6309,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 96.012 144.78 90)
 			(effects
 				(font
@@ -6433,7 +6345,7 @@
 		(instances
 			(project "Emaplaat"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/ac5852bd-1625-445e-9b6b-b65a0daab019"
-					(reference "R217")
+					(reference "R80")
 					(unit 1)
 				)
 			)
@@ -6448,7 +6360,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7525cbe9-45d8-4640-bf94-5120c668935c")
-		(property "Reference" "C268"
+		(property "Reference" "C54"
 			(at 112.014 162.56 90)
 			(effects
 				(font
@@ -6464,7 +6376,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 118.11 157.7848 0)
 			(effects
 				(font
@@ -6500,7 +6412,7 @@
 		(instances
 			(project "Emaplaat"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/ac5852bd-1625-445e-9b6b-b65a0daab019"
-					(reference "C268")
+					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -6515,7 +6427,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "75a1a709-9b0d-4da2-b223-8bab5b99d430")
-		(property "Reference" "C4"
+		(property "Reference" "C52"
 			(at 134.874 107.95 90)
 			(effects
 				(font
@@ -6531,7 +6443,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 140.97 103.1748 0)
 			(effects
 				(font
@@ -6567,7 +6479,7 @@
 		(instances
 			(project "Emaplaat"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/ac5852bd-1625-445e-9b6b-b65a0daab019"
-					(reference "C4")
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -6905,7 +6817,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "800a8457-4ad6-4ed0-af3d-f8a2902736ed")
-		(property "Reference" "S2"
+		(property "Reference" "S3"
 			(at 173.99 93.345 0)
 			(effects
 				(font
@@ -6922,7 +6834,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 173.99 98.425 0)
 			(effects
 				(font
@@ -6958,7 +6870,7 @@
 		(instances
 			(project "Emaplaat"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/ac5852bd-1625-445e-9b6b-b65a0daab019"
-					(reference "S2")
+					(reference "S3")
 					(unit 1)
 				)
 			)
@@ -7041,7 +6953,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82a4c7d6-4451-4af9-9867-0c0cf0f1d3f2")
-		(property "Reference" "S7"
+		(property "Reference" "S5"
 			(at 67.31 142.24 0)
 			(effects
 				(font
@@ -7151,7 +7063,7 @@
 		(instances
 			(project "Emaplaat"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/ac5852bd-1625-445e-9b6b-b65a0daab019"
-					(reference "S7")
+					(reference "S5")
 					(unit 1)
 				)
 			)
@@ -7167,7 +7079,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8932d68f-8de9-4cca-94a0-02533b00df3f")
-		(property "Reference" "D5"
+		(property "Reference" "D11"
 			(at 119.126 73.914 90)
 			(effects
 				(font
@@ -7273,7 +7185,7 @@
 		(instances
 			(project "Emaplaat"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/ac5852bd-1625-445e-9b6b-b65a0daab019"
-					(reference "D5")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -7411,7 +7323,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "902389cf-440a-4528-9ab4-add7404276e9")
-		(property "Reference" "D11"
+		(property "Reference" "D13"
 			(at 116.332 105.664 90)
 			(effects
 				(font
@@ -7517,7 +7429,7 @@
 		(instances
 			(project "Emaplaat"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/ac5852bd-1625-445e-9b6b-b65a0daab019"
-					(reference "D11")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -7663,7 +7575,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9a030d9b-1361-4711-a762-469ca48ecc47")
-		(property "Reference" "C5"
+		(property "Reference" "C51"
 			(at 171.704 106.68 90)
 			(effects
 				(font
@@ -7679,7 +7591,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 177.8 101.9048 0)
 			(effects
 				(font
@@ -7715,7 +7627,7 @@
 		(instances
 			(project "Emaplaat"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/ac5852bd-1625-445e-9b6b-b65a0daab019"
-					(reference "C5")
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -7730,7 +7642,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a7b22997-0c3e-405f-a7f4-48ccb1764803")
-		(property "Reference" "C267"
+		(property "Reference" "C53"
 			(at 65.024 162.56 90)
 			(effects
 				(font
@@ -7746,7 +7658,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 71.12 157.7848 0)
 			(effects
 				(font
@@ -7782,7 +7694,7 @@
 		(instances
 			(project "Emaplaat"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/ac5852bd-1625-445e-9b6b-b65a0daab019"
-					(reference "C267")
+					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -7862,7 +7774,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b223fd65-5b3b-44be-99fd-ee6359089b0d")
-		(property "Reference" "C269"
+		(property "Reference" "C50"
 			(at 136.779 76.2 90)
 			(effects
 				(font
@@ -7878,7 +7790,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 142.875 71.4248 0)
 			(effects
 				(font
@@ -7914,7 +7826,7 @@
 		(instances
 			(project "Emaplaat"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/ac5852bd-1625-445e-9b6b-b65a0daab019"
-					(reference "C269")
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -7929,7 +7841,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b351907a-3be5-4267-94f8-7fd49478cbac")
-		(property "Reference" "R3"
+		(property "Reference" "R79"
 			(at 231.648 125.73 0)
 			(effects
 				(font
@@ -7981,7 +7893,7 @@
 		(instances
 			(project "Emaplaat"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/ac5852bd-1625-445e-9b6b-b65a0daab019"
-					(reference "R3")
+					(reference "R79")
 					(unit 1)
 				)
 			)
@@ -7997,7 +7909,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b82aad70-7287-4a16-a861-83242e20721f")
-		(property "Reference" "S4"
+		(property "Reference" "S2"
 			(at 139.065 62.865 0)
 			(effects
 				(font
@@ -8014,7 +7926,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 139.065 67.945 0)
 			(effects
 				(font
@@ -8050,7 +7962,7 @@
 		(instances
 			(project "Emaplaat"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/ac5852bd-1625-445e-9b6b-b65a0daab019"
-					(reference "S4")
+					(reference "S2")
 					(unit 1)
 				)
 			)
@@ -8130,7 +8042,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ba817c5b-b414-4521-bbfb-fe90df45eb7e")
-		(property "Reference" "R204"
+		(property "Reference" "R77"
 			(at 156.845 95.25 0)
 			(effects
 				(font
@@ -8148,7 +8060,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 162.052 96.52 90)
 			(effects
 				(font
@@ -8184,7 +8096,95 @@
 		(instances
 			(project "Emaplaat"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/ac5852bd-1625-445e-9b6b-b65a0daab019"
-					(reference "R204")
+					(reference "R77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 231.14 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb5c5ab9-709d-4983-a478-d8b0da274870")
+		(property "Reference" "D14"
+			(at 233.68 105.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 233.68 107.9499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SOD-123FL:SOD-123FL"
+			(at 231.14 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://diotec.com/request/datasheet/sl1a.pdf"
+			(at 231.14 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SL1D"
+			(at 231.14 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 231.14 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 231.14 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7a873df3-e403-4bd5-aa73-f40a42f0688e")
+		)
+		(pin "1"
+			(uuid "61fe2208-50e3-4d22-8ec6-5f772c5c786b")
+		)
+		(instances
+			(project "Emaplaat"
+				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/ac5852bd-1625-445e-9b6b-b65a0daab019"
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -8452,7 +8452,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ca816056-0ccc-408c-9ea0-417f97b7cdc2")
-		(property "Reference" "S5"
+		(property "Reference" "S1"
 			(at 177.165 61.595 0)
 			(effects
 				(font
@@ -8469,7 +8469,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 177.165 66.675 0)
 			(effects
 				(font
@@ -8505,7 +8505,7 @@
 		(instances
 			(project "Emaplaat"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/ac5852bd-1625-445e-9b6b-b65a0daab019"
-					(reference "S5")
+					(reference "S1")
 					(unit 1)
 				)
 			)
@@ -8585,7 +8585,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "db592f5d-1146-47e7-9867-dbeefd378bfa")
-		(property "Reference" "R2"
+		(property "Reference" "R78"
 			(at 120.015 96.52 0)
 			(effects
 				(font
@@ -8603,7 +8603,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 125.222 97.79 90)
 			(effects
 				(font
@@ -8639,7 +8639,7 @@
 		(instances
 			(project "Emaplaat"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/ac5852bd-1625-445e-9b6b-b65a0daab019"
-					(reference "R2")
+					(reference "R78")
 					(unit 1)
 				)
 			)
@@ -8656,7 +8656,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e234cd7a-fd6f-4c9c-91d0-4fef87018436")
-		(property "Reference" "S8"
+		(property "Reference" "S6"
 			(at 114.3 142.24 0)
 			(effects
 				(font
@@ -8766,7 +8766,7 @@
 		(instances
 			(project "Emaplaat"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/ac5852bd-1625-445e-9b6b-b65a0daab019"
-					(reference "S8")
+					(reference "S6")
 					(unit 1)
 				)
 			)
@@ -8781,7 +8781,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "efd7569c-0339-4bdc-b388-210e0e8e35ca")
-		(property "Reference" "R203"
+		(property "Reference" "R75"
 			(at 160.02 63.5 0)
 			(effects
 				(font
@@ -8799,7 +8799,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 165.227 64.77 90)
 			(effects
 				(font
@@ -8835,7 +8835,7 @@
 		(instances
 			(project "Emaplaat"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/ac5852bd-1625-445e-9b6b-b65a0daab019"
-					(reference "R203")
+					(reference "R75")
 					(unit 1)
 				)
 			)

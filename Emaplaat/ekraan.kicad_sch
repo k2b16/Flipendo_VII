@@ -15,7 +15,7 @@
 		)
 		(uuid "480c8267-f0d2-4885-81d2-1e175374ad67")
 	)
-	(text "Veergude signaalid läbi draiveri"
+	(text "Veergude signaalid läbi draiveri\n14 column driverit võtavad 14mA kokku kõik 12V-st"
 		(exclude_from_sim no)
 		(at 61.976 54.61 0)
 		(effects
@@ -25,7 +25,7 @@
 		)
 		(uuid "5e3a89ce-7274-49b5-b90f-162a4b9ac299")
 	)
-	(text "Ridade signaalid läbi draiveri\nVoolutarve max: 0.524 * 7 = 3.7mA"
+	(text "Ridade signaalid läbi draiveri\nVoolutarve max: 0.524 * 7 = 3.7mA\n14 draiverit veerugdele 14mA 12V-st"
 		(exclude_from_sim no)
 		(at 143.764 21.082 0)
 		(effects

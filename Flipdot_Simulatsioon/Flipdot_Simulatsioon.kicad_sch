@@ -5,145 +5,6 @@
 	(uuid "718663e9-5efc-4ad6-a482-03fb8ef1cf6c")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:C"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:L"
 			(pin_numbers
 				(hide yes)
@@ -731,7 +592,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 181.61) (xy 125.73 181.61)
+			(xy 107.95 181.61) (xy 110.49 181.61)
 		)
 		(stroke
 			(width 0)
@@ -741,7 +602,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 181.61) (xy 125.73 184.15)
+			(xy 110.49 181.61) (xy 110.49 185.42)
 		)
 		(stroke
 			(width 0)
@@ -761,7 +622,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 181.61) (xy 92.71 181.61)
+			(xy 82.55 181.61) (xy 88.9 181.61)
 		)
 		(stroke
 			(width 0)
@@ -771,17 +632,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 181.61) (xy 104.14 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9a57f2d-6f8a-4159-8feb-5446375a30ef")
-	)
-	(wire
-		(pts
-			(xy 111.76 181.61) (xy 115.57 181.61)
+			(xy 96.52 181.61) (xy 100.33 181.61)
 		)
 		(stroke
 			(width 0)
@@ -5400,7 +5251,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:0")
-		(at 125.73 184.15 0)
+		(at 110.49 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5408,7 +5259,7 @@
 		(dnp no)
 		(uuid "3700be4d-b8b0-4026-a6f4-8afed7b9a85e")
 		(property "Reference" "#GND02"
-			(at 125.73 189.23 0)
+			(at 110.49 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5417,7 +5268,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 129.032 182.372 0)
+			(at 113.792 183.642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5425,7 +5276,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 184.15 0)
+			(at 110.49 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5434,7 +5285,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
-			(at 125.73 194.31 0)
+			(at 110.49 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5443,7 +5294,7 @@
 			)
 		)
 		(property "Description" "0V reference potential for simulation"
-			(at 125.73 191.77 0)
+			(at 110.49 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5465,7 +5316,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 107.95 181.61 90)
+		(at 92.71 181.61 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5474,7 +5325,7 @@
 		(fields_autoplaced yes)
 		(uuid "6490fc26-f2c6-4041-8323-707cbc1c52d9")
 		(property "Reference" "R1"
-			(at 107.95 175.26 90)
+			(at 92.71 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5482,7 +5333,7 @@
 			)
 		)
 		(property "Value" "18"
-			(at 107.95 177.8 90)
+			(at 92.71 177.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5490,7 +5341,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 183.388 90)
+			(at 92.71 183.388 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5499,7 +5350,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 107.95 181.61 0)
+			(at 92.71 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5508,7 +5359,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 107.95 181.61 0)
+			(at 92.71 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5597,76 +5448,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 96.52 181.61 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cd051bee-99c1-4656-940a-6f727ad36082")
-		(property "Reference" "C1"
-			(at 96.52 173.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100u"
-			(at 96.52 176.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.33 180.6448 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 96.52 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 96.52 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ee1e35c0-398d-4db9-9b73-2f6dd54b1841")
-		)
-		(pin "2"
-			(uuid "d77cb8bd-4ad0-4024-a8b9-842ffb22d59c")
-		)
-		(instances
-			(project ""
-				(path "/718663e9-5efc-4ad6-a482-03fb8ef1cf6c"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L")
-		(at 119.38 181.61 90)
+		(at 104.14 181.61 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5675,7 +5458,7 @@
 		(fields_autoplaced yes)
 		(uuid "deb27b6e-2fbb-4645-a33b-aac5d292fe9c")
 		(property "Reference" "L1"
-			(at 119.38 176.53 90)
+			(at 104.14 176.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5683,7 +5466,7 @@
 			)
 		)
 		(property "Value" "6m"
-			(at 119.38 179.07 90)
+			(at 104.14 179.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5691,7 +5474,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 181.61 0)
+			(at 104.14 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5700,7 +5483,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 119.38 181.61 0)
+			(at 104.14 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5709,7 +5492,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 119.38 181.61 0)
+			(at 104.14 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5815,7 +5598,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Params" "y1=0 y2=12 td=2n tr=15n tf=15n tw=33m per=66m"
+		(property "Sim.Params" "y1=0 y2=10.9 td=2n tr=15n tf=15n tw=1m per=4m"
 			(at 86.36 167.7697 0)
 			(effects
 				(font

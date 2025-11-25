@@ -5,6 +5,415 @@
 	(uuid "e51aa923-aa70-4844-b76b-9158d7653586")
 	(paper "A4")
 	(lib_symbols
+		(symbol "00318242:0031.8242"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H1"
+				(at 4.826 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "0031.8242"
+				(at 4.826 4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "00318242"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.schurter.com/en/datasheet/OGD-SMD"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fuse Block 16 A 1000V 1 Circuit Cartridge Surface Mount"
+				(at 11.684 -9.906 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "13.4"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "N/A"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "SCHURTER"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "0031.8242"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "0031.8242_0_1"
+				(polyline
+					(pts
+						(xy 7.62 1.27) (xy 6.35 1.27) (xy 6.35 -1.27) (xy 7.62 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 12.7 0) (xy 12.7 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 1.27) (xy 8.89 -1.27) (xy 11.43 -1.27) (xy 11.43 1.27) (xy 8.89 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 1.27) (xy 13.97 1.27) (xy 13.97 -1.27) (xy 12.7 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0031.8242_1_1"
+				(rectangle
+					(start 3.81 2.54)
+					(end 16.51 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -1.27 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "694108301002:694108301002"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J1"
+				(at 10.16 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "694108301002"
+				(at 10.16 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "694108301002"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/components/products/download/3D_694108301002+%28rev1%29.pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "WR-DCPJ_THT_R/A_Plastic DCPowerJack_THT_R/A_Plastic_CenterPin_ 2.5"
+				(at 8.89 -10.922 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "11"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Farnell Part Number" ""
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Farnell Price/Stock" ""
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Wurth Elektronik"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "694108301002"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "694108301002_0_1"
+				(polyline
+					(pts
+						(xy 11.43 1.27) (xy 10.16 1.27) (xy 10.16 2.54) (xy 6.35 2.54) (xy 5.08 1.27) (xy 6.35 0) (xy 10.16 0)
+						(xy 10.16 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.43 -2.54) (xy 8.89 -2.54) (xy 8.89 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.43 -6.35) (xy 7.62 -6.35) (xy 6.35 -3.81) (xy 5.08 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "694108301002_1_1"
+				(rectangle
+					(start 2.54 3.81)
+					(end 15.24 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 20.32 1.27 180)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -6.35 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "CPDH3V3UP-HF:CPDH3V3UP-HF"
 			(pin_names
 				(hide yes)
@@ -859,186 +1268,6 @@
 						)
 					)
 					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector:Barrel_Jack"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J8"
-				(at 0 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Barrel_Jack"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 1.27 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 1.27 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "DC Barrel Jack"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "DC power barrel jack connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "BarrelJack*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Barrel_Jack_0_1"
-				(rectangle
-					(start -5.08 3.81)
-					(end 5.08 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -2.54) (xy -2.54 -2.54) (xy -1.27 -1.27) (xy 0 -2.54) (xy 2.54 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -3.302 1.905)
-					(mid -3.9343 2.54)
-					(end -3.302 3.175)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -3.302 1.905)
-					(mid -3.9343 2.54)
-					(end -3.302 3.175)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 3.683 3.175)
-					(end -3.302 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 3.81 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Barrel_Jack_1_1"
-				(pin power_out line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3379,7 +3608,7 @@
 		(uuid "04316810-f721-4f2a-b887-f3e14dd34a30")
 	)
 	(junction
-		(at 102.87 41.91)
+		(at 107.95 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0ab6f48a-5270-4f5a-8ec3-5114ec5580a8")
@@ -3463,7 +3692,7 @@
 		(uuid "6fb6902a-97dd-4567-bb92-198bb7fd18ad")
 	)
 	(junction
-		(at 91.44 41.91)
+		(at 96.52 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f3261c6-7708-4653-be10-81d6e9713d36")
@@ -3523,7 +3752,7 @@
 		(uuid "b8448941-dd70-43d2-93f6-e25cec8b76b9")
 	)
 	(junction
-		(at 102.87 54.61)
+		(at 107.95 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b85283a3-70a5-4cff-8d53-28f2e2861c1b")
@@ -3553,7 +3782,7 @@
 		(uuid "d2799f8a-f614-4df9-b726-016ffc2a3565")
 	)
 	(junction
-		(at 91.44 54.61)
+		(at 96.52 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d29bd5f9-05c7-4a34-b231-33ae1105046c")
@@ -3577,7 +3806,13 @@
 		(uuid "e7628d5d-c49f-4aed-8701-47fd8e9be9f0")
 	)
 	(junction
-		(at 71.12 54.61)
+		(at 76.2 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e851ed70-ef33-4ceb-8f72-b8df0d559f99")
+	)
+	(junction
+		(at 76.2 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa1109b8-6b25-4130-9ebe-a1b9653fa6af")
@@ -3603,6 +3838,10 @@
 	(no_connect
 		(at 177.8 115.57)
 		(uuid "4f11214f-1dd1-484f-964a-e24a187973d8")
+	)
+	(no_connect
+		(at 53.34 49.53)
+		(uuid "5a5514e3-93e1-4aa9-94ca-49052940b5ce")
 	)
 	(no_connect
 		(at 148.59 124.46)
@@ -3742,7 +3981,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 41.91) (xy 91.44 41.91)
+			(xy 76.2 41.91) (xy 96.52 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3762,7 +4001,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 41.91) (xy 71.12 44.45)
+			(xy 76.2 41.91) (xy 76.2 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3782,7 +4021,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 54.61) (xy 71.12 54.61)
+			(xy 53.34 54.61) (xy 76.2 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3812,6 +4051,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 53.34) (xy 53.34 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2974f55b-8f88-47db-b9ac-e6ef5a403c24")
+	)
+	(wire
+		(pts
 			(xy 177.8 143.51) (xy 180.34 143.51)
 		)
 		(stroke
@@ -3822,7 +4071,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 41.91) (xy 102.87 41.91)
+			(xy 96.52 41.91) (xy 107.95 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3832,7 +4081,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 41.91) (xy 107.95 41.91)
+			(xy 107.95 41.91) (xy 113.03 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3922,7 +4171,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 54.61) (xy 91.44 54.61)
+			(xy 76.2 54.61) (xy 96.52 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3979,16 +4228,6 @@
 			(type default)
 		)
 		(uuid "47477a59-7da9-4942-8dc8-2799e3a541aa")
-	)
-	(wire
-		(pts
-			(xy 53.34 45.72) (xy 52.07 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5043190f-bd03-43fd-8e8f-4e30fa201586")
 	)
 	(wire
 		(pts
@@ -4082,7 +4321,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 54.61) (xy 102.87 54.61)
+			(xy 96.52 54.61) (xy 107.95 54.61)
 		)
 		(stroke
 			(width 0)
@@ -4102,7 +4341,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 41.91) (xy 102.87 44.45)
+			(xy 107.95 41.91) (xy 107.95 44.45)
 		)
 		(stroke
 			(width 0)
@@ -4192,7 +4431,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 54.61) (xy 107.95 54.61)
+			(xy 107.95 54.61) (xy 113.03 54.61)
 		)
 		(stroke
 			(width 0)
@@ -4292,7 +4531,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 52.07) (xy 102.87 54.61)
+			(xy 107.95 52.07) (xy 107.95 54.61)
 		)
 		(stroke
 			(width 0)
@@ -4322,7 +4561,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 52.07) (xy 91.44 54.61)
+			(xy 96.52 52.07) (xy 96.52 54.61)
 		)
 		(stroke
 			(width 0)
@@ -4369,16 +4608,6 @@
 			(type default)
 		)
 		(uuid "9e5eadcb-6191-4370-aa6f-548c8060c5bd")
-	)
-	(wire
-		(pts
-			(xy 53.34 41.91) (xy 53.34 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9fb65f73-296f-46d9-8cb7-8639cdbd7ce9")
 	)
 	(wire
 		(pts
@@ -4429,16 +4658,6 @@
 			(type default)
 		)
 		(uuid "a8d2a1d4-08cb-4c37-bf55-101ffa7f6986")
-	)
-	(wire
-		(pts
-			(xy 53.34 54.61) (xy 53.34 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a917f62d-9f18-47bf-b73b-51b7c6726b1c")
 	)
 	(wire
 		(pts
@@ -4672,7 +4891,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 41.91) (xy 91.44 44.45)
+			(xy 96.52 41.91) (xy 96.52 44.45)
 		)
 		(stroke
 			(width 0)
@@ -4732,6 +4951,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 41.91) (xy 53.34 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e74d9dea-4158-4d6b-98be-418d709d5930")
+	)
+	(wire
+		(pts
 			(xy 236.22 49.53) (xy 242.57 49.53)
 		)
 		(stroke
@@ -4739,16 +4968,6 @@
 			(type default)
 		)
 		(uuid "e77ee440-5038-4224-ae04-4392d3ec0d13")
-	)
-	(wire
-		(pts
-			(xy 53.34 50.8) (xy 52.07 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9ef069e-53c6-4a7b-9d84-be1e3e452b02")
 	)
 	(wire
 		(pts
@@ -4842,7 +5061,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 52.07) (xy 71.12 54.61)
+			(xy 76.2 52.07) (xy 76.2 54.61)
 		)
 		(stroke
 			(width 0)
@@ -4912,7 +5131,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "004d6c90-5296-4ed5-828d-460a1e652d6a")
-		(property "Reference" "IC9"
+		(property "Reference" "IC4"
 			(at 196.85 34.29 0)
 			(effects
 				(font
@@ -5055,7 +5274,7 @@
 		(instances
 			(project "emaplaat_ja_ekraan"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/902edf26-f9ad-46ee-8658-d4b7491aa9c7"
-					(reference "IC9")
+					(reference "IC4")
 					(unit 1)
 				)
 			)
@@ -5070,7 +5289,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0854fdd5-43fa-4f6b-9d27-594a093107e4")
-		(property "Reference" "C270"
+		(property "Reference" "C17"
 			(at 148.082 93.218 90)
 			(effects
 				(font
@@ -5088,7 +5307,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 152.4 95.5548 0)
 			(effects
 				(font
@@ -5124,7 +5343,7 @@
 		(instances
 			(project "Emaplaat"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/902edf26-f9ad-46ee-8658-d4b7491aa9c7"
-					(reference "C270")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -5206,7 +5425,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1135b2af-5c00-48e7-a779-02ff6c9e8b47")
-		(property "Reference" "C21"
+		(property "Reference" "C7"
 			(at 161.29 40.6399 0)
 			(effects
 				(font
@@ -5224,7 +5443,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 158.4452 45.72 0)
 			(effects
 				(font
@@ -5260,7 +5479,7 @@
 		(instances
 			(project "emaplaat_ja_ekraan"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/902edf26-f9ad-46ee-8658-d4b7491aa9c7"
-					(reference "C21")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -5342,7 +5561,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c9a6b9c-dfd4-465e-9e63-b9f5c56592b1")
-		(property "Reference" "D4"
+		(property "Reference" "D8"
 			(at 84.836 121.412 90)
 			(effects
 				(font
@@ -5448,7 +5667,7 @@
 		(instances
 			(project "Emaplaat"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/902edf26-f9ad-46ee-8658-d4b7491aa9c7"
-					(reference "D4")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -5528,7 +5747,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2771fe04-2c4a-4c74-b2ba-8d2f436ae9e6")
-		(property "Reference" "R23"
+		(property "Reference" "R5"
 			(at 224.536 58.674 90)
 			(effects
 				(font
@@ -5544,7 +5763,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 227.33 57.658 90)
 			(effects
 				(font
@@ -5580,7 +5799,7 @@
 		(instances
 			(project "emaplaat_ja_ekraan"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/902edf26-f9ad-46ee-8658-d4b7491aa9c7"
-					(reference "R23")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -5595,7 +5814,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2845247e-6ee7-4903-8ba9-e70021f4d17b")
-		(property "Reference" "C45"
+		(property "Reference" "C19"
 			(at 122.936 121.412 0)
 			(effects
 				(font
@@ -5613,7 +5832,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 121.6152 128.27 0)
 			(effects
 				(font
@@ -5649,7 +5868,7 @@
 		(instances
 			(project "emaplaat_ja_ekraan"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/902edf26-f9ad-46ee-8658-d4b7491aa9c7"
-					(reference "C45")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -5730,7 +5949,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "356b4274-3c38-4ae7-b933-d36931b58517")
-		(property "Reference" "R209"
+		(property "Reference" "R11"
 			(at 67.818 124.46 0)
 			(effects
 				(font
@@ -5748,7 +5967,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 64.262 127 90)
 			(effects
 				(font
@@ -5784,7 +6003,7 @@
 		(instances
 			(project "Emaplaat"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/902edf26-f9ad-46ee-8658-d4b7491aa9c7"
-					(reference "R209")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -5792,15 +6011,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 91.44 48.26 0)
+		(at 96.52 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "37433515-409b-42f1-ad45-48962a737f05")
-		(property "Reference" "C25"
-			(at 95.25 46.9899 0)
+		(property "Reference" "C12"
+			(at 100.33 46.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5809,7 +6028,7 @@
 			)
 		)
 		(property "Value" "100u"
-			(at 95.25 49.5299 0)
+			(at 100.33 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5817,8 +6036,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 92.4052 52.07 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 97.4852 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5827,7 +6046,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 48.26 0)
+			(at 96.52 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5836,7 +6055,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 91.44 48.26 0)
+			(at 96.52 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5853,7 +6072,7 @@
 		(instances
 			(project "Emaplaat"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/902edf26-f9ad-46ee-8658-d4b7491aa9c7"
-					(reference "C25")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -5868,7 +6087,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "37e15217-5be6-4b96-be65-b07b67116644")
-		(property "Reference" "R208"
+		(property "Reference" "R10"
 			(at 58.928 124.46 0)
 			(effects
 				(font
@@ -5886,7 +6105,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 55.372 127 90)
 			(effects
 				(font
@@ -5922,7 +6141,7 @@
 		(instances
 			(project "Emaplaat"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/902edf26-f9ad-46ee-8658-d4b7491aa9c7"
-					(reference "R208")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -5937,7 +6156,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3a39f851-3dc8-4988-aec9-78699e55050e")
-		(property "Reference" "R210"
+		(property "Reference" "R8"
 			(at 199.898 120.65 0)
 			(effects
 				(font
@@ -5953,7 +6172,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 197.358 123.19 90)
 			(effects
 				(font
@@ -5989,7 +6208,7 @@
 		(instances
 			(project "Emaplaat"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/902edf26-f9ad-46ee-8658-d4b7491aa9c7"
-					(reference "R210")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -6005,7 +6224,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d51519d-1bce-4bf4-9208-6ff64f55d938")
-		(property "Reference" "C28"
+		(property "Reference" "C14"
 			(at 152.4 57.1499 0)
 			(effects
 				(font
@@ -6023,7 +6242,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 149.5552 62.23 0)
 			(effects
 				(font
@@ -6059,7 +6278,130 @@
 		(instances
 			(project "emaplaat_ja_ekraan"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/902edf26-f9ad-46ee-8658-d4b7491aa9c7"
-					(reference "C28")
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "694108301002:694108301002")
+		(at 33.02 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e40ce58-4090-46ac-9acc-8bd8a9438cc6")
+		(property "Reference" "J1"
+			(at 43.18 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "694108301002"
+			(at 43.18 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "694108301002"
+			(at 49.53 141.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/download/3D_694108301002+%28rev1%29.pdf"
+			(at 49.53 241.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "WR-DCPJ_THT_R/A_Plastic DCPowerJack_THT_R/A_Plastic_CenterPin_ 2.5"
+			(at 41.91 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "11"
+			(at 49.53 441.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Farnell Part Number" ""
+			(at 49.53 541.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Farnell Price/Stock" ""
+			(at 49.53 641.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 49.53 741.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "694108301002"
+			(at 49.53 841.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e43ba11b-6f77-485c-8c38-5a3fb63716e9")
+		)
+		(pin "2"
+			(uuid "2a0c174b-fd6f-4e61-982d-4fbc5ff83251")
+		)
+		(pin "1"
+			(uuid "55b60e74-f68c-4226-b669-6c014b988111")
+		)
+		(instances
+			(project ""
+				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/902edf26-f9ad-46ee-8658-d4b7491aa9c7"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -6067,7 +6409,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 107.95 54.61 0)
+		(at 113.03 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6076,7 +6418,7 @@
 		(fields_autoplaced yes)
 		(uuid "42b1c61b-cd7e-40f5-8c0c-ff2c6c44e998")
 		(property "Reference" "#PWR017"
-			(at 107.95 60.96 0)
+			(at 113.03 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6085,7 +6427,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 107.95 59.69 0)
+			(at 113.03 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6093,7 +6435,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 54.61 0)
+			(at 113.03 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6102,7 +6444,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 54.61 0)
+			(at 113.03 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6111,7 +6453,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 54.61 0)
+			(at 113.03 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6206,7 +6548,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46a59a00-5354-4805-9cb3-a903eed6a6ad")
-		(property "Reference" "R25"
+		(property "Reference" "R7"
 			(at 161.29 66.0399 0)
 			(effects
 				(font
@@ -6224,7 +6566,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 156.972 67.31 90)
 			(effects
 				(font
@@ -6260,7 +6602,7 @@
 		(instances
 			(project "emaplaat_ja_ekraan"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/902edf26-f9ad-46ee-8658-d4b7491aa9c7"
-					(reference "R25")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -6342,7 +6684,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b2d2523-f280-4f29-87bf-c8edc9ae3bfb")
-		(property "Reference" "IC16"
+		(property "Reference" "IC5"
 			(at 165.1 100.33 0)
 			(effects
 				(font
@@ -6527,7 +6869,7 @@
 		(instances
 			(project "emaplaat_ja_ekraan"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/902edf26-f9ad-46ee-8658-d4b7491aa9c7"
-					(reference "IC16")
+					(reference "IC5")
 					(unit 1)
 				)
 			)
@@ -6536,15 +6878,15 @@
 	(symbol
 		(lib_name "CPDH3V3UP-HF_3")
 		(lib_id "CPDH3V3UP-HF:CPDH3V3UP-HF")
-		(at 71.12 39.37 270)
+		(at 76.2 39.37 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "56d04639-8234-47c4-9138-ba110e2f7c10")
-		(property "Reference" "D2"
-			(at 73.152 46.99 90)
+		(property "Reference" "D4"
+			(at 78.232 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6553,7 +6895,7 @@
 			)
 		)
 		(property "Value" "CPDH3V3UP-HF"
-			(at 73.152 49.53 90)
+			(at 78.232 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6562,7 +6904,7 @@
 			)
 		)
 		(property "Footprint" "SODFL1608X77N"
-			(at -22.53 49.53 0)
+			(at -17.45 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6572,7 +6914,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA26/1842371.pdf"
-			(at -122.53 49.53 0)
+			(at -117.45 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6582,7 +6924,7 @@
 			)
 		)
 		(property "Description" "ESD Suppressors / TVS Diodes 5.5V, 15Kv"
-			(at 84.836 39.116 0)
+			(at 89.916 39.116 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6591,7 +6933,7 @@
 			)
 		)
 		(property "Height" "0.77"
-			(at -322.53 49.53 0)
+			(at -317.45 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6601,7 +6943,7 @@
 			)
 		)
 		(property "Mouser Part Number" "750-CPDH3V3UP-HF"
-			(at -422.53 49.53 0)
+			(at -417.45 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6611,7 +6953,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Comchip-Technology/CPDH3V3UP-HF?qs=XEIV%2Fho1H6em2DT135enQw%3D%3D"
-			(at -522.53 49.53 0)
+			(at -517.45 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6621,7 +6963,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Comchip Technology"
-			(at -622.53 49.53 0)
+			(at -617.45 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6631,7 +6973,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CPDH3V3UP-HF"
-			(at -722.53 49.53 0)
+			(at -717.45 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6649,7 +6991,7 @@
 		(instances
 			(project "Emaplaat"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/902edf26-f9ad-46ee-8658-d4b7491aa9c7"
-					(reference "D2")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -6731,7 +7073,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6356d36b-fbc8-4872-9ac5-1054853dff3b")
-		(property "Reference" "R24"
+		(property "Reference" "R6"
 			(at 161.29 57.1499 0)
 			(effects
 				(font
@@ -6749,7 +7091,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 156.972 58.42 90)
 			(effects
 				(font
@@ -6785,7 +7127,7 @@
 		(instances
 			(project "emaplaat_ja_ekraan"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/902edf26-f9ad-46ee-8658-d4b7491aa9c7"
-					(reference "R24")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -6955,7 +7297,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 102.87 48.26 0)
+		(at 107.95 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6963,8 +7305,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7473da2b-a9d3-44d0-98f7-b0aa778bd4c4")
-		(property "Reference" "C26"
-			(at 106.68 46.9899 0)
+		(property "Reference" "C13"
+			(at 111.76 46.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6973,7 +7315,7 @@
 			)
 		)
 		(property "Value" "47u"
-			(at 106.68 49.5299 0)
+			(at 111.76 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6981,8 +7323,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 103.8352 52.07 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 108.9152 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6991,7 +7333,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 48.26 0)
+			(at 107.95 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7000,7 +7342,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 102.87 48.26 0)
+			(at 107.95 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7017,7 +7359,7 @@
 		(instances
 			(project "Emaplaat"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/902edf26-f9ad-46ee-8658-d4b7491aa9c7"
-					(reference "C26")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -7032,7 +7374,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "796e9316-9a37-43e7-8422-0a15f5264625")
-		(property "Reference" "R211"
+		(property "Reference" "R9"
 			(at 210.058 120.65 0)
 			(effects
 				(font
@@ -7048,7 +7390,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 207.518 123.19 90)
 			(effects
 				(font
@@ -7084,7 +7426,7 @@
 		(instances
 			(project "Emaplaat"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/902edf26-f9ad-46ee-8658-d4b7491aa9c7"
-					(reference "R211")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -7248,7 +7590,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder"
 			(at 229.87 41.91 0)
 			(effects
 				(font
@@ -7366,7 +7708,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e88a609-004e-4108-bb4c-b360c305f609")
-		(property "Reference" "C20"
+		(property "Reference" "C6"
 			(at 151.13 40.6399 0)
 			(effects
 				(font
@@ -7384,7 +7726,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 148.2852 45.72 0)
 			(effects
 				(font
@@ -7420,7 +7762,7 @@
 		(instances
 			(project "emaplaat_ja_ekraan"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/902edf26-f9ad-46ee-8658-d4b7491aa9c7"
-					(reference "C20")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -7435,7 +7777,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "93eeb6bc-14cd-4ce7-b2ee-8b9ce9feb2b2")
-		(property "Reference" "C27"
+		(property "Reference" "C11"
 			(at 216.154 50.8 90)
 			(effects
 				(font
@@ -7451,7 +7793,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 222.25 46.0248 0)
 			(effects
 				(font
@@ -7487,7 +7829,7 @@
 		(instances
 			(project "emaplaat_ja_ekraan"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/902edf26-f9ad-46ee-8658-d4b7491aa9c7"
-					(reference "C27")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -7495,7 +7837,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 107.95 41.91 0)
+		(at 113.03 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7503,7 +7845,7 @@
 		(dnp no)
 		(uuid "94566721-84b6-4e8b-b430-ace4c0fd8f66")
 		(property "Reference" "#PWR0117"
-			(at 107.95 45.72 0)
+			(at 113.03 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7512,7 +7854,7 @@
 			)
 		)
 		(property "Value" "12V"
-			(at 107.95 37.592 0)
+			(at 113.03 37.592 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7520,7 +7862,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 41.91 0)
+			(at 113.03 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7529,7 +7871,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 41.91 0)
+			(at 113.03 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7538,7 +7880,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 107.95 41.91 0)
+			(at 113.03 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7567,7 +7909,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "950eda9a-5601-498d-b8da-b595a33df851")
-		(property "Reference" "D16"
+		(property "Reference" "D6"
 			(at 209.55 113.3474 90)
 			(effects
 				(font
@@ -7630,7 +7972,7 @@
 		(instances
 			(project "Emaplaat"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/902edf26-f9ad-46ee-8658-d4b7491aa9c7"
-					(reference "D16")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -7711,7 +8053,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9a1ca01b-b66f-4738-bc2b-ac6eec4f3eb4")
-		(property "Reference" "C12"
+		(property "Reference" "C18"
 			(at 114.046 121.412 0)
 			(effects
 				(font
@@ -7729,7 +8071,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 112.7252 128.27 0)
 			(effects
 				(font
@@ -7765,7 +8107,7 @@
 		(instances
 			(project "Emaplaat"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/902edf26-f9ad-46ee-8658-d4b7491aa9c7"
-					(reference "C12")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -7781,7 +8123,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b501982-2fb9-4a97-b4b3-cea43f5c3304")
-		(property "Reference" "C24"
+		(property "Reference" "C10"
 			(at 250.19 44.4499 0)
 			(effects
 				(font
@@ -7799,7 +8141,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 247.3452 49.53 0)
 			(effects
 				(font
@@ -7835,7 +8177,7 @@
 		(instances
 			(project "emaplaat_ja_ekraan"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/902edf26-f9ad-46ee-8658-d4b7491aa9c7"
-					(reference "C24")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -7917,7 +8259,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ef84ad6-02ed-4f5f-9721-67d2d51e9d0e")
-		(property "Reference" "C22"
+		(property "Reference" "C8"
 			(at 171.45 40.6399 0)
 			(effects
 				(font
@@ -7935,7 +8277,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 168.6052 45.72 0)
 			(effects
 				(font
@@ -7971,7 +8313,7 @@
 		(instances
 			(project "emaplaat_ja_ekraan"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/902edf26-f9ad-46ee-8658-d4b7491aa9c7"
-					(reference "C22")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -8307,7 +8649,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bfb0bd2b-678b-4fe6-aaea-ef95d1b6d2e4")
-		(property "Reference" "C23"
+		(property "Reference" "C9"
 			(at 240.03 44.4499 0)
 			(effects
 				(font
@@ -8325,7 +8667,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 237.1852 49.53 0)
 			(effects
 				(font
@@ -8361,7 +8703,7 @@
 		(instances
 			(project "emaplaat_ja_ekraan"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/902edf26-f9ad-46ee-8658-d4b7491aa9c7"
-					(reference "C23")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -8376,7 +8718,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c79d0e32-bf11-4c80-b7e3-8c49629cf442")
-		(property "Reference" "D3"
+		(property "Reference" "D7"
 			(at 77.216 121.412 90)
 			(effects
 				(font
@@ -8482,7 +8824,7 @@
 		(instances
 			(project ""
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/902edf26-f9ad-46ee-8658-d4b7491aa9c7"
-					(reference "D3")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -8498,7 +8840,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0903b0a-afbb-4f36-bd88-28ee7bafc617")
-		(property "Reference" "C29"
+		(property "Reference" "C15"
 			(at 177.8 58.4199 0)
 			(effects
 				(font
@@ -8516,7 +8858,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 174.9552 63.5 0)
 			(effects
 				(font
@@ -8552,74 +8894,7 @@
 		(instances
 			(project "emaplaat_ja_ekraan"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/902edf26-f9ad-46ee-8658-d4b7491aa9c7"
-					(reference "C29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Barrel_Jack")
-		(at 44.45 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d3b9df3c-e963-4412-8cdb-99044f7492ec")
-		(property "Reference" "J1"
-			(at 44.45 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Barrel_Jack"
-			(at 44.45 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 45.72 49.276 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 45.72 49.276 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC Barrel Jack"
-			(at 44.45 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bf197105-7b69-4310-baab-cb241a7d4c59")
-		)
-		(pin "2"
-			(uuid "505a67c7-2e02-4a02-8f63-3629e4dbec4e")
-		)
-		(instances
-			(project "emaplaat_ja_ekraan"
-				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/902edf26-f9ad-46ee-8658-d4b7491aa9c7"
-					(reference "J1")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -8766,7 +9041,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "db9b328a-4095-4df7-aed1-3e5cb61b2a3f")
-		(property "Reference" "C30"
+		(property "Reference" "C16"
 			(at 218.44 57.658 0)
 			(effects
 				(font
@@ -8784,7 +9059,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 216.8652 63.5 0)
 			(effects
 				(font
@@ -8820,7 +9095,7 @@
 		(instances
 			(project "emaplaat_ja_ekraan"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/902edf26-f9ad-46ee-8658-d4b7491aa9c7"
-					(reference "C30")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -8835,7 +9110,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dfc8b282-e56a-482d-91e8-1cdea4c6788f")
-		(property "Reference" "D15"
+		(property "Reference" "D5"
 			(at 199.39 113.3474 90)
 			(effects
 				(font
@@ -8898,7 +9173,129 @@
 		(instances
 			(project "Emaplaat"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/902edf26-f9ad-46ee-8658-d4b7491aa9c7"
-					(reference "D15")
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "00318242:0031.8242")
+		(at 54.61 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f150c2a6-b527-44a3-85a5-36f6e181ffeb")
+		(property "Reference" "H1"
+			(at 59.436 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0031.8242"
+			(at 59.436 37.592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "00318242"
+			(at 71.12 136.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.schurter.com/en/datasheet/OGD-SMD"
+			(at 71.12 236.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse Block 16 A 1000V 1 Circuit Cartridge Surface Mount"
+			(at 66.294 51.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "13.4"
+			(at 71.12 436.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "N/A"
+			(at 71.12 536.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA"
+			(at 71.12 636.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SCHURTER"
+			(at 71.12 736.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0031.8242"
+			(at 71.12 836.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5924cb17-b1c7-4956-b03e-83789febfa1d")
+		)
+		(pin "1"
+			(uuid "1c4f46f4-d0d9-4ca7-95b6-2bf19d319b79")
+		)
+		(instances
+			(project ""
+				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/902edf26-f9ad-46ee-8658-d4b7491aa9c7"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -8914,7 +9311,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc480b87-3ef1-48c3-8136-7d0d4a37d876")
-		(property "Reference" "C48"
+		(property "Reference" "C20"
 			(at 184.15 146.0499 0)
 			(effects
 				(font
@@ -8932,7 +9329,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 181.3052 151.13 0)
 			(effects
 				(font
@@ -8968,7 +9365,7 @@
 		(instances
 			(project "emaplaat_ja_ekraan"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/902edf26-f9ad-46ee-8658-d4b7491aa9c7"
-					(reference "C48")
+					(reference "C20")
 					(unit 1)
 				)
 			)
