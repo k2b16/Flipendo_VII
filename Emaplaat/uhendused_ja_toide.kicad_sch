@@ -3332,16 +3332,6 @@
 		)
 		(uuid "081f2aca-8abf-4c1a-a352-670ba882952d")
 	)
-	(text "C43 - HF Bypass\nC44 ja C45 - Decoupler\nC46 ja C47 - shunt ESDle"
-		(exclude_from_sim no)
-		(at 122.682 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "304bbc93-e42d-42c0-9def-c7f81217b555")
-	)
 	(text "Väljund vool max 8A\nVoolu tarve seadmetelt:\n(3.7 + 2000 + 0.32 + 10.5 + \n100 + 0.033 + 1.32 + 150 + 7.2)= \n2273.073mA = 2.2A"
 		(exclude_from_sim no)
 		(at 256.794 70.104 0)
