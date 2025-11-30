@@ -873,7 +873,7 @@
 					)
 				)
 			)
-			(property "Footprint" "ESP32S3WROOM2N32R16V"
+			(property "Footprint" "ESP32S3WROOM2N32R16V:ESP32S3WROOM2N32R16V"
 				(at 29.21 -94.92 0)
 				(effects
 					(font
@@ -1000,7 +1000,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin no_connect line
 					(at 0 -8.89 0)
 					(length 5.08)
 					(hide yes)
@@ -1019,7 +1019,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin no_connect line
 					(at 0 -8.89 0)
 					(length 5.08)
 					(hide yes)
@@ -1038,7 +1038,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin no_connect line
 					(at 0 -8.89 0)
 					(length 5.08)
 					(hide yes)
@@ -1114,14 +1114,14 @@
 				(pin passive line
 					(at 0 -34.29 0)
 					(length 5.08)
-					(name "IO18"
+					(name "IO5"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "11"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1132,14 +1132,14 @@
 				(pin passive line
 					(at 0 -36.83 0)
 					(length 5.08)
-					(name "IO17"
+					(name "IO6"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "10"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1168,14 +1168,14 @@
 				(pin passive line
 					(at 0 -41.91 0)
 					(length 5.08)
-					(name "IO5"
+					(name "IO20"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1186,14 +1186,14 @@
 				(pin passive line
 					(at 0 -44.45 0)
 					(length 5.08)
-					(name "IO6"
+					(name "IO42"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
+					(number "35"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1556,24 +1556,6 @@
 				(pin passive line
 					(at 33.02 -15.24 180)
 					(length 5.08)
-					(name "IO42"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "35"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 33.02 -17.78 180)
-					(length 5.08)
 					(name "IO48"
 						(effects
 							(font
@@ -1590,7 +1572,7 @@
 					)
 				)
 				(pin passive line
-					(at 33.02 -20.32 180)
+					(at 33.02 -17.78 180)
 					(length 5.08)
 					(name "IO47"
 						(effects
@@ -1608,7 +1590,7 @@
 					)
 				)
 				(pin passive line
-					(at 33.02 -22.86 180)
+					(at 33.02 -20.32 180)
 					(length 5.08)
 					(name "IO21"
 						(effects
@@ -1626,7 +1608,7 @@
 					)
 				)
 				(pin passive line
-					(at 33.02 -25.4 180)
+					(at 33.02 -22.86 180)
 					(length 5.08)
 					(name "IO14"
 						(effects
@@ -1644,7 +1626,7 @@
 					)
 				)
 				(pin passive line
-					(at 33.02 -27.94 180)
+					(at 33.02 -25.4 180)
 					(length 5.08)
 					(name "IO13"
 						(effects
@@ -1662,7 +1644,7 @@
 					)
 				)
 				(pin passive line
-					(at 33.02 -30.48 180)
+					(at 33.02 -27.94 180)
 					(length 5.08)
 					(name "IO12"
 						(effects
@@ -1680,7 +1662,7 @@
 					)
 				)
 				(pin passive line
-					(at 33.02 -33.02 180)
+					(at 33.02 -30.48 180)
 					(length 5.08)
 					(name "IO11"
 						(effects
@@ -1698,7 +1680,7 @@
 					)
 				)
 				(pin passive line
-					(at 33.02 -35.56 180)
+					(at 33.02 -33.02 180)
 					(length 5.08)
 					(name "IO10"
 						(effects
@@ -1716,7 +1698,7 @@
 					)
 				)
 				(pin passive line
-					(at 33.02 -38.1 180)
+					(at 33.02 -35.56 180)
 					(length 5.08)
 					(name "IO9"
 						(effects
@@ -1734,7 +1716,7 @@
 					)
 				)
 				(pin passive line
-					(at 33.02 -40.64 180)
+					(at 33.02 -38.1 180)
 					(length 5.08)
 					(name "IO3"
 						(effects
@@ -1752,16 +1734,34 @@
 					)
 				)
 				(pin passive line
-					(at 33.02 -43.18 180)
+					(at 33.02 -40.64 180)
 					(length 5.08)
-					(name "IO20"
+					(name "IO17"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "14"
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -43.18 180)
+					(length 5.08)
+					(name "IO18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2345,7 +2345,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 83.82) (xy 198.12 83.82)
+			(xy 184.15 81.28) (xy 198.12 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2385,7 +2385,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 73.66) (xy 198.12 73.66)
+			(xy 184.15 71.12) (xy 198.12 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2495,7 +2495,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 63.5) (xy 198.12 63.5)
+			(xy 184.15 60.96) (xy 198.12 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2915,7 +2915,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 76.2) (xy 198.12 76.2)
+			(xy 184.15 73.66) (xy 198.12 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2985,7 +2985,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 68.58) (xy 198.12 68.58)
+			(xy 184.15 66.04) (xy 198.12 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3045,7 +3045,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 60.96) (xy 198.12 60.96)
+			(xy 184.15 83.82) (xy 198.12 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3145,7 +3145,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 78.74) (xy 198.12 78.74)
+			(xy 184.15 76.2) (xy 198.12 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3185,7 +3185,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 81.28) (xy 198.12 81.28)
+			(xy 184.15 78.74) (xy 198.12 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3195,7 +3195,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 66.04) (xy 198.12 66.04)
+			(xy 184.15 63.5) (xy 198.12 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3305,7 +3305,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 71.12) (xy 198.12 71.12)
+			(xy 184.15 68.58) (xy 198.12 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3544,7 +3544,7 @@
 		(uuid "059c2376-30cb-43d9-83ee-69f0b64aa3c6")
 	)
 	(label "!OE"
-		(at 198.12 83.82 180)
+		(at 198.12 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3574,7 +3574,7 @@
 		(uuid "0ae63f0e-71e8-4b1a-8659-18c8b15bcbcc")
 	)
 	(label "COLUMN9"
-		(at 198.12 66.04 180)
+		(at 198.12 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3594,7 +3594,7 @@
 		(uuid "15b7cd0f-ae03-489e-936a-dfd10e629ccd")
 	)
 	(label "COLUMN14"
-		(at 198.12 78.74 180)
+		(at 198.12 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3604,7 +3604,7 @@
 		(uuid "174cd9e4-5a47-48c3-a06c-5872216dabff")
 	)
 	(label "USER_LED"
-		(at 198.12 93.98 180)
+		(at 198.12 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3724,7 +3724,7 @@
 		(uuid "3900796e-2cf5-4a65-a418-ad6a5d67206b")
 	)
 	(label "COLUMN6"
-		(at 198.12 58.42 180)
+		(at 198.12 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3734,7 +3734,7 @@
 		(uuid "3b27ccfd-3270-4bde-8511-bf2d14687c2f")
 	)
 	(label "STCP"
-		(at 198.12 86.36 180)
+		(at 198.12 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3744,7 +3744,7 @@
 		(uuid "3e2ec353-09f1-49fc-aca6-a5d4ca370f5b")
 	)
 	(label "SHCP"
-		(at 198.12 88.9 180)
+		(at 198.12 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3814,7 +3814,7 @@
 		(uuid "4b5fea8a-36b5-4399-af43-a4945a8d74a5")
 	)
 	(label "COLUMN11"
-		(at 198.12 71.12 180)
+		(at 198.12 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3874,7 +3874,7 @@
 		(uuid "5decc1e6-67a6-44da-b11a-1bd7b1d37c9e")
 	)
 	(label "COLUMN10"
-		(at 198.12 68.58 180)
+		(at 198.12 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3884,7 +3884,7 @@
 		(uuid "62cae99c-8be0-4e2f-8de3-5ff04dca479e")
 	)
 	(label "BUZZER"
-		(at 198.12 96.52 180)
+		(at 198.12 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3964,7 +3964,7 @@
 		(uuid "7b0b1927-7c09-4fa2-967a-c47a5f6bc3d8")
 	)
 	(label "COLUMN8"
-		(at 198.12 63.5 180)
+		(at 198.12 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3984,7 +3984,7 @@
 		(uuid "847ab8c1-19c8-4055-8436-886541716dbf")
 	)
 	(label "COLUMN13"
-		(at 198.12 76.2 180)
+		(at 198.12 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4024,7 +4024,7 @@
 		(uuid "954f0064-ef41-458c-b189-bb98d441d37d")
 	)
 	(label "VRX"
-		(at 140.97 95.25 0)
+		(at 140.97 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4064,7 +4064,7 @@
 		(uuid "a0589364-4212-4db6-9028-c65e1d264365")
 	)
 	(label "ROW7_H"
-		(at 157.48 173.99 180)
+		(at 157.48 163.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4074,7 +4074,7 @@
 		(uuid "a49e9238-1faf-4fd1-bb59-c6b5a868a5f0")
 	)
 	(label "COLUMN4"
-		(at 198.12 53.34 180)
+		(at 198.12 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4154,7 +4154,7 @@
 		(uuid "b9c2def4-edbd-4b4f-be8d-694ef90db94f")
 	)
 	(label "COLUMN12"
-		(at 198.12 73.66 180)
+		(at 198.12 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4184,7 +4184,7 @@
 		(uuid "be072ea9-6a3d-4c3e-ae24-403bb271a306")
 	)
 	(label "COLUMN1"
-		(at 198.12 45.72 180)
+		(at 198.12 55.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4204,7 +4204,7 @@
 		(uuid "c22ac6e9-4f67-4dc8-a463-19ad0fcaa5a9")
 	)
 	(label "COLUMN7"
-		(at 198.12 60.96 180)
+		(at 198.12 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4264,7 +4264,7 @@
 		(uuid "c8b8078f-8fa7-486d-8fef-0a258b191ac0")
 	)
 	(label "ROW5_H"
-		(at 157.48 163.83 180)
+		(at 157.48 168.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4274,7 +4274,7 @@
 		(uuid "c9b11b94-5d0e-4661-af39-2b7b98455354")
 	)
 	(label "ROW6_H"
-		(at 157.48 168.91 180)
+		(at 157.48 173.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4304,7 +4304,7 @@
 		(uuid "d05d87b7-0500-4795-bbe3-52f8cab96895")
 	)
 	(label "COLUMN2"
-		(at 198.12 48.26 180)
+		(at 198.12 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4364,7 +4364,7 @@
 		(uuid "d7a4888b-5d92-4889-b1f4-80af5642029d")
 	)
 	(label "DS"
-		(at 198.12 81.28 180)
+		(at 198.12 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4404,7 +4404,7 @@
 		(uuid "e185809e-21db-4e2c-bf6a-8a0508d69c72")
 	)
 	(label "COLUMN5"
-		(at 198.12 55.88 180)
+		(at 198.12 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4464,7 +4464,7 @@
 		(uuid "f6b816ea-1ede-419c-805b-f60076078302")
 	)
 	(label "VRY"
-		(at 140.97 97.79 0)
+		(at 140.97 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
