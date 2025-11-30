@@ -2223,10 +2223,6 @@
 		(at 184.15 101.6)
 		(uuid "b094f879-3458-4826-b233-d0413d64c349")
 	)
-	(no_connect
-		(at 184.15 96.52)
-		(uuid "dce01124-861d-4892-aa99-5ecfcb38298e")
-	)
 	(wire
 		(pts
 			(xy 143.51 50.8) (xy 146.05 50.8)
@@ -3089,6 +3085,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 96.52) (xy 198.12 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c4c04f0-8e98-4d93-8fcb-78e728726091")
+	)
+	(wire
+		(pts
 			(xy 109.22 184.15) (xy 120.65 184.15)
 		)
 		(stroke
@@ -3876,6 +3882,16 @@
 			(justify right bottom)
 		)
 		(uuid "62cae99c-8be0-4e2f-8de3-5ff04dca479e")
+	)
+	(label "BUZZER"
+		(at 198.12 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "66016e70-ea86-4388-9234-25756865649e")
 	)
 	(label "VRY"
 		(at 60.96 96.52 180)
