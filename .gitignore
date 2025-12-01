@@ -87,7 +87,7 @@ Desktop.ini
 # Optional: if you export to PDF or STEP, ignore those unless needed
 *.pdf  
 *.step  
-*.stp  
+# *.stp  
 
 # Adapted from:
 # https://github.com/github/gitignore/blob/master/KiCad.gitignore
