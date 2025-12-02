@@ -5276,7 +5276,7 @@
 				)
 			)
 		)
-		(property "Value" "360"
+		(property "Value" "330"
 			(at 55.626 159.004 0)
 			(effects
 				(font
@@ -6445,7 +6445,7 @@
 				)
 			)
 		)
-		(property "Value" "360"
+		(property "Value" "330"
 			(at 41.656 159.004 0)
 			(effects
 				(font
