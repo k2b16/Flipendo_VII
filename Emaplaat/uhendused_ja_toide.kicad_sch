@@ -207,6 +207,197 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "511D476M025AA4D:511D476M025AA4D"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C13"
+				(at 5.0799 3.81 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "511D476M025AA4D"
+				(at 7.6199 3.81 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "511D476M025AA4D"
+				(at 8.89 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/42051/511d.pdf"
+				(at 8.89 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Aluminum Electrolytic Capacitors - Radial Leaded 47uF 25volts 20%"
+				(at 0.762 11.938 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "11"
+				(at 8.89 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "75-511D476M025AA4D"
+				(at 8.89 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Sprague/511D476M025AA4D?qs=Kk8YaIHLBVD3GCTtEpe40w%3D%3D"
+				(at 8.89 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Vishay"
+				(at 8.89 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "511D476M025AA4D"
+				(at 8.89 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "511D476M025AA4D_1_1"
+				(polyline
+					(pts
+						(xy 4.064 1.778) (xy 4.064 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.572 1.27) (xy 3.556 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 2.54)
+					(end 5.842 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 -2.54) (xy 6.858 -2.54) (xy 6.858 2.54) (xy 7.62 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "694108301002:694108301002"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -735,222 +926,6 @@
 				)
 			)
 			(symbol "CPDH3V3UP-HF_2_1_1"
-				(polyline
-					(pts
-						(xy 6.858 1.778) (xy 7.62 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 10.16 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -1.27) (xy 7.62 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -1.27) (xy 8.382 -1.778)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -1.27) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -1.27) (xy 10.16 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "CPDH3V3UP-HF_4"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D9"
-				(at 7.62 2.032 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "CPDH3V3UP-HF"
-				(at 22.352 -10.668 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SOD-523"
-				(at 10.16 -93.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA26/1842371.pdf"
-				(at 10.16 -193.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "ESD Suppressors / TVS Diodes 5.5V, 15Kv"
-				(at -0.254 13.716 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "0.77"
-				(at 10.16 -393.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "750-CPDH3V3UP-HF"
-				(at 10.16 -493.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Comchip-Technology/CPDH3V3UP-HF?qs=XEIV%2Fho1H6em2DT135enQw%3D%3D"
-				(at 10.16 -593.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Comchip Technology"
-				(at 10.16 -693.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "CPDH3V3UP-HF"
-				(at 10.16 -793.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(symbol "CPDH3V3UP-HF_4_1_1"
 				(polyline
 					(pts
 						(xy 6.858 1.778) (xy 7.62 1.27)
@@ -2838,6 +2813,198 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "UCLAMP1201H_TCT:UCLAMP1201H.TCT"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Z1"
+				(at 6.3499 3.81 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "UCLAMP1201H.TCT"
+				(at 8.8899 3.81 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "SODFL1608X70N"
+				(at 10.16 -93.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-30/DSA-588597.pdf"
+				(at 10.16 -193.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "ESD Suppressors / TVS Diodes 1 LINE ESD PROTECTION"
+				(at 7.62 7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.7"
+				(at 10.16 -393.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "947-UCLAMP1201H.TCT"
+				(at 10.16 -493.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Semtech/UCLAMP1201H.TCT?qs=rBWM4%252BvDhIfD242SvImDCQ%3D%3D"
+				(at 10.16 -593.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "SEMTECH"
+				(at 10.16 -693.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "UCLAMP1201H.TCT"
+				(at 10.16 -793.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "UCLAMP1201H.TCT_1_1"
+				(polyline
+					(pts
+						(xy 5.334 -2.032) (xy 6.35 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 1.524) (xy 6.35 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 1.524) (xy 7.366 2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 8.89 1.27) (xy 8.89 -1.27) (xy 6.35 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "USB4216-03-A:USB4216-03-A"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3487,6 +3654,16 @@
 		)
 		(uuid "081f2aca-8abf-4c1a-a352-670ba882952d")
 	)
+	(text "100u\n"
+		(exclude_from_sim no)
+		(at 111.76 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1ef0ed80-6f3b-4134-8061-7738d7a92a02")
+	)
 	(text "Väljund vool max 8A\nVoolu tarve seadmetelt:\n(3.7 + 2000 + 0.32 + 10.5 + \n100 + 0.033 + 1.32 + 150 + 7.2)= \n2273.073mA = 2.2A"
 		(exclude_from_sim no)
 		(at 256.794 70.104 0)
@@ -3576,6 +3753,12 @@
 		(uuid "4f7ac8ce-a098-4074-8557-d1a97bb3f61f")
 	)
 	(junction
+		(at 62.23 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "515105d9-f27d-4d8b-a38b-625b3d7cdecd")
+	)
+	(junction
 		(at 242.57 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3612,16 +3795,16 @@
 		(uuid "6b53beba-5e85-41e6-a66f-37d55a4ae50d")
 	)
 	(junction
+		(at 62.23 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6bf1cdaa-e1fc-4925-ad2d-a7ec5c662e2b")
+	)
+	(junction
 		(at 76.2 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6fb6902a-97dd-4567-bb92-198bb7fd18ad")
-	)
-	(junction
-		(at 59.69 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "76a01607-4812-47ee-bfb6-0138641df3bb")
 	)
 	(junction
 		(at 93.98 41.91)
@@ -3736,12 +3919,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e7628d5d-c49f-4aed-8701-47fd8e9be9f0")
-	)
-	(junction
-		(at 59.69 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f6b3d5ab-9723-4dce-8fdf-5c76e5a6d624")
 	)
 	(junction
 		(at 147.32 38.1)
@@ -3877,16 +4054,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 41.91) (xy 59.69 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1167f98b-5f0d-4daf-b6ef-0bcd6f664dc8")
-	)
-	(wire
-		(pts
 			(xy 173.99 64.77) (xy 179.07 64.77)
 		)
 		(stroke
@@ -3947,7 +4114,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 54.61) (xy 59.69 54.61)
+			(xy 53.34 54.61) (xy 62.23 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3957,7 +4124,17 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 41.91) (xy 59.69 41.91)
+			(xy 62.23 54.61) (xy 93.98 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19e087c8-db38-44b8-95fc-2416185f0e4c")
+	)
+	(wire
+		(pts
+			(xy 53.34 41.91) (xy 62.23 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4157,6 +4334,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 41.91) (xy 66.04 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "518602ac-c28e-4899-9dae-903453e55e9b")
+	)
+	(wire
+		(pts
 			(xy 120.65 107.95) (xy 148.59 107.95)
 		)
 		(stroke
@@ -4314,16 +4501,6 @@
 			(type default)
 		)
 		(uuid "6b5d4f59-db3c-4c58-80dc-034610bd28df")
-	)
-	(wire
-		(pts
-			(xy 59.69 54.61) (xy 93.98 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7019933d-4c99-47e7-8ff7-020e61460663")
 	)
 	(wire
 		(pts
@@ -4517,16 +4694,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 41.91) (xy 59.69 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9580ee6a-68a8-45b0-9703-59c4981210a1")
-	)
-	(wire
-		(pts
 			(xy 212.09 64.77) (xy 212.09 66.04)
 		)
 		(stroke
@@ -4714,6 +4881,16 @@
 			(type default)
 		)
 		(uuid "bdc15ced-03c8-4404-9544-1e982feef2f9")
+	)
+	(wire
+		(pts
+			(xy 62.23 52.07) (xy 62.23 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1d5a635-cf6d-4dc9-a1db-3eed32a178dc")
 	)
 	(wire
 		(pts
@@ -4917,6 +5094,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 41.91) (xy 62.23 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e84687e5-66f4-4948-ac61-d9e8d5b7810b")
+	)
+	(wire
+		(pts
 			(xy 177.8 41.91) (xy 177.8 38.1)
 		)
 		(stroke
@@ -5014,16 +5201,6 @@
 			(type default)
 		)
 		(uuid "fd95c485-ad9e-4b50-87c6-28d8769371b1")
-	)
-	(wire
-		(pts
-			(xy 59.69 52.07) (xy 59.69 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "feb6b87f-265e-4aed-813b-3ae95d821856")
 	)
 	(wire
 		(pts
@@ -5632,136 +5809,6 @@
 			(project "Emaplaat"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/902edf26-f9ad-46ee-8658-d4b7491aa9c7"
 					(reference "#PWR0119")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "CPDH3V3UP-HF_4")
-		(lib_id "CPDH3V3UP-HF:CPDH3V3UP-HF")
-		(at 59.69 39.37 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "20e7e81b-050b-427c-9a09-1a4c6542b7ef")
-		(property "Reference" "D4"
-			(at 61.722 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CPDH3V3UP-HF"
-			(at 61.722 49.022 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at -33.96 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA26/1842371.pdf"
-			(at -133.96 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "ESD Suppressors / TVS Diodes 5.5V, 15Kv"
-			(at 73.406 39.116 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.77"
-			(at -333.96 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "750-CPDH3V3UP-HF"
-			(at -433.96 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Comchip-Technology/CPDH3V3UP-HF?qs=XEIV%2Fho1H6em2DT135enQw%3D%3D"
-			(at -533.96 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Comchip Technology"
-			(at -633.96 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CPDH3V3UP-HF"
-			(at -733.96 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "3.3V"
-			(at 64.262 51.308 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1f388915-a969-4e41-9ce7-30ea4e82fd52")
-		)
-		(pin "2"
-			(uuid "374d929b-91de-4126-bc90-b6fa7f6fb666")
-		)
-		(instances
-			(project "Emaplaat"
-				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/902edf26-f9ad-46ee-8658-d4b7491aa9c7"
-					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -7033,6 +7080,128 @@
 		)
 	)
 	(symbol
+		(lib_id "UCLAMP1201H_TCT:UCLAMP1201H.TCT")
+		(at 62.23 40.64 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61463f2e-8943-4178-b994-fe84fe4a3ac0")
+		(property "Reference" "Z1"
+			(at 66.04 46.9899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "UCLAMP1201H.TCT"
+			(at 66.04 49.5299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SODFL1608X70N"
+			(at -31.42 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-30/DSA-588597.pdf"
+			(at -131.42 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD Suppressors / TVS Diodes 1 LINE ESD PROTECTION"
+			(at 69.596 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.7"
+			(at -331.42 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "947-UCLAMP1201H.TCT"
+			(at -431.42 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Semtech/UCLAMP1201H.TCT?qs=rBWM4%252BvDhIfD242SvImDCQ%3D%3D"
+			(at -531.42 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SEMTECH"
+			(at -631.42 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "UCLAMP1201H.TCT"
+			(at -731.42 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a33eac3-2a67-48f5-9c15-0b6edcf74184")
+		)
+		(pin "2"
+			(uuid "3919b91e-82de-4382-a2bd-145c85dbee03")
+		)
+		(instances
+			(project ""
+				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/902edf26-f9ad-46ee-8658-d4b7491aa9c7"
+					(reference "Z1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 158.75 58.42 0)
 		(unit 1)
@@ -7389,76 +7558,6 @@
 			(project "emaplaat_ja_ekraan"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/902edf26-f9ad-46ee-8658-d4b7491aa9c7"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 105.41 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7473da2b-a9d3-44d0-98f7-b0aa778bd4c4")
-		(property "Reference" "C13"
-			(at 109.22 46.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47u"
-			(at 109.22 49.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 106.3752 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 105.41 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 105.41 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bfebff90-6580-423c-ab2d-c19061063aa4")
-		)
-		(pin "1"
-			(uuid "a37fa0af-1164-4d9d-b67e-ec5be651f709")
-		)
-		(instances
-			(project "Emaplaat"
-				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/902edf26-f9ad-46ee-8658-d4b7491aa9c7"
-					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -8821,6 +8920,128 @@
 			(project "emaplaat_ja_ekraan"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/902edf26-f9ad-46ee-8658-d4b7491aa9c7"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "511D476M025AA4D:511D476M025AA4D")
+		(at 105.41 41.91 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d213bf9d-9c34-4da8-a55a-162bc0806c4d")
+		(property "Reference" "C13"
+			(at 109.22 46.9899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "511D476M025AA4D"
+			(at 109.22 49.5299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "511D476M025AA4D"
+			(at 9.22 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/42051/511d.pdf"
+			(at -90.78 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Aluminum Electrolytic Capacitors - Radial Leaded 47uF 25volts 20%"
+			(at 117.348 42.672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "11"
+			(at -290.78 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "75-511D476M025AA4D"
+			(at -390.78 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Sprague/511D476M025AA4D?qs=Kk8YaIHLBVD3GCTtEpe40w%3D%3D"
+			(at -490.78 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at -590.78 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "511D476M025AA4D"
+			(at -690.78 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d50ffb4e-50ab-4070-9fd1-91b9d205eed8")
+		)
+		(pin "2"
+			(uuid "3020f571-2f46-4b91-90bf-49274526233c")
+		)
+		(instances
+			(project ""
+				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/902edf26-f9ad-46ee-8658-d4b7491aa9c7"
+					(reference "C13")
 					(unit 1)
 				)
 			)

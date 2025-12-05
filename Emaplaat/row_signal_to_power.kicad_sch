@@ -735,145 +735,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -981,6 +842,197 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ESH107M025AE3DA:ESH107M025AE3DA"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C21"
+				(at 5.0799 3.81 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "ESH107M025AE3DA"
+				(at 7.6199 3.81 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "CAPPRD250W50D630H1250"
+				(at 8.89 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/ESH107M025AE3DA.pdf"
+				(at 8.89 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Cap Aluminum Lytic 100uF 25V 20% (6 X 11mm) Radial 5mm 145mA 2000h 105C Ammo Pack"
+				(at 0.762 10.668 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "12.5"
+				(at 8.89 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "80-ESH107M025AE3DA"
+				(at 8.89 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=80-ESH107M025AE3DA"
+				(at 8.89 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "KEMET"
+				(at 8.89 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "ESH107M025AE3DA"
+				(at 8.89 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "ESH107M025AE3DA_1_1"
+				(polyline
+					(pts
+						(xy 4.064 1.778) (xy 4.064 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.572 1.27) (xy 3.556 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 2.54)
+					(end 5.842 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 -2.54) (xy 6.858 -2.54) (xy 6.858 2.54) (xy 7.62 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1235,11 +1287,37 @@
 		)
 		(uuid "0c8e19cf-2f8e-4ff7-8574-0589fd9fd0d4")
 	)
+	(text "100u\n"
+		(exclude_from_sim no)
+		(at 141.224 71.628 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b30aa92d-c0d6-4e05-b329-0c055d7f29ab")
+	)
+	(text "100u\n"
+		(exclude_from_sim no)
+		(at 141.224 103.378 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cb231dcc-a58a-4780-aa72-2435d52e0c87")
+	)
 	(junction
 		(at 129.54 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "34fecc9c-a3e9-460e-8355-4d64c792108a")
+	)
+	(junction
+		(at 147.32 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40f2365b-20ac-4908-a5a0-9a9fe094fab1")
 	)
 	(junction
 		(at 139.7 76.2)
@@ -1248,34 +1326,28 @@
 		(uuid "41706ffe-f9a7-4037-b2cf-a1e318906543")
 	)
 	(junction
-		(at 148.59 97.79)
+		(at 147.32 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "66dfdc02-7363-4cb0-ab36-bd687b229359")
+		(uuid "99c1bc8e-c517-4aaa-b63c-5ceaa293aa5d")
 	)
 	(junction
-		(at 148.59 66.04)
+		(at 147.32 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6f9d48b4-2474-4f56-8e48-b78e2f1f2d94")
+		(uuid "bfb2d926-43b3-4524-bbf5-ff910714cdbe")
 	)
 	(junction
-		(at 148.59 73.66)
+		(at 147.32 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a48157a2-64a5-4985-839d-961319c362d2")
+		(uuid "c1542340-04f6-4a8f-92d3-67f2b9711b2f")
 	)
 	(junction
 		(at 139.7 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf645e96-ef1c-43b3-9ba3-20ad38d3c26f")
-	)
-	(junction
-		(at 148.59 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f2edf991-e182-477c-ae0f-db9186771b86")
 	)
 	(junction
 		(at 91.44 58.42)
@@ -1290,6 +1362,16 @@
 	(no_connect
 		(at 180.34 64.77)
 		(uuid "f89d487d-d00f-4cfd-bb60-ed9581c82b3b")
+	)
+	(wire
+		(pts
+			(xy 147.32 66.04) (xy 151.13 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0813edd4-be2a-4b53-9d52-691c58a21e81")
 	)
 	(wire
 		(pts
@@ -1323,7 +1405,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 66.04) (xy 148.59 66.04)
+			(xy 139.7 66.04) (xy 147.32 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1333,17 +1415,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 73.66) (xy 148.59 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4dffb4bf-3982-473c-8423-03f6198e8be9")
-	)
-	(wire
-		(pts
-			(xy 148.59 73.66) (xy 151.13 73.66)
+			(xy 139.7 73.66) (xy 147.32 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1370,16 +1442,6 @@
 			(type default)
 		)
 		(uuid "5cb6e487-ca5e-42c0-9a67-d13a3eb66058")
-	)
-	(wire
-		(pts
-			(xy 148.59 97.79) (xy 151.13 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cf1892f-2bad-4327-a89e-f61ba1d56df6")
 	)
 	(wire
 		(pts
@@ -1413,7 +1475,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 105.41) (xy 148.59 105.41)
+			(xy 139.7 105.41) (xy 147.32 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1430,6 +1492,16 @@
 			(type default)
 		)
 		(uuid "89979a97-a680-490e-8344-4a2d96ed0cf4")
+	)
+	(wire
+		(pts
+			(xy 147.32 73.66) (xy 151.13 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a92f40c-2830-4320-bffa-c0c5c6a578f0")
 	)
 	(wire
 		(pts
@@ -1450,6 +1522,16 @@
 			(type default)
 		)
 		(uuid "9a7b160e-38cc-498b-88bb-78059b8c5056")
+	)
+	(wire
+		(pts
+			(xy 147.32 105.41) (xy 151.13 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8d68d5e-03b9-48fb-8e7a-7e0deae3eb5a")
 	)
 	(wire
 		(pts
@@ -1483,7 +1565,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 97.79) (xy 148.59 97.79)
+			(xy 139.7 97.79) (xy 147.32 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1533,26 +1615,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 105.41) (xy 151.13 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5967e17-4073-4426-8782-fbe4eaa65876")
-	)
-	(wire
-		(pts
-			(xy 148.59 66.04) (xy 151.13 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6198f96-eac6-4469-8eb3-78eefb28e663")
-	)
-	(wire
-		(pts
 			(xy 90.17 93.98) (xy 93.98 93.98)
 		)
 		(stroke
@@ -1560,6 +1622,16 @@
 			(type default)
 		)
 		(uuid "f6cc3194-c02f-48c1-a1c7-b7dd6af3a90e")
+	)
+	(wire
+		(pts
+			(xy 147.32 97.79) (xy 151.13 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6d14c4d-4964-4e1c-87bb-9c32b73133a9")
 	)
 	(wire
 		(pts
@@ -2133,6 +2205,151 @@
 		)
 	)
 	(symbol
+		(lib_id "ESH107M025AE3DA:ESH107M025AE3DA")
+		(at 147.32 95.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7b22276f-02ae-40d3-9e10-a86567389544")
+		(property "Reference" "C42"
+			(at 139.954 99.568 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESH107M025AE3DA"
+			(at 125.222 101.346 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CAPPRD250W50D630H1250"
+			(at 51.13 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/ESH107M025AE3DA.pdf"
+			(at -48.87 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cap Aluminum Lytic 100uF 25V 20% (6 X 11mm) Radial 5mm 145mA 2000h 105C Ammo Pack"
+			(at 157.988 96.012 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "12.5"
+			(at -248.87 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-ESH107M025AE3DA"
+			(at -348.87 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=80-ESH107M025AE3DA"
+			(at -448.87 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at -548.87 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESH107M025AE3DA"
+			(at -648.87 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "825f8f5c-c67f-40f4-8a54-440bd3356059")
+		)
+		(pin "2"
+			(uuid "0c52fddd-d6e3-49f9-b589-43f47fddad93")
+		)
+		(instances
+			(project "Emaplaat"
+				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/1d123e2b-7c0a-4548-ab70-18ecbd0f3e35/00dd078c-5bcb-40ec-b1ce-9fd40495c7b0"
+					(reference "C47")
+					(unit 1)
+				)
+				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/1d123e2b-7c0a-4548-ab70-18ecbd0f3e35/2fc7aa96-d547-4b2d-b311-372c32d95449"
+					(reference "C44")
+					(unit 1)
+				)
+				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/1d123e2b-7c0a-4548-ab70-18ecbd0f3e35/966772b1-8ed9-4604-8b2f-51e7d82f5fee"
+					(reference "C45")
+					(unit 1)
+				)
+				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/1d123e2b-7c0a-4548-ab70-18ecbd0f3e35/9b8ceeda-6acd-4158-99c5-fdbb77ea312c"
+					(reference "C48")
+					(unit 1)
+				)
+				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/1d123e2b-7c0a-4548-ab70-18ecbd0f3e35/9c7002f1-7e69-43bd-ab73-e01a6d2e38cc"
+					(reference "C46")
+					(unit 1)
+				)
+				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/1d123e2b-7c0a-4548-ab70-18ecbd0f3e35/d53c2f6f-4747-4314-b5f0-98fea833cab1"
+					(reference "C43")
+					(unit 1)
+				)
+				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/1d123e2b-7c0a-4548-ab70-18ecbd0f3e35/e40b4959-4e04-4f58-b28b-16ba85ca50e5"
+					(reference "C42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74LVC1G66GW_125:74LVC1G66GW,125")
 		(at 95.25 93.98 0)
 		(unit 1)
@@ -2376,97 +2593,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 148.59 69.85 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8c66c8de-893d-4b8b-886e-ff87eccaeb06")
-		(property "Reference" "C21"
-			(at 144.145 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100u"
-			(at 143.51 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 147.6248 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 148.59 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 148.59 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d9a7de1a-4bcb-4952-b047-bad6bf4861c6")
-		)
-		(pin "1"
-			(uuid "48b1ba84-d1ef-4cae-ae3f-696a60c5e01d")
-		)
-		(instances
-			(project "Emaplaat"
-				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/1d123e2b-7c0a-4548-ab70-18ecbd0f3e35/00dd078c-5bcb-40ec-b1ce-9fd40495c7b0"
-					(reference "C45")
-					(unit 1)
-				)
-				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/1d123e2b-7c0a-4548-ab70-18ecbd0f3e35/2fc7aa96-d547-4b2d-b311-372c32d95449"
-					(reference "C25")
-					(unit 1)
-				)
-				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/1d123e2b-7c0a-4548-ab70-18ecbd0f3e35/966772b1-8ed9-4604-8b2f-51e7d82f5fee"
-					(reference "C41")
-					(unit 1)
-				)
-				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/1d123e2b-7c0a-4548-ab70-18ecbd0f3e35/9b8ceeda-6acd-4158-99c5-fdbb77ea312c"
-					(reference "C47")
-					(unit 1)
-				)
-				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/1d123e2b-7c0a-4548-ab70-18ecbd0f3e35/9c7002f1-7e69-43bd-ab73-e01a6d2e38cc"
-					(reference "C43")
-					(unit 1)
-				)
-				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/1d123e2b-7c0a-4548-ab70-18ecbd0f3e35/d53c2f6f-4747-4314-b5f0-98fea833cab1"
-					(reference "C23")
-					(unit 1)
-				)
-				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/1d123e2b-7c0a-4548-ab70-18ecbd0f3e35/e40b4959-4e04-4f58-b28b-16ba85ca50e5"
-					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 129.54 85.09 0)
 		(unit 1)
@@ -2558,6 +2684,151 @@
 		)
 	)
 	(symbol
+		(lib_id "ESH107M025AE3DA:ESH107M025AE3DA")
+		(at 147.32 63.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c6982e7-0ac5-4784-968b-e00eaa030ede")
+		(property "Reference" "C21"
+			(at 139.954 67.818 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESH107M025AE3DA"
+			(at 125.222 69.596 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CAPPRD250W50D630H1250"
+			(at 51.13 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/ESH107M025AE3DA.pdf"
+			(at -48.87 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cap Aluminum Lytic 100uF 25V 20% (6 X 11mm) Radial 5mm 145mA 2000h 105C Ammo Pack"
+			(at 157.988 64.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "12.5"
+			(at -248.87 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-ESH107M025AE3DA"
+			(at -348.87 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=80-ESH107M025AE3DA"
+			(at -448.87 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at -548.87 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESH107M025AE3DA"
+			(at -648.87 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc13da9b-3eca-42ce-9cb0-8b33ee8158a5")
+		)
+		(pin "2"
+			(uuid "3334335f-8d26-4f6f-89f8-39ee8ffcd8b6")
+		)
+		(instances
+			(project ""
+				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/1d123e2b-7c0a-4548-ab70-18ecbd0f3e35/00dd078c-5bcb-40ec-b1ce-9fd40495c7b0"
+					(reference "C26")
+					(unit 1)
+				)
+				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/1d123e2b-7c0a-4548-ab70-18ecbd0f3e35/2fc7aa96-d547-4b2d-b311-372c32d95449"
+					(reference "C23")
+					(unit 1)
+				)
+				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/1d123e2b-7c0a-4548-ab70-18ecbd0f3e35/966772b1-8ed9-4604-8b2f-51e7d82f5fee"
+					(reference "C24")
+					(unit 1)
+				)
+				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/1d123e2b-7c0a-4548-ab70-18ecbd0f3e35/9b8ceeda-6acd-4158-99c5-fdbb77ea312c"
+					(reference "C41")
+					(unit 1)
+				)
+				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/1d123e2b-7c0a-4548-ab70-18ecbd0f3e35/9c7002f1-7e69-43bd-ab73-e01a6d2e38cc"
+					(reference "C25")
+					(unit 1)
+				)
+				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/1d123e2b-7c0a-4548-ab70-18ecbd0f3e35/d53c2f6f-4747-4314-b5f0-98fea833cab1"
+					(reference "C22")
+					(unit 1)
+				)
+				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/1d123e2b-7c0a-4548-ab70-18ecbd0f3e35/e40b4959-4e04-4f58-b28b-16ba85ca50e5"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 93.98 68.58 0)
 		(unit 1)
@@ -2642,97 +2913,6 @@
 				)
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/1d123e2b-7c0a-4548-ab70-18ecbd0f3e35/e40b4959-4e04-4f58-b28b-16ba85ca50e5"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 148.59 101.6 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a30d42c1-850f-481b-a977-cbc8fe060c2a")
-		(property "Reference" "C22"
-			(at 144.145 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100u"
-			(at 143.51 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 147.6248 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 148.59 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 148.59 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "68903de3-a9cf-46ad-bb23-0efec8217f92")
-		)
-		(pin "1"
-			(uuid "5d760475-9566-406c-8e95-5b4324b41e10")
-		)
-		(instances
-			(project "Emaplaat"
-				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/1d123e2b-7c0a-4548-ab70-18ecbd0f3e35/00dd078c-5bcb-40ec-b1ce-9fd40495c7b0"
-					(reference "C46")
-					(unit 1)
-				)
-				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/1d123e2b-7c0a-4548-ab70-18ecbd0f3e35/2fc7aa96-d547-4b2d-b311-372c32d95449"
-					(reference "C26")
-					(unit 1)
-				)
-				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/1d123e2b-7c0a-4548-ab70-18ecbd0f3e35/966772b1-8ed9-4604-8b2f-51e7d82f5fee"
-					(reference "C42")
-					(unit 1)
-				)
-				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/1d123e2b-7c0a-4548-ab70-18ecbd0f3e35/9b8ceeda-6acd-4158-99c5-fdbb77ea312c"
-					(reference "C48")
-					(unit 1)
-				)
-				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/1d123e2b-7c0a-4548-ab70-18ecbd0f3e35/9c7002f1-7e69-43bd-ab73-e01a6d2e38cc"
-					(reference "C44")
-					(unit 1)
-				)
-				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/1d123e2b-7c0a-4548-ab70-18ecbd0f3e35/d53c2f6f-4747-4314-b5f0-98fea833cab1"
-					(reference "C24")
-					(unit 1)
-				)
-				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/1d123e2b-7c0a-4548-ab70-18ecbd0f3e35/e40b4959-4e04-4f58-b28b-16ba85ca50e5"
-					(reference "C22")
 					(unit 1)
 				)
 			)
