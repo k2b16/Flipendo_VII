@@ -1176,168 +1176,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:L"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at -1.27 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "L"
-				(at 1.905 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Inductor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "L_0_1"
-				(arc
-					(start 0 2.54)
-					(mid 0.6323 1.905)
-					(end 0 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.27)
-					(mid 0.6323 0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 -0.635)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -1.905)
-					(end 0 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "L_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -3418,6 +3256,198 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SRP2512TMA-2R2M:SRP2512TMA-2R2M"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at 16.51 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "SRP2512TMA-2R2M"
+				(at 16.51 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SRP2512TMA2R2M"
+				(at 16.51 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.bourns.com/docs/Product-Datasheets/SRP2512TMA.pdf"
+				(at 16.51 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ind,2.5x2x1mm,2.2uH+/-20%,3.1A,shd"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.2"
+				(at 16.51 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "652-SRP2512TMA-2R2M"
+				(at 16.51 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/SRP2512TMA-2R2M?qs=t7xnP681wgWFmqnuRE0GQw%3D%3D"
+				(at 16.51 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Bourns"
+				(at 16.51 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "SRP2512TMA-2R2M"
+				(at 16.51 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "SRP2512TMA-2R2M_1_1"
+				(arc
+					(start 5.08 0)
+					(mid 6.35 1.219)
+					(end 7.62 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7.62 0)
+					(mid 8.89 1.219)
+					(end 10.16 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 10.16 0)
+					(mid 11.43 1.219)
+					(end 12.7 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 12.7 0)
+					(mid 13.97 1.219)
+					(end 15.24 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "TPS54429PWPR:TPS54429PWPR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4635,7 +4665,7 @@
 	)
 	(text "12V sülearvuti toiteplokist muundatakse 3.3V. Kõik komponendid on võetud andmelehest."
 		(exclude_from_sim no)
-		(at 197.866 28.956 0)
+		(at 175.006 17.272 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4665,7 +4695,7 @@
 	)
 	(text "Väljund vool max 8A\nVoolu tarve seadmetelt:\n(3.7 + 2000 + 0.32 + 10.5 + \n100 + 0.033 + 1.32 + 150 + 7.2)= \n2273.073mA = 2.2A"
 		(exclude_from_sim no)
-		(at 256.794 70.104 0)
+		(at 261.874 68.834 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4713,9 +4743,19 @@
 		)
 		(uuid "3fdb9425-e2ba-4dc1-8ad0-2510c9fa7e37")
 	)
+	(text "Induktorile langeb:\npeak-to-peak ripple current=1.55A;peak current=2.98A;RMS current=2.25A\nInduktor kannatab:\npeak current=3.1A; saturation current=3.4A\n"
+		(exclude_from_sim no)
+		(at 229.362 26.924 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "44f88c2b-9721-4b86-9ffa-25cc7261f32d")
+	)
 	(text "22u\n"
 		(exclude_from_sim no)
-		(at 253.492 46.482 0)
+		(at 266.192 46.482 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4765,7 +4805,7 @@
 	)
 	(text "22u\n"
 		(exclude_from_sim no)
-		(at 242.062 46.482 0)
+		(at 254.762 46.482 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4804,7 +4844,7 @@
 		(uuid "20a83ade-c63a-4195-9de3-a301606ed246")
 	)
 	(junction
-		(at 247.65 41.91)
+		(at 260.35 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "25f7b099-c5bb-496b-a7cb-9a31f68ed2e0")
@@ -4822,16 +4862,10 @@
 		(uuid "4f7ac8ce-a098-4074-8557-d1a97bb3f61f")
 	)
 	(junction
-		(at 247.65 49.53)
+		(at 260.35 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "511ca4a0-ad9e-46d6-a0c0-b70155609665")
-	)
-	(junction
-		(at 62.23 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "515105d9-f27d-4d8b-a38b-625b3d7cdecd")
 	)
 	(junction
 		(at 157.48 38.1)
@@ -4862,12 +4896,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b53beba-5e85-41e6-a66f-37d55a4ae50d")
-	)
-	(junction
-		(at 62.23 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6bf1cdaa-e1fc-4925-ad2d-a7ec5c662e2b")
 	)
 	(junction
 		(at 76.2 107.95)
@@ -4918,6 +4946,12 @@
 		(uuid "a16739f8-865f-4cdd-96e3-8cac70f4c5d3")
 	)
 	(junction
+		(at 80.01 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5ce0802-cccd-44d2-bfdc-7b0cc451ae74")
+	)
+	(junction
 		(at 105.41 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4966,7 +5000,7 @@
 		(uuid "d6f52127-91f3-4b99-9cf7-a8969d1da974")
 	)
 	(junction
-		(at 236.22 41.91)
+		(at 248.92 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d70c8ba4-9998-41c2-9b03-dab9a6c9ee9e")
@@ -4982,6 +5016,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "db477706-3452-4916-876e-cdb61fa05fe0")
+	)
+	(junction
+		(at 80.01 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5d9e79a-b1c8-44b7-849e-6ffcff7c1ed0")
 	)
 	(junction
 		(at 179.07 64.77)
@@ -5173,16 +5213,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 41.91) (xy 93.98 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "164b927a-456f-46e7-ba36-6f34976ba72f")
-	)
-	(wire
-		(pts
 			(xy 59.69 130.81) (xy 59.69 133.35)
 		)
 		(stroke
@@ -5203,17 +5233,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 54.61) (xy 62.23 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1767e1de-f649-4cd6-8391-0909cbaff609")
-	)
-	(wire
-		(pts
-			(xy 62.23 54.61) (xy 93.98 54.61)
+			(xy 53.34 54.61) (xy 80.01 54.61)
 		)
 		(stroke
 			(width 0)
@@ -5223,7 +5243,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 41.91) (xy 62.23 41.91)
+			(xy 53.34 41.91) (xy 54.61 41.91)
 		)
 		(stroke
 			(width 0)
@@ -5333,6 +5353,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 41.91) (xy 80.01 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cac8aa6-ddf4-4414-893a-e2df78dbb76a")
+	)
+	(wire
+		(pts
 			(xy 83.82 111.76) (xy 146.05 111.76)
 		)
 		(stroke
@@ -5413,13 +5443,13 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 41.91) (xy 66.04 41.91)
+			(xy 80.01 54.61) (xy 93.98 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "518602ac-c28e-4899-9dae-903453e55e9b")
+		(uuid "50f32c78-ad04-4d2e-b8d9-cca422024016")
 	)
 	(wire
 		(pts
@@ -5443,7 +5473,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 41.91) (xy 236.22 41.91)
+			(xy 246.38 41.91) (xy 248.92 41.91)
 		)
 		(stroke
 			(width 0)
@@ -5673,7 +5703,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 41.91) (xy 247.65 41.91)
+			(xy 248.92 41.91) (xy 260.35 41.91)
 		)
 		(stroke
 			(width 0)
@@ -5723,7 +5753,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 49.53) (xy 257.81 49.53)
+			(xy 260.35 49.53) (xy 270.51 49.53)
 		)
 		(stroke
 			(width 0)
@@ -5813,7 +5843,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 49.53) (xy 257.81 54.61)
+			(xy 270.51 49.53) (xy 270.51 54.61)
 		)
 		(stroke
 			(width 0)
@@ -5933,6 +5963,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 41.91) (xy 93.98 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b889e3dd-6cd4-4187-a03c-b5133656a5c8")
+	)
+	(wire
+		(pts
 			(xy 59.69 130.81) (xy 66.04 130.81)
 		)
 		(stroke
@@ -5973,16 +6013,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 52.07) (xy 62.23 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1d5a635-cf6d-4dc9-a1db-3eed32a178dc")
-	)
-	(wire
-		(pts
 			(xy 54.61 107.95) (xy 76.2 107.95)
 		)
 		(stroke
@@ -6020,6 +6050,16 @@
 			(type default)
 		)
 		(uuid "cd009add-e4eb-4791-9bfe-2857fd75c857")
+	)
+	(wire
+		(pts
+			(xy 77.47 41.91) (xy 80.01 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d128208f-1c1a-4f69-b591-0a7068b6b55b")
 	)
 	(wire
 		(pts
@@ -6113,7 +6153,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 41.91) (xy 257.81 41.91)
+			(xy 260.35 41.91) (xy 270.51 41.91)
 		)
 		(stroke
 			(width 0)
@@ -6163,23 +6203,13 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 49.53) (xy 247.65 49.53)
+			(xy 248.92 49.53) (xy 260.35 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e77ee440-5038-4224-ae04-4392d3ec0d13")
-	)
-	(wire
-		(pts
-			(xy 62.23 41.91) (xy 62.23 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e84687e5-66f4-4948-ac61-d9e8d5b7810b")
 	)
 	(wire
 		(pts
@@ -6200,6 +6230,16 @@
 			(type default)
 		)
 		(uuid "f2ef040f-a832-46a5-8f02-d65ca97fdce2")
+	)
+	(wire
+		(pts
+			(xy 80.01 50.8) (xy 80.01 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f740594c-6949-479a-b5a5-1a61f0bb1e80")
 	)
 	(wire
 		(pts
@@ -7324,7 +7364,7 @@
 	)
 	(symbol
 		(lib_id "GRM155R60G226ME11D:GRM155R60G226ME11D")
-		(at 247.65 39.37 270)
+		(at 260.35 39.37 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7332,7 +7372,7 @@
 		(dnp no)
 		(uuid "2e0c4612-7782-47ad-95c6-aac4825435b4")
 		(property "Reference" "C10"
-			(at 251.46 44.4499 90)
+			(at 264.16 44.4499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7341,7 +7381,7 @@
 			)
 		)
 		(property "Value" "GRM155R60G226ME11D"
-			(at 234.95 53.086 90)
+			(at 247.65 53.086 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7350,7 +7390,7 @@
 			)
 		)
 		(property "Footprint" "CAPC1005X70N"
-			(at 151.46 48.26 0)
+			(at 164.16 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7360,7 +7400,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf"
-			(at 51.46 48.26 0)
+			(at 64.16 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7370,7 +7410,7 @@
 			)
 		)
 		(property "Description" "Chip Capacitor value 226"
-			(at 263.906 43.942 0)
+			(at 276.606 43.942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7379,7 +7419,7 @@
 			)
 		)
 		(property "Height" "0.7"
-			(at -148.54 48.26 0)
+			(at -135.84 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7389,7 +7429,7 @@
 			)
 		)
 		(property "Mouser Part Number" "81-GRM155R60G226ME1D"
-			(at -248.54 48.26 0)
+			(at -235.84 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7399,7 +7439,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM155R60G226ME11D?qs=9Bj94LTQhPD05IUpc3I6Ow%3D%3D"
-			(at -348.54 48.26 0)
+			(at -335.84 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7409,7 +7449,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Murata Electronics"
-			(at -448.54 48.26 0)
+			(at -435.84 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7419,7 +7459,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "GRM155R60G226ME11D"
-			(at -548.54 48.26 0)
+			(at -535.84 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8237,6 +8277,126 @@
 		)
 	)
 	(symbol
+		(lib_id "SRP2512TMA-2R2M:SRP2512TMA-2R2M")
+		(at 226.06 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53afbbe7-701d-46c1-bf6a-0a6d3575613b")
+		(property "Reference" "L1"
+			(at 236.22 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SRP2512TMA-2R2M"
+			(at 236.22 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SRP2512TMA2R2M"
+			(at 242.57 138.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.bourns.com/docs/Product-Datasheets/SRP2512TMA.pdf"
+			(at 242.57 238.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ind,2.5x2x1mm,2.2uH+/-20%,3.1A,shd"
+			(at 226.06 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.2"
+			(at 242.57 438.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-SRP2512TMA-2R2M"
+			(at 242.57 538.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/SRP2512TMA-2R2M?qs=t7xnP681wgWFmqnuRE0GQw%3D%3D"
+			(at 242.57 638.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Bourns"
+			(at 242.57 738.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SRP2512TMA-2R2M"
+			(at 242.57 838.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "39404ecb-4eda-4fed-a15b-aa4bdcd35159")
+		)
+		(pin "1"
+			(uuid "331b4e28-ad24-4985-a478-53537763a736")
+		)
+		(instances
+			(project ""
+				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/902edf26-f9ad-46ee-8658-d4b7491aa9c7"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 153.67 96.52 0)
 		(unit 1)
@@ -8425,7 +8585,7 @@
 	)
 	(symbol
 		(lib_id "UCLAMP1201H_TCT:UCLAMP1201H.TCT")
-		(at 62.23 40.64 270)
+		(at 80.01 39.37 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8433,7 +8593,7 @@
 		(dnp no)
 		(uuid "61463f2e-8943-4178-b994-fe84fe4a3ac0")
 		(property "Reference" "Z1"
-			(at 64.516 49.276 90)
+			(at 82.296 48.006 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8442,7 +8602,7 @@
 			)
 		)
 		(property "Value" "UCLAMP1201H.TCT"
-			(at 64.516 51.054 90)
+			(at 58.928 49.784 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8451,7 +8611,7 @@
 			)
 		)
 		(property "Footprint" "SODFL1608X70N"
-			(at -31.42 50.8 0)
+			(at -13.64 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8461,7 +8621,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-30/DSA-588597.pdf"
-			(at -131.42 50.8 0)
+			(at -113.64 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8471,7 +8631,7 @@
 			)
 		)
 		(property "Description" "ESD Suppressors / TVS Diodes 1 LINE ESD PROTECTION"
-			(at 69.596 48.26 0)
+			(at 87.376 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8480,7 +8640,7 @@
 			)
 		)
 		(property "Height" "0.7"
-			(at -331.42 50.8 0)
+			(at -313.64 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8490,7 +8650,7 @@
 			)
 		)
 		(property "Mouser Part Number" "947-UCLAMP1201H.TCT"
-			(at -431.42 50.8 0)
+			(at -413.64 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8500,7 +8660,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Semtech/UCLAMP1201H.TCT?qs=rBWM4%252BvDhIfD242SvImDCQ%3D%3D"
-			(at -531.42 50.8 0)
+			(at -513.64 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8510,7 +8670,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "SEMTECH"
-			(at -631.42 50.8 0)
+			(at -613.64 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8520,7 +8680,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "UCLAMP1201H.TCT"
-			(at -731.42 50.8 0)
+			(at -713.64 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9105,74 +9265,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 229.87 41.91 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "805b66fe-3e8e-495f-8f66-8e8a4c55b9b2")
-		(property "Reference" "L1"
-			(at 229.87 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2.2u"
-			(at 229.87 39.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder"
-			(at 229.87 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 229.87 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 229.87 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ed29a0c4-55bf-42d7-8a97-b829950ccebe")
-		)
-		(pin "1"
-			(uuid "832ed99f-b1ef-4702-8f6b-040a2be0423f")
-		)
-		(instances
-			(project "emaplaat_ja_ekraan"
-				(path "/489224c0-ace1-4530-aa61-a5d03adf1434/902edf26-f9ad-46ee-8658-d4b7491aa9c7"
-					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 158.75 67.31 0)
 		(unit 1)
@@ -9244,7 +9336,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 257.81 54.61 0)
+		(at 270.51 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9253,7 +9345,7 @@
 		(fields_autoplaced yes)
 		(uuid "8bfa1016-021d-4722-a8d8-878849fe13d9")
 		(property "Reference" "#PWR01"
-			(at 257.81 60.96 0)
+			(at 270.51 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9262,7 +9354,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 257.81 59.69 0)
+			(at 270.51 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9270,7 +9362,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 54.61 0)
+			(at 270.51 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9279,7 +9371,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 54.61 0)
+			(at 270.51 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9288,7 +9380,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 257.81 54.61 0)
+			(at 270.51 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9586,7 +9678,7 @@
 	)
 	(symbol
 		(lib_id "GRM155R60G226ME11D:GRM155R60G226ME11D")
-		(at 236.22 39.37 270)
+		(at 248.92 39.37 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9594,7 +9686,7 @@
 		(dnp no)
 		(uuid "9d1e6db0-9350-4beb-b408-a27beac6720b")
 		(property "Reference" "C9"
-			(at 240.03 44.4499 90)
+			(at 252.73 44.4499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9603,7 +9695,7 @@
 			)
 		)
 		(property "Value" "GRM155R60G226ME11D"
-			(at 231.902 51.308 90)
+			(at 244.602 51.308 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9612,7 +9704,7 @@
 			)
 		)
 		(property "Footprint" "CAPC1005X70N"
-			(at 140.03 48.26 0)
+			(at 152.73 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9622,7 +9714,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf"
-			(at 40.03 48.26 0)
+			(at 52.73 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9632,7 +9724,7 @@
 			)
 		)
 		(property "Description" "Chip Capacitor value 226"
-			(at 252.476 43.942 0)
+			(at 265.176 43.942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9641,7 +9733,7 @@
 			)
 		)
 		(property "Height" "0.7"
-			(at -159.97 48.26 0)
+			(at -147.27 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9651,7 +9743,7 @@
 			)
 		)
 		(property "Mouser Part Number" "81-GRM155R60G226ME1D"
-			(at -259.97 48.26 0)
+			(at -247.27 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9661,7 +9753,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM155R60G226ME11D?qs=9Bj94LTQhPD05IUpc3I6Ow%3D%3D"
-			(at -359.97 48.26 0)
+			(at -347.27 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9671,7 +9763,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Murata Electronics"
-			(at -459.97 48.26 0)
+			(at -447.27 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9681,7 +9773,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "GRM155R60G226ME11D"
-			(at -559.97 48.26 0)
+			(at -547.27 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9799,7 +9891,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 168.6052 45.72 0)
 			(effects
 				(font
@@ -10405,7 +10497,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 257.81 41.91 0)
+		(at 270.51 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10414,7 +10506,7 @@
 		(fields_autoplaced yes)
 		(uuid "d45e5380-5e97-4fc5-954c-5bcab56ebcda")
 		(property "Reference" "#PWR05"
-			(at 257.81 45.72 0)
+			(at 270.51 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10423,7 +10515,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 257.81 36.83 0)
+			(at 270.51 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10431,7 +10523,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 41.91 0)
+			(at 270.51 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10440,7 +10532,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 41.91 0)
+			(at 270.51 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10449,7 +10541,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 257.81 41.91 0)
+			(at 270.51 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10935,7 +11027,7 @@
 	)
 	(symbol
 		(lib_id "00318242:0031.8242")
-		(at 67.31 41.91 0)
+		(at 55.88 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10944,7 +11036,7 @@
 		(fields_autoplaced yes)
 		(uuid "f150c2a6-b527-44a3-85a5-36f6e181ffeb")
 		(property "Reference" "H1"
-			(at 72.136 35.56 0)
+			(at 60.706 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10953,7 +11045,7 @@
 			)
 		)
 		(property "Value" "0031.8242"
-			(at 72.136 37.592 0)
+			(at 60.706 37.592 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10962,7 +11054,7 @@
 			)
 		)
 		(property "Footprint" "00318242:00318242"
-			(at 83.82 136.83 0)
+			(at 72.39 136.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10972,7 +11064,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.schurter.com/en/datasheet/OGD-SMD"
-			(at 83.82 236.83 0)
+			(at 72.39 236.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10982,7 +11074,7 @@
 			)
 		)
 		(property "Description" "Fuse Block 16 A 1000V 1 Circuit Cartridge Surface Mount"
-			(at 78.994 51.816 0)
+			(at 67.564 51.816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10991,7 +11083,7 @@
 			)
 		)
 		(property "Height" "13.4"
-			(at 83.82 436.83 0)
+			(at 72.39 436.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11001,7 +11093,7 @@
 			)
 		)
 		(property "Mouser Part Number" "N/A"
-			(at 83.82 536.83 0)
+			(at 72.39 536.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11011,7 +11103,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA"
-			(at 83.82 636.83 0)
+			(at 72.39 636.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11021,7 +11113,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "SCHURTER"
-			(at 83.82 736.83 0)
+			(at 72.39 736.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11031,7 +11123,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "0031.8242"
-			(at 83.82 836.83 0)
+			(at 72.39 836.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
