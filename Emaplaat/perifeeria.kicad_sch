@@ -6135,7 +6135,7 @@
 	(symbol
 		(lib_name "CPDH3V3UP-HF_2")
 		(lib_id "CPDH3V3UP-HF:CPDH3V3UP-HF")
-		(at 57.15 165.1 270)
+		(at 59.69 165.1 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6143,7 +6143,7 @@
 		(dnp no)
 		(uuid "83725158-7f3e-4817-b918-1f9ec0aba1bf")
 		(property "Reference" "D409"
-			(at 59.182 172.72 90)
+			(at 61.722 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6152,7 +6152,7 @@
 			)
 		)
 		(property "Value" "CPDH3V3UP-HF"
-			(at 51.562 191.008 90)
+			(at 54.356 179.578 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6161,7 +6161,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at -36.5 175.26 0)
+			(at -33.96 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6171,7 +6171,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA26/1842371.pdf"
-			(at -136.5 175.26 0)
+			(at -133.96 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6181,7 +6181,7 @@
 			)
 		)
 		(property "Description" "ESD Suppressors / TVS Diodes 5.5V, 15Kv"
-			(at 70.866 164.846 0)
+			(at 73.406 164.846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6190,7 +6190,7 @@
 			)
 		)
 		(property "Height" "0.77"
-			(at -336.5 175.26 0)
+			(at -333.96 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6200,7 +6200,7 @@
 			)
 		)
 		(property "Mouser Part Number" "750-CPDH3V3UP-HF"
-			(at -436.5 175.26 0)
+			(at -433.96 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6210,7 +6210,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Comchip-Technology/CPDH3V3UP-HF?qs=XEIV%2Fho1H6em2DT135enQw%3D%3D"
-			(at -536.5 175.26 0)
+			(at -533.96 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6220,7 +6220,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Comchip Technology"
-			(at -636.5 175.26 0)
+			(at -633.96 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6230,7 +6230,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CPDH3V3UP-HF"
-			(at -736.5 175.26 0)
+			(at -733.96 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6240,7 +6240,7 @@
 			)
 		)
 		(property "Voltage" "3.3"
-			(at 65.278 192.786 90)
+			(at 59.944 182.118 90)
 			(effects
 				(font
 					(size 1.27 1.27)
