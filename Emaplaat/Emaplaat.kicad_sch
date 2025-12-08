@@ -1060,14 +1060,14 @@
 				(pin passive line
 					(at 0 -19.05 0)
 					(length 5.08)
-					(name "IO46"
+					(name "IO0"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "16"
+					(number "27"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1466,14 +1466,14 @@
 				(pin passive line
 					(at 33.02 -2.54 180)
 					(length 5.08)
-					(name "IO0"
+					(name "IO46"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "27"
+					(number "16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2330,6 +2330,16 @@
 			)
 		)
 		(uuid "6f2fb1d0-907b-4873-b208-86cef720c9fb")
+	)
+	(text "IO0, IO3, IO45, IO46 on bootstrapping pinnid\nIO0 on vaja ainult kontollida bootmode'i jaoks"
+		(exclude_from_sim no)
+		(at 116.332 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "79ac6173-3c82-4b6e-a5e4-29a5ef8aa152")
 	)
 	(text "ekraan"
 		(exclude_from_sim no)
