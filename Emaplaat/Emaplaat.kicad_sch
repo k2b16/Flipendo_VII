@@ -1862,198 +1862,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "GRM155R60G226ME11D:GRM155R60G226ME11D"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C9"
-				(at 5.0799 3.81 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "GRM155R60G226ME11D"
-				(at 7.6199 3.81 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "CAPC1005X70N"
-				(at 8.89 -96.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf"
-				(at 8.89 -196.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Chip Capacitor value 226"
-				(at 4.572 16.256 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "0.7"
-				(at 8.89 -396.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "81-GRM155R60G226ME1D"
-				(at 8.89 -496.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM155R60G226ME11D?qs=9Bj94LTQhPD05IUpc3I6Ow%3D%3D"
-				(at 8.89 -596.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Murata Electronics"
-				(at 8.89 -696.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "GRM155R60G226ME11D"
-				(at 8.89 -796.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "GRM155R60G226ME11D_1_1"
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 5.588 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 2.54) (xy 5.842 -2.54)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.858 2.54) (xy 6.858 -2.54)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.112 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -2311,16 +2119,6 @@
 		)
 		(uuid "5cde7280-db69-4820-8105-e81abd19bfd6")
 	)
-	(text "22u\n"
-		(exclude_from_sim no)
-		(at 115.062 47.752 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "65a0b5c9-d2a7-40c2-b5e7-a47c86ff8506")
-	)
 	(text "Peamine protsessor, kõik komponendid võetud andmelehest\nVoolutarve min 500mA, max polnud andmelehes kirjas arvestada 2000mA"
 		(exclude_from_sim no)
 		(at 164.338 32.258 0)
@@ -2384,6 +2182,12 @@
 		(uuid "0d1ad99c-2f84-45df-8e8a-790e17c6a0a1")
 	)
 	(junction
+		(at 109.22 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4fed79d9-9850-4e43-ab97-4dab928989ed")
+	)
+	(junction
 		(at 109.22 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2400,12 +2204,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "97141ef1-3732-4cec-aa44-8da81422bd97")
-	)
-	(junction
-		(at 109.22 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9fe6506e-d400-40a0-a040-d89793592f4b")
 	)
 	(junction
 		(at 109.22 176.53)
@@ -2524,6 +2322,16 @@
 			(type default)
 		)
 		(uuid "0ad090a4-a4de-402c-8db2-965a2288ffb9")
+	)
+	(wire
+		(pts
+			(xy 109.22 43.18) (xy 121.92 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b72a1cd-99d9-48e6-9bf9-798b953ca59b")
 	)
 	(wire
 		(pts
@@ -3207,7 +3015,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 43.18) (xy 121.92 43.18)
+			(xy 104.14 43.18) (xy 109.22 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3654,16 +3462,6 @@
 			(type default)
 		)
 		(uuid "f00735fa-771a-4642-a895-2814df3cf13c")
-	)
-	(wire
-		(pts
-			(xy 104.14 43.18) (xy 109.22 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0efb64f-d7ee-4914-8303-2b55e70051ec")
 	)
 	(wire
 		(pts
@@ -4828,6 +4626,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 109.22 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22353511-1749-44a1-9cc4-9faae9e74f62")
+		(property "Reference" "C1"
+			(at 113.03 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 113.03 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 110.1852 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.ee/ProductDetail/Samsung-Electro-Mechanics/CL31A226KAHNNNE?qs=sGAEpiMZZMsh%252B1woXyUXjxqcB7t9naYpIUTIw5YVtmc%3D"
+			(at 109.22 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 109.22 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "869b71b4-f8d1-4c51-b9da-d29a2b8fe349")
+		)
+		(pin "1"
+			(uuid "850cb078-afa8-4d1d-a941-71cf9c5256b4")
+		)
+		(instances
+			(project "Emaplaat"
+				(path "/489224c0-ace1-4530-aa61-a5d03adf1434"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 109.22 148.59 0)
 		(unit 1)
@@ -5167,127 +5035,6 @@
 			(project "Flipdendo_VVii"
 				(path "/489224c0-ace1-4530-aa61-a5d03adf1434"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "GRM155R60G226ME11D:GRM155R60G226ME11D")
-		(at 109.22 40.64 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3d50b652-4857-466a-9e82-70dbf4b326d4")
-		(property "Reference" "C1"
-			(at 113.03 45.7199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GRM155R60G226ME11D"
-			(at 98.552 52.578 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "CAPC1005X70N"
-			(at 13.03 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf"
-			(at -86.97 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Chip Capacitor value 226"
-			(at 125.476 45.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.7"
-			(at -286.97 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "81-GRM155R60G226ME1D"
-			(at -386.97 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM155R60G226ME11D?qs=9Bj94LTQhPD05IUpc3I6Ow%3D%3D"
-			(at -486.97 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Murata Electronics"
-			(at -586.97 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "GRM155R60G226ME11D"
-			(at -686.97 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "27e69786-bfd0-4934-a935-a09ed1a105a9")
-		)
-		(pin "1"
-			(uuid "2c43713f-94e6-432d-b0a6-fcd8f308c668")
-		)
-		(instances
-			(project "Emaplaat"
-				(path "/489224c0-ace1-4530-aa61-a5d03adf1434"
-					(reference "C1")
 					(unit 1)
 				)
 			)
