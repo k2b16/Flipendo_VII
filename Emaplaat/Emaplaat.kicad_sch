@@ -1114,24 +1114,6 @@
 				(pin passive line
 					(at 0 -34.29 0)
 					(length 5.08)
-					(name "IO5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -36.83 0)
-					(length 5.08)
 					(name "IO6"
 						(effects
 							(font
@@ -1148,16 +1130,34 @@
 					)
 				)
 				(pin passive line
-					(at 0 -39.37 0)
+					(at 0 -36.83 0)
 					(length 5.08)
-					(name "IO4"
+					(name "IO7"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -39.37 0)
+					(length 5.08)
+					(name "IO5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1168,14 +1168,14 @@
 				(pin passive line
 					(at 0 -41.91 0)
 					(length 5.08)
-					(name "IO20"
+					(name "IO19"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "14"
+					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1448,14 +1448,14 @@
 				(pin passive line
 					(at 33.02 0 180)
 					(length 5.08)
-					(name "IO45"
+					(name "IO40"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "26"
+					(number "33"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1466,14 +1466,14 @@
 				(pin passive line
 					(at 33.02 -2.54 180)
 					(length 5.08)
-					(name "IO46"
+					(name "IO39"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "16"
+					(number "32"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1502,14 +1502,14 @@
 				(pin passive line
 					(at 33.02 -7.62 180)
 					(length 5.08)
-					(name "IO39"
+					(name "IO45"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "32"
+					(number "26"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1519,42 +1519,6 @@
 				)
 				(pin passive line
 					(at 33.02 -10.16 180)
-					(length 5.08)
-					(name "IO40"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "33"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 33.02 -12.7 180)
-					(length 5.08)
-					(name "IO41"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "34"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 33.02 -15.24 180)
 					(length 5.08)
 					(name "IO48"
 						(effects
@@ -1572,7 +1536,7 @@
 					)
 				)
 				(pin passive line
-					(at 33.02 -17.78 180)
+					(at 33.02 -12.7 180)
 					(length 5.08)
 					(name "IO47"
 						(effects
@@ -1590,7 +1554,7 @@
 					)
 				)
 				(pin passive line
-					(at 33.02 -20.32 180)
+					(at 33.02 -15.24 180)
 					(length 5.08)
 					(name "IO21"
 						(effects
@@ -1608,7 +1572,7 @@
 					)
 				)
 				(pin passive line
-					(at 33.02 -22.86 180)
+					(at 33.02 -17.78 180)
 					(length 5.08)
 					(name "IO14"
 						(effects
@@ -1626,7 +1590,7 @@
 					)
 				)
 				(pin passive line
-					(at 33.02 -25.4 180)
+					(at 33.02 -20.32 180)
 					(length 5.08)
 					(name "IO13"
 						(effects
@@ -1644,7 +1608,7 @@
 					)
 				)
 				(pin passive line
-					(at 33.02 -27.94 180)
+					(at 33.02 -22.86 180)
 					(length 5.08)
 					(name "IO12"
 						(effects
@@ -1662,7 +1626,7 @@
 					)
 				)
 				(pin passive line
-					(at 33.02 -30.48 180)
+					(at 33.02 -25.4 180)
 					(length 5.08)
 					(name "IO11"
 						(effects
@@ -1680,7 +1644,7 @@
 					)
 				)
 				(pin passive line
-					(at 33.02 -33.02 180)
+					(at 33.02 -27.94 180)
 					(length 5.08)
 					(name "IO10"
 						(effects
@@ -1698,7 +1662,7 @@
 					)
 				)
 				(pin passive line
-					(at 33.02 -35.56 180)
+					(at 33.02 -30.48 180)
 					(length 5.08)
 					(name "IO9"
 						(effects
@@ -1716,7 +1680,25 @@
 					)
 				)
 				(pin passive line
-					(at 33.02 -38.1 180)
+					(at 33.02 -33.02 180)
+					(length 5.08)
+					(name "IO46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -35.56 180)
 					(length 5.08)
 					(name "IO3"
 						(effects
@@ -1734,16 +1716,16 @@
 					)
 				)
 				(pin passive line
-					(at 33.02 -40.64 180)
+					(at 33.02 -38.1 180)
 					(length 5.08)
-					(name "IO17"
+					(name "IO20"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "10"
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1752,7 +1734,7 @@
 					)
 				)
 				(pin passive line
-					(at 33.02 -43.18 180)
+					(at 33.02 -40.64 180)
 					(length 5.08)
 					(name "IO18"
 						(effects
@@ -1770,16 +1752,16 @@
 					)
 				)
 				(pin passive line
-					(at 33.02 -45.72 180)
+					(at 33.02 -43.18 180)
 					(length 5.08)
-					(name "IO19"
+					(name "IO17"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "13"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1788,7 +1770,7 @@
 					)
 				)
 				(pin passive line
-					(at 33.02 -48.26 180)
+					(at 33.02 -45.72 180)
 					(length 5.08)
 					(name "IO8"
 						(effects
@@ -1806,7 +1788,7 @@
 					)
 				)
 				(pin passive line
-					(at 33.02 -50.8 180)
+					(at 33.02 -48.26 180)
 					(length 5.08)
 					(name "IO16"
 						(effects
@@ -1824,7 +1806,7 @@
 					)
 				)
 				(pin passive line
-					(at 33.02 -53.34 180)
+					(at 33.02 -50.8 180)
 					(length 5.08)
 					(name "IO15"
 						(effects
@@ -1842,16 +1824,34 @@
 					)
 				)
 				(pin passive line
-					(at 33.02 -55.88 180)
+					(at 33.02 -53.34 180)
 					(length 5.08)
-					(name "IO7"
+					(name "IO4"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "7"
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -55.88 180)
+					(length 5.08)
+					(name "IO41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2426,7 +2426,7 @@
 		(uuid "c63c3f44-a8f8-4c7b-a9ed-0c0f3d8ce2ff")
 	)
 	(no_connect
-		(at 184.15 99.06)
+		(at 184.15 45.72)
 		(uuid "5042c9ee-56f7-4b0b-a5db-ddc5c42247ab")
 	)
 	(no_connect
@@ -2442,7 +2442,7 @@
 		(uuid "a2bc68b5-af3e-41f4-bde9-0cb325de9089")
 	)
 	(no_connect
-		(at 184.15 101.6)
+		(at 184.15 99.06)
 		(uuid "b094f879-3458-4826-b233-d0413d64c349")
 	)
 	(wire
@@ -2507,7 +2507,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 45.72) (xy 198.12 45.72)
+			(xy 184.15 58.42) (xy 198.12 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2757,7 +2757,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 55.88) (xy 198.12 55.88)
+			(xy 184.15 48.26) (xy 198.12 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3327,7 +3327,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 48.26) (xy 198.12 48.26)
+			(xy 184.15 55.88) (xy 198.12 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3337,7 +3337,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 50.8) (xy 198.12 50.8)
+			(xy 184.15 53.34) (xy 198.12 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3387,7 +3387,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 58.42) (xy 198.12 58.42)
+			(xy 184.15 101.6) (xy 198.12 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3507,7 +3507,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 53.34) (xy 198.12 53.34)
+			(xy 184.15 50.8) (xy 198.12 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3836,7 +3836,7 @@
 		(uuid "218d7ae6-4a76-486a-bd14-4b3845ee1b8b")
 	)
 	(label "COLUMN3"
-		(at 198.12 50.8 180)
+		(at 198.12 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4096,7 +4096,7 @@
 		(uuid "62cae99c-8be0-4e2f-8de3-5ff04dca479e")
 	)
 	(label "BUZZER"
-		(at 198.12 58.42 180)
+		(at 198.12 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4286,7 +4286,7 @@
 		(uuid "a49e9238-1faf-4fd1-bb59-c6b5a868a5f0")
 	)
 	(label "COLUMN4"
-		(at 198.12 48.26 180)
+		(at 198.12 55.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4396,7 +4396,7 @@
 		(uuid "be072ea9-6a3d-4c3e-ae24-403bb271a306")
 	)
 	(label "COLUMN1"
-		(at 198.12 55.88 180)
+		(at 198.12 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4516,7 +4516,7 @@
 		(uuid "d05d87b7-0500-4795-bbe3-52f8cab96895")
 	)
 	(label "COLUMN2"
-		(at 198.12 53.34 180)
+		(at 198.12 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4616,7 +4616,7 @@
 		(uuid "e185809e-21db-4e2c-bf6a-8a0508d69c72")
 	)
 	(label "COLUMN5"
-		(at 198.12 45.72 180)
+		(at 198.12 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
