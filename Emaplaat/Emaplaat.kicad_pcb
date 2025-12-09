@@ -3868,7 +3868,7 @@
 			(uuid "14d512e5-d1cb-446d-8065-b5ac0cdc1a3f")
 		)
 		(embedded_fonts no)
-		(model "${FLIPTEND}/3d_models/0031.8242.stp"
+		(model "${FLIPDENDO_VVII_3D_MODELS}/0031.8242.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4444,7 +4444,7 @@
 			(uuid "8eb9d15b-700d-4097-8531-455e16ff4edd")
 		)
 		(embedded_fonts no)
-		(model "${FLIPTEND}/3d_models/1EDN7550BXTSA1.stp"
+		(model "${FLIPDENDO_VVII_3D_MODELS}/1EDN7550BXTSA1.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5020,7 +5020,7 @@
 			(uuid "c8f4219f-e7b6-423d-a5c1-dde4af78180b")
 		)
 		(embedded_fonts no)
-		(model "${FLIPTEND}/3d_models/1EDN7550BXTSA1.stp"
+		(model "1EDN7550BXTSA1.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17963,7 +17963,7 @@
 			(uuid "e5540719-f839-4601-aa65-6d1a19d323ec")
 		)
 		(embedded_fonts no)
-		(model "${FLIPTEND}/3d_models/694108301002.stp"
+		(model "${FLIPDENDO_VVII_3D_MODELS}/694108301002.stp"
 			(offset
 				(xyz -10 0 5)
 			)
@@ -19258,7 +19258,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${FLIPTEND}/3d_models/MX_PCB.step"
+		(model "${FLIPDENDO_VVII_3D_MODELS}/MX_PCB.step"
 			(offset
 				(xyz -2.5 -5 0)
 			)
@@ -36743,7 +36743,7 @@
 			(uuid "301cb8e8-6265-45d7-b40d-b27eaf180126")
 		)
 		(embedded_fonts no)
-		(model "${FLIPTEND}/3d_models/74HC595PW-Q100,118.stp"
+		(model "${FLIPDENDO_VVII_3D_MODELS}/74HC595PW-Q100,118.stp"
 			(offset
 				(xyz 0 0 0.5400000133)
 			)
@@ -38337,7 +38337,7 @@
 			(uuid "b4f9bfdb-f2d2-4e0d-88ea-d4b9e0f31ae1")
 		)
 		(embedded_fonts no)
-		(model "${FLIPTEND}/3d_models/74HC595PW-Q100,118.stp"
+		(model "${FLIPDENDO_VVII_3D_MODELS}/74HC595PW-Q100,118.stp"
 			(offset
 				(xyz 0 0 0.5400000133)
 			)
@@ -39936,7 +39936,7 @@
 			(uuid "419502c3-5690-49b7-a836-daa977b70963")
 		)
 		(embedded_fonts no)
-		(model "${FLIPTEND}/3d_models/1EDN7550BXTSA1.stp"
+		(model "${FLIPDENDO_VVII_3D_MODELS}/1EDN7550BXTSA1.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -44621,7 +44621,7 @@
 			(uuid "80201ccb-099e-4392-a546-261576c0d943")
 		)
 		(embedded_fonts no)
-		(model "${FLIPTEND}/3d_models/1EDN7550BXTSA1.stp"
+		(model "${FLIPDENDO_VVII_3D_MODELS}/1EDN7550BXTSA1.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -51033,7 +51033,7 @@
 			(uuid "0c97793b-5b82-4ff2-ae03-5a3a259e196c")
 		)
 		(embedded_fonts no)
-		(model "${FLIPTEND}/3d_models/1EDN7550BXTSA1.stp"
+		(model "${FLIPDENDO_VVII_3D_MODELS}/1EDN7550BXTSA1.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -57191,7 +57191,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${FLIPTEND}/3d_models/MX_PCB.step"
+		(model "${FLIPDENDO_VVII_3D_MODELS}/MX_PCB.step"
 			(offset
 				(xyz -2.5 -5 0)
 			)
@@ -61183,7 +61183,7 @@
 			(uuid "3479df8b-0dab-431b-ad57-970d14de51e4")
 		)
 		(embedded_fonts no)
-		(model "${FLIPTEND}/3d_models/1EDN7550BXTSA1.stp"
+		(model "${FLIPDENDO_VVII_3D_MODELS}/1EDN7550BXTSA1.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -64976,7 +64976,7 @@
 			(uuid "67c60429-c523-496f-9592-f995a768ab9c")
 		)
 		(embedded_fonts no)
-		(model "${FLIPTEND}/3d_models/1EDN7550BXTSA1.stp"
+		(model "${FLIPDENDO_VVII_3D_MODELS}/1EDN7550BXTSA1.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -65452,7 +65452,7 @@
 			(uuid "507e3552-5c79-403b-9865-a78f5ea10f1e")
 		)
 		(embedded_fonts no)
-		(model "${FLIPTEND}/3d_models/USB4216-03-A.stp"
+		(model "${FLIPDENDO_VVII_3D_MODELS}/USB4216-03-A.stp"
 			(offset
 				(xyz 0 -5.289999882 1.629999971)
 			)
@@ -69034,7 +69034,7 @@
 			(uuid "fc943323-3384-4d19-8bc3-9897bb2b5753")
 		)
 		(embedded_fonts no)
-		(model "${FLIPTEND}/3d_models/TL3305BF100QG.stp"
+		(model "${FLIPDENDO_VVII_3D_MODELS}/TL3305BF100QG.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -69528,7 +69528,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${FLIPTEND}/3d_models/MX_PCB.step"
+		(model "${FLIPDENDO_VVII_3D_MODELS}/MX_PCB.step"
 			(offset
 				(xyz -2.5 -5 0)
 			)
@@ -78233,7 +78233,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${FLIPTEND}/3d_models/MX_PCB.step"
+		(model "${FLIPDENDO_VVII_3D_MODELS}/MX_PCB.step"
 			(offset
 				(xyz -2.5 -5 0)
 			)
@@ -79443,7 +79443,7 @@
 			(uuid "8ab17676-174c-4ecc-a031-4cb7662f7b3b")
 		)
 		(embedded_fonts no)
-		(model "${FLIPTEND}/3d_models/1EDN7550BXTSA1.stp"
+		(model "${FLIPDENDO_VVII_3D_MODELS}/1EDN7550BXTSA1.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -82605,7 +82605,7 @@
 			(uuid "52f1c5a8-bd41-4cdb-b9b2-65850cea5ac2")
 		)
 		(embedded_fonts no)
-		(model "${FLIPTEND}/3d_models/1EDN7550BXTSA1.stp"
+		(model "${FLIPDENDO_VVII_3D_MODELS}/1EDN7550BXTSA1.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -84005,7 +84005,7 @@
 			(uuid "d15291bb-7e6b-40b3-8237-a0347fe6acfb")
 		)
 		(embedded_fonts no)
-		(model "${FLIPTEND}/3d_models/1EDN7550BXTSA1.stp"
+		(model "${FLIPDENDO_VVII_3D_MODELS}/1EDN7550BXTSA1.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -86929,7 +86929,7 @@
 			(uuid "bd9cb8b0-b00f-4502-a3b2-33bd97a05e54")
 		)
 		(embedded_fonts no)
-		(model "${FLIPTEND}/3d_models/1EDN7550BXTSA1.stp"
+		(model "${FLIPDENDO_VVII_3D_MODELS}/1EDN7550BXTSA1.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -89787,7 +89787,7 @@
 			(uuid "08d71e68-e9a5-48c1-a639-fa5fb6bf48a9")
 		)
 		(embedded_fonts no)
-		(model "${FLIPTEND}/3d_models/TL3305BF100QG.stp"
+		(model "${FLIPDENDO_VVII_3D_MODELS}/TL3305BF100QG.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -102653,7 +102653,7 @@
 			(uuid "c02379fb-5db8-426a-8acc-5c7306d588fb")
 		)
 		(embedded_fonts no)
-		(model "${FLIPTEND}/3d_models/FT232RNL-TUBE.stp"
+		(model "${FLIPDENDO_VVII_3D_MODELS}/FT232RNL-TUBE.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -105610,7 +105610,7 @@
 			(uuid "3da95d5b-eee0-494f-bd46-b2add4b629b8")
 		)
 		(embedded_fonts no)
-		(model "${FLIPDENDO_VVII_3D_MODELS}/3d_models/1EDN7550BXTSA1.stp"
+		(model "${FLIPDENDO_VVII_3D_MODELS}/1EDN7550BXTSA1.stp"
 			(offset
 				(xyz 0 0 0)
 			)
