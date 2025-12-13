@@ -39549,6 +39549,32 @@
 				)
 			)
 		)
+		(property "Product" "C0603C220M5HACTU"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c9d6359-a52d-4a14-8131-d1043d540c62")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Store link" "https://www.mouser.ee/ProductDetail/KEMET/C0603C220M5HACTU?qs=sGAEpiMZZMsh%252B1woXyUXj2Bz7Q4aUyX%2Flcbpy022Dds%3D"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7159acd4-a5df-4715-b4c0-c306a0cdbd40")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/902edf26-f9ad-46ee-8658-d4b7491aa9c7/fdebaec6-8ee0-4f82-bf69-17d9632c09eb")
 		(sheetname "/uhendused_ja_toide/")
@@ -72242,6 +72268,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "store link" "https://www.mouser.ee/ProductDetail/Samsung-Electro-Mechanics/CL10B104KA8NNNL?qs=sGAEpiMZZMsh%252B1woXyUXj9e2R%2FOkAO5o%252Br%252ButKKQiGY%3D"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "422275f2-abb5-4cc8-bf22-ee2c76d5ae92")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "product" " CL10B104KA8NNNL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "864a3528-3253-423d-aed8-2c27103199a5")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)

@@ -517,7 +517,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "/home/argo/Desktop/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -655,6 +655,36 @@
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "product",
+          "name": "product",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "store link",
+          "name": "store link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Product",
+          "name": "Product",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Store link",
+          "name": "Store link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Working voltage",
+          "name": "Working voltage",
           "show": false
         }
       ],
