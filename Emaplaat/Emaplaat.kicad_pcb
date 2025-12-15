@@ -1801,7 +1801,7 @@
 			(uuid "5cfc553b-def4-4cb3-9563-96c40d5f1b53")
 		)
 		(embedded_fonts no)
-		(model "ESH107M025AE3DA.stp"
+		(model "${FLIPDENDO_VVII_3D_MODELS}/ESH107M025AE3DA.stp"
 			(offset
 				(xyz 1.249999981 0 14.73999955)
 			)
@@ -5124,7 +5124,7 @@
 			(uuid "c8f4219f-e7b6-423d-a5c1-dde4af78180b")
 		)
 		(embedded_fonts no)
-		(model "1EDN7550BXTSA1.stp"
+		(model "${FLIPDENDO_VVII_3D_MODELS}/1EDN7550BXTSA1.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6325,15 +6325,15 @@
 			(uuid "5e537240-d9aa-4704-8235-14368a9eb1c3")
 		)
 		(embedded_fonts no)
-		(model "ESH107M025AE3DA.stp"
+		(model "${FLIPDENDO_VVII_3D_MODELS}/511D476M025AA4D.stp"
 			(offset
-				(xyz 1.249999981 0 14.73999955)
+				(xyz 1.25 0 0.1)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -90 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -12318,7 +12318,7 @@
 			(uuid "c5caa27c-9485-4e96-a19a-be250d807f80")
 		)
 		(embedded_fonts no)
-		(model "ESH107M025AE3DA.stp"
+		(model "${FLIPDENDO_VVII_3D_MODELS}/ESH107M025AE3DA.stp"
 			(offset
 				(xyz 1.249999981 0 14.73999955)
 			)
@@ -20303,15 +20303,15 @@
 			(uuid "dcc28162-7744-4e4b-b144-69295003962b")
 		)
 		(embedded_fonts no)
-		(model "ECE-A1EKA100.stp"
+		(model "${FLIPDENDO_VVII_3D_MODELS}/ECE-A1EKA100.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 0 0.1)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -22666,15 +22666,15 @@
 			(uuid "ef1f014b-fce5-4174-9b87-85c9fa592134")
 		)
 		(embedded_fonts no)
-		(model "ECE-A1EKA100.stp"
+		(model "${FLIPDENDO_VVII_3D_MODELS}/ECE-A1EKA100.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 0 0.1)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -24809,7 +24809,7 @@
 			(uuid "bdeb7094-4b38-4bdd-b235-8b6db98d7334")
 		)
 		(embedded_fonts no)
-		(model "ESH107M025AE3DA.stp"
+		(model "${FLIPDENDO_VVII_3D_MODELS}/ESH107M025AE3DA.stp"
 			(offset
 				(xyz 1.249999981 0 14.73999955)
 			)
@@ -28115,7 +28115,7 @@
 			(uuid "ce628d83-3274-42cc-a2d2-759596552702")
 		)
 		(embedded_fonts no)
-		(model "ESH107M025AE3DA.stp"
+		(model "${FLIPDENDO_VVII_3D_MODELS}/ESH107M025AE3DA.stp"
 			(offset
 				(xyz 1.249999981 0 14.73999955)
 			)
@@ -37461,7 +37461,7 @@
 			(uuid "a1e8bf6c-36f5-45cc-b5c5-3c6336cdb225")
 		)
 		(embedded_fonts no)
-		(model "GRM21AR7LU332KW01D.stp"
+		(model "${FLIPDENDO_VVII_3D_MODELS}/GRM21AR7LU332KW01D.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -39815,7 +39815,7 @@
 			(uuid "cdaf3cb2-a908-4295-9845-fbb8dab9f2a4")
 		)
 		(embedded_fonts no)
-		(model "ESH107M025AE3DA.stp"
+		(model "${FLIPDENDO_VVII_3D_MODELS}/ESH107M025AE3DA.stp"
 			(offset
 				(xyz 1.249999981 0 14.73999955)
 			)
@@ -43234,7 +43234,7 @@
 			(uuid "c5ba7885-30a1-4f8b-a8a1-acf934f5bc42")
 		)
 		(embedded_fonts no)
-		(model "ESH107M025AE3DA.stp"
+		(model "${FLIPDENDO_VVII_3D_MODELS}/ESH107M025AE3DA.stp"
 			(offset
 				(xyz 1.249999981 0 14.73999955)
 			)
@@ -44470,7 +44470,7 @@
 			(uuid "55f77e90-3ea4-4656-8497-bdf2f1c3e449")
 		)
 		(embedded_fonts no)
-		(model "ESH107M025AE3DA.stp"
+		(model "${FLIPDENDO_VVII_3D_MODELS}/ESH107M025AE3DA.stp"
 			(offset
 				(xyz 1.249999981 0 14.73999955)
 			)
@@ -45870,7 +45870,7 @@
 			(uuid "1f568981-3905-40c4-9ff9-b0d4349aa1ee")
 		)
 		(embedded_fonts no)
-		(model "ESH107M025AE3DA.stp"
+		(model "${FLIPDENDO_VVII_3D_MODELS}/ESH107M025AE3DA.stp"
 			(offset
 				(xyz 1.249999981 0 14.73999955)
 			)
@@ -47580,7 +47580,7 @@
 			(uuid "d28cccc4-64f0-4522-8cf0-2ec9aee5d258")
 		)
 		(embedded_fonts no)
-		(model "ESH107M025AE3DA.stp"
+		(model "${FLIPDENDO_VVII_3D_MODELS}/ESH107M025AE3DA.stp"
 			(offset
 				(xyz 1.249999981 0 14.73999955)
 			)
@@ -49477,7 +49477,7 @@
 			(uuid "12d6b028-4d5a-4b16-93e2-f960e400402d")
 		)
 		(embedded_fonts no)
-		(model "74HCT595D,118.stp"
+		(model "${FLIPDENDO_VVII_3D_MODELS}/74HCT595D_118.stp"
 			(offset
 				(xyz -6.699999709 -4.209999975 -4.239999707)
 			)
@@ -51266,7 +51266,7 @@
 			(uuid "b0f60e39-4208-48cb-adff-dc41e2f31332")
 		)
 		(embedded_fonts no)
-		(model "ESH107M025AE3DA.stp"
+		(model "${FLIPDENDO_VVII_3D_MODELS}/ESH107M025AE3DA.stp"
 			(offset
 				(xyz 1.249999981 0 14.73999955)
 			)
@@ -58562,7 +58562,7 @@
 			(uuid "4615f663-3613-48da-9ef0-670546ef7931")
 		)
 		(embedded_fonts no)
-		(model "ESH107M025AE3DA.stp"
+		(model "${FLIPDENDO_VVII_3D_MODELS}/ESH107M025AE3DA.stp"
 			(offset
 				(xyz 1.249999981 0 14.73999955)
 			)
@@ -59224,7 +59224,7 @@
 			(uuid "243df18c-837b-470f-a674-bbaa9a01666b")
 		)
 		(embedded_fonts no)
-		(model "ESH107M025AE3DA.stp"
+		(model "${FLIPDENDO_VVII_3D_MODELS}/ESH107M025AE3DA.stp"
 			(offset
 				(xyz 1.249999981 0 14.73999955)
 			)
@@ -59709,7 +59709,7 @@
 			(uuid "cb5223e0-ea25-4fc1-b1b4-9cd080d60ef1")
 		)
 		(embedded_fonts no)
-		(model "ESH107M025AE3DA.stp"
+		(model "${FLIPDENDO_VVII_3D_MODELS}/ESH107M025AE3DA.stp"
 			(offset
 				(xyz 1.249999981 0 14.73999955)
 			)
@@ -60533,7 +60533,7 @@
 			(uuid "7d3aabb3-786f-4400-b1fa-8282f45882ea")
 		)
 		(embedded_fonts no)
-		(model "ESH107M025AE3DA.stp"
+		(model "${FLIPDENDO_VVII_3D_MODELS}/ESH107M025AE3DA.stp"
 			(offset
 				(xyz 1.249999981 0 14.73999955)
 			)
@@ -62849,7 +62849,7 @@
 			(uuid "3dfa683e-41c2-4a35-83fc-9300035b6f05")
 		)
 		(embedded_fonts no)
-		(model "ESH107M025AE3DA.stp"
+		(model "${FLIPDENDO_VVII_3D_MODELS}/ESH107M025AE3DA.stp"
 			(offset
 				(xyz 1.249999981 0 14.73999955)
 			)
@@ -66105,6 +66105,17 @@
 			)
 		)
 		(embedded_fonts no)
+		(model "${FLIPTENDO_VVII_3D_MODELS}/ESP32-S3-WROOM-2-N32R16V.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "SOT95P280X145-6N:SOT95P280X145-6N"
 		(layer "F.Cu")
@@ -69564,7 +69575,7 @@
 			(uuid "683d36bf-87d5-4490-a1ee-c765a77a90ca")
 		)
 		(embedded_fonts no)
-		(model "ESH107M025AE3DA.stp"
+		(model "${FLIPDENDO_VVII_3D_MODELS}/ESH107M025AE3DA.stp"
 			(offset
 				(xyz 1.249999981 0 14.73999955)
 			)
@@ -74131,15 +74142,15 @@
 			(uuid "c1a2189c-4ab6-4953-ba88-2756dfffe4ef")
 		)
 		(embedded_fonts no)
-		(model "511D476M025AA4D.stp"
+		(model "${FLIPDENDO_VVII_3D_MODELS}/511D476M025AA4D.stp"
 			(offset
-				(xyz 1.249999981 0 0.01999999925)
+				(xyz 1.25 0 0.1)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -74321,7 +74332,7 @@
 			(uuid "625ebaef-6291-4003-968e-bfb9218b17f0")
 		)
 		(embedded_fonts no)
-		(model "ESH107M025AE3DA.stp"
+		(model "${FLIPDENDO_VVII_3D_MODELS}/ESH107M025AE3DA.stp"
 			(offset
 				(xyz 1.249999981 0 14.73999955)
 			)
@@ -75047,7 +75058,7 @@
 			(uuid "164e2da0-97a7-4ce0-8a28-7d5bb3089efd")
 		)
 		(embedded_fonts no)
-		(model "GRM32ER71H475KA88K.stp"
+		(model "${FLIPDENDO_VVII_3D_MODELS}/GRM32ER71H475KA88K.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -76107,7 +76118,7 @@
 			(uuid "cc50fc6e-e913-4506-8aa8-86d8416889f4")
 		)
 		(embedded_fonts no)
-		(model "ESH107M025AE3DA.stp"
+		(model "${FLIPDENDO_VVII_3D_MODELS}/ESH107M025AE3DA.stp"
 			(offset
 				(xyz 1.249999981 0 14.73999955)
 			)
@@ -76544,6 +76555,17 @@
 				(xyz -90 -90 0)
 			)
 		)
+		(model "${FLIPDENDO_VVII_3D_MODELS}/ESH107M025AE3DA.stp"
+			(offset
+				(xyz 1.25 0 14.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -90 -90)
+			)
+		)
 	)
 	(footprint "UCLAMP1201H.TCT:SODFL1608X70N"
 		(layer "F.Cu")
@@ -76807,7 +76829,7 @@
 			(uuid "80ff4ec4-3ab3-4a2b-86d2-44334b734e39")
 		)
 		(embedded_fonts no)
-		(model "UCLAMP1201H.TCT.stp"
+		(model "${FLIPDENDO_VVII_3D_MODELS}/UCLAMP1201H.TCT.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -86422,7 +86444,7 @@
 			(uuid "2d71897d-6fb3-4a36-b316-e513ea366333")
 		)
 		(embedded_fonts no)
-		(model "ESH107M025AE3DA.stp"
+		(model "${FLIPDENDO_VVII_3D_MODELS}/ESH107M025AE3DA.stp"
 			(offset
 				(xyz 1.249999981 0 14.73999955)
 			)
@@ -90415,7 +90437,7 @@
 			(uuid "b790cc4f-a0b9-4549-8000-609c8e126e85")
 		)
 		(embedded_fonts no)
-		(model "ESH107M025AE3DA.stp"
+		(model "${FLIPDENDO_VVII_3D_MODELS}/ESH107M025AE3DA.stp"
 			(offset
 				(xyz 1.249999981 0 14.73999955)
 			)
@@ -91841,7 +91863,7 @@
 			(uuid "511829cd-4852-4f90-8b18-9e3a535f5c6c")
 		)
 		(embedded_fonts no)
-		(model "ESH107M025AE3DA.stp"
+		(model "${FLIPDENDO_VVII_3D_MODELS}/ESH107M025AE3DA.stp"
 			(offset
 				(xyz 1.249999981 0 14.73999955)
 			)
@@ -92739,7 +92761,7 @@
 			(uuid "68eb35b7-a8d0-46b6-9f44-3d04a143d165")
 		)
 		(embedded_fonts no)
-		(model "ESH107M025AE3DA.stp"
+		(model "${FLIPDENDO_VVII_3D_MODELS}/ESH107M025AE3DA.stp"
 			(offset
 				(xyz 1.249999981 0 14.73999955)
 			)
@@ -93749,7 +93771,7 @@
 			(uuid "dcecbbb3-8c78-431f-9ccb-93118211ce89")
 		)
 		(embedded_fonts no)
-		(model "74HCT595D,118.stp"
+		(model "${FLIPDENDO_VVII_3D_MODELS}/74HCT595D_118.stp"
 			(offset
 				(xyz -6.699999709 -4.209999975 -4.239999707)
 			)
@@ -93939,7 +93961,7 @@
 			(uuid "a079c48a-da17-4f1a-ba7b-84285e143471")
 		)
 		(embedded_fonts no)
-		(model "ESH107M025AE3DA.stp"
+		(model "${FLIPDENDO_VVII_3D_MODELS}/ESH107M025AE3DA.stp"
 			(offset
 				(xyz 1.249999981 0 14.73999955)
 			)
@@ -95376,7 +95398,7 @@
 			(uuid "d187bfb3-e9ff-48a2-bb34-b77291c2920f")
 		)
 		(embedded_fonts no)
-		(model "ESH107M025AE3DA.stp"
+		(model "${FLIPDENDO_VVII_3D_MODELS}/ESH107M025AE3DA.stp"
 			(offset
 				(xyz 1.249999981 0 14.73999955)
 			)
@@ -103823,7 +103845,7 @@
 			(uuid "d805a2d0-19cb-4d93-9eaa-6ad47ae6f07c")
 		)
 		(embedded_fonts no)
-		(model "ESH107M025AE3DA.stp"
+		(model "${FLIPDENDO_VVII_3D_MODELS}/ESH107M025AE3DA.stp"
 			(offset
 				(xyz 1.249999981 0 14.73999955)
 			)
@@ -105271,7 +105293,7 @@
 			(uuid "1483beb0-ebea-4c6a-8140-0ec703a00829")
 		)
 		(embedded_fonts no)
-		(model "SRP2512TMA-2R2M.stp"
+		(model "${FLIPDENDO_VVII_3D_MODELS}/SRP2512TMA-2R2M.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -106047,7 +106069,7 @@
 			(uuid "ce231f85-5e24-4af8-995a-09d40159d95b")
 		)
 		(embedded_fonts no)
-		(model "ESH107M025AE3DA.stp"
+		(model "${FLIPDENDO_VVII_3D_MODELS}/ESH107M025AE3DA.stp"
 			(offset
 				(xyz 1.249999981 0 14.73999955)
 			)
@@ -110072,7 +110094,7 @@
 			(uuid "7bbf5836-bb84-4ef9-ac58-026bcf62e6d6")
 		)
 		(embedded_fonts no)
-		(model "ESH107M025AE3DA.stp"
+		(model "${FLIPDENDO_VVII_3D_MODELS}/ESH107M025AE3DA.stp"
 			(offset
 				(xyz 1.249999981 0 14.73999955)
 			)
