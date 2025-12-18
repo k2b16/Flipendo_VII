@@ -3358,7 +3358,7 @@
 		(fields_autoplaced yes)
 		(uuid "25386569-8d7d-47e0-982b-6a8d29355ce4")
 		(property "Reference" "U1"
-			(at 165.6293 78.8353 0)
+			(at 165.735 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3366,7 +3366,7 @@
 			)
 		)
 		(property "Value" "1EDN7550BXTSA1"
-			(at 165.6293 81.3753 0)
+			(at 165.735 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
