@@ -5,6 +5,9 @@ const int UP = 19;
 const int DOWN = 6;
 const int LEFT = 5;
 const int RIGHT = 7;
+const int JS_SW = 42;
+const int JS_RY = 1;
+const int JS_RX = 2;
 
 unsigned long lastTime = 0;
 uint userLedState = 1;
@@ -15,6 +18,7 @@ void setup() {
   pinMode(DOWN, INPUT_PULLDOWN);
   pinMode(LEFT, INPUT_PULLDOWN);
   pinMode(RIGHT, INPUT_PULLDOWN);
+  pinMode(JS_SW, INPUT_PULLDOWN);
 
   Serial.begin(115200);
   delay(500);
@@ -55,4 +59,16 @@ void loop() {
   if (state == HIGH) {
     Serial.println("right pressed");
   }
+
+  state = digitalRead(JS_SW);
+  if (state == HIGH) {
+    Serial.println("Joystick switch pressed");
+  }
+
+  int rx = 0, ry = 0;
+  rx = analogRead(JS_RX);
+  ry = analogRead(JS_RY);
+  Serial.printf("RX: %d, RY: %d \n", rx, ry);
+
+  delay(200);
 }
