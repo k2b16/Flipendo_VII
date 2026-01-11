@@ -8,12 +8,14 @@ const int RIGHT = 7;
 const int JS_SW = 42;
 const int JS_RY = 1;
 const int JS_RX = 2;
+const int COL_1 = 39;
 
 unsigned long lastTime = 0;
 uint userLedState = 1;
 
 void setup() {
   pinMode(USER_LED, OUTPUT);
+  pinMode(COL_1, OUTPUT);
   pinMode(UP, INPUT_PULLDOWN);
   pinMode(DOWN, INPUT_PULLDOWN);
   pinMode(LEFT, INPUT_PULLDOWN);
@@ -31,9 +33,12 @@ void loop() {
 
     if (userLedState == 1){
       digitalWrite(USER_LED, HIGH);
+      digitalWrite(COL_1, HIGH);
       userLedState = 0;
+      
     } else {
       digitalWrite(USER_LED, LOW);
+      digitalWrite(COL_1, LOW);
       userLedState = 1;
     }
   }
