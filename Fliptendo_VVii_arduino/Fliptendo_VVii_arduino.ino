@@ -51,8 +51,9 @@ const int DS = 15;
 const int BUZZER = 41;
 
 /* variables */
-unsigned long lastTime = 0;
+unsigned long userLedLastTime = 0;
 uint userLedState = 1;
+
 int rows[] = {
   LOW,
   LOW,
@@ -107,11 +108,11 @@ void setup_pins(void){
 }
 
 void user_led_blink(void){
-  if (millis() - lastTime >= 1000) {
-    lastTime = millis();
+  if (millis() - userLedLastTime >= 1000) {
+    userLedLastTime = millis();
     Serial.println("blink");
 
-    if (userLedState == 1){
+    if (1 == userLedState){
       digitalWrite(USER_LED, HIGH);
       userLedState = 0;
     } else {
@@ -123,26 +124,14 @@ void user_led_blink(void){
 
 void read_buttons(buttons_st* buttons){
   int state;
-
   state = digitalRead(UP);
   buttons->up = state;
-  if (state == LOW) {
-  }
-
   state = digitalRead(DOWN);
   buttons->down = state;
-  if (state == LOW) {
-  }
-
   state = digitalRead(LEFT);
   buttons->left = state;
-  if (state == LOW) {
-  }
-
   state = digitalRead(RIGHT);
   buttons->right = state;
-  if (state == LOW) {
-  }
 }
 
 void read_joystick(void){
@@ -158,7 +147,7 @@ void read_joystick(void){
 }
 
 void shift_out(int rows[]){
-  int shift_reg_delayMicroseconds = 200;
+  uint32_t shift_reg_delayMicroseconds = 10;
   // set everything default
   digitalWrite(SHCP, LOW);
   digitalWrite(DS, LOW);
@@ -204,7 +193,6 @@ void shift_out(int rows[]){
 
 void set_columns_gnd(void){
   digitalWrite(COL_1, LOW);
-  /*
   digitalWrite(COL_2, LOW);
   digitalWrite(COL_3, LOW);
   digitalWrite(COL_4, LOW);
@@ -218,7 +206,6 @@ void set_columns_gnd(void){
   digitalWrite(COL_12, LOW);
   digitalWrite(COL_13, LOW);
   digitalWrite(COL_14, LOW);
-  */
 }
 
 void set_columns_12V(void){
@@ -257,16 +244,6 @@ void set_all_rows_nc(void){
   rows[15] = LOW; // NC
 }
 
-void set_row6_12V(void){
-  rows[0] = HIGH; // ROW6_L
-  rows[1] = HIGH; // ROW6_H
-}
-
-void set_row6_gnd(void){
-  rows[0] = LOW; // ROW6_L
-  rows[1] = LOW; // ROW6_H
-}
-
 void set_row7_12V(void){
   rows[2] = HIGH; // ROW7_L
   rows[3] = HIGH; // ROW7_H
@@ -277,75 +254,215 @@ void set_row7_gnd(void){
   rows[3] = LOW; // ROW7_H
 }
 
-/* main functions */
+void set_row6_12V(void){
+  rows[0] = HIGH; // ROW6_L
+  rows[1] = HIGH; // ROW6_H
+}
+
+void set_row6_gnd(void){
+  rows[0] = LOW; // ROW6_L
+  rows[1] = LOW; // ROW6_H
+}
+
+void set_row5_12V(void){
+  rows[4] = HIGH; // ROW5_H
+  rows[5] = HIGH; // ROW5_L
+}
+
+void set_row5_gnd(void){
+  rows[4] = LOW; // ROW5_H
+  rows[5] = LOW; // ROW5_L
+}
+
+/* main setup function */
 void setup() {
   setup_pins();
-  set_columns_gnd();
 
-  Serial.begin(115200);
-  delay(500);
-  Serial.println("ESP32-S3 started");
+  set_columns_gnd();
 
   set_all_rows_nc();
   shift_out(rows);
 
+  Serial.begin(115200);
+  delay(500);
+  Serial.println("ESP32-S3 started");
 }
 
-int flip_dot_state = 0;
+uint32_t pulse_us = 1000;
 
+void black_3x3(void){
+  set_all_rows_nc();
+  set_row7_12V();
+  shift_out(rows);
+  digitalWrite(COL_1, HIGH);
+  digitalWrite(COL_2, HIGH);
+  digitalWrite(COL_3, HIGH);
+
+  digitalWrite(COL_1, LOW);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_1, HIGH);
+
+  digitalWrite(COL_2, LOW);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_2, HIGH);
+
+  digitalWrite(COL_3, LOW);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_3, HIGH);
+
+  digitalWrite(COL_1, LOW);
+  digitalWrite(COL_2, LOW);
+  digitalWrite(COL_3, LOW);
+
+  set_all_rows_nc();
+  shift_out(rows);
+
+  set_all_rows_nc();
+  set_row6_12V();
+  shift_out(rows);
+  digitalWrite(COL_1, HIGH);
+  digitalWrite(COL_2, HIGH);
+  digitalWrite(COL_3, HIGH);
+
+  digitalWrite(COL_1, LOW);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_1, HIGH);
+
+  digitalWrite(COL_2, LOW);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_2, HIGH);
+
+  digitalWrite(COL_3, LOW);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_3, HIGH);
+
+  digitalWrite(COL_1, LOW);
+  digitalWrite(COL_2, LOW);
+  digitalWrite(COL_3, LOW);
+
+  set_all_rows_nc();
+  shift_out(rows);
+
+  set_all_rows_nc();
+  set_row5_12V();
+  shift_out(rows);
+  digitalWrite(COL_1, HIGH);
+  digitalWrite(COL_2, HIGH);
+  digitalWrite(COL_3, HIGH);
+
+  digitalWrite(COL_1, LOW);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_1, HIGH);
+
+  digitalWrite(COL_2, LOW);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_2, HIGH);
+
+  digitalWrite(COL_3, LOW);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_3, HIGH);
+
+  digitalWrite(COL_1, LOW);
+  digitalWrite(COL_2, LOW);
+  digitalWrite(COL_3, LOW);
+
+  set_all_rows_nc();
+  shift_out(rows);
+}
+
+void white_row7_col1(void){
+  set_all_rows_nc();
+  set_row7_gnd();
+  shift_out(rows);
+
+  digitalWrite(COL_1, LOW);
+
+  digitalWrite(COL_1, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_1, LOW);
+  
+  set_all_rows_nc();
+  shift_out(rows);
+}
+
+void white_row5_col3(void){
+  set_all_rows_nc();
+  set_row5_gnd();
+  shift_out(rows);
+
+  digitalWrite(COL_3, LOW);
+
+  digitalWrite(COL_3, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_3, LOW);
+  
+  set_all_rows_nc();
+  shift_out(rows);
+}
+
+void white_row6_col2(void){
+  set_all_rows_nc();
+  set_row6_gnd();
+  shift_out(rows);
+
+  digitalWrite(COL_2, LOW);
+
+  digitalWrite(COL_2, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_2, LOW);
+  
+  set_all_rows_nc();
+  shift_out(rows);
+}
+
+void white_row5_col1_col2(void){
+  set_all_rows_nc();
+  set_row5_gnd();
+  shift_out(rows);
+
+  digitalWrite(COL_1, LOW);
+  digitalWrite(COL_2, LOW);
+
+  digitalWrite(COL_1, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_1, LOW);
+
+  digitalWrite(COL_2, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_2, LOW);
+
+  set_all_rows_nc();
+  shift_out(rows);
+}
+
+
+
+/* main loop function */
 void loop() {
   user_led_blink();
 
-  if (0 == flip_dot_state){
-    digitalWrite(COL_1, LOW);
-    set_all_rows_nc();
-    set_row7_gnd();
-    shift_out(rows);
-
-  } else if (1 == flip_dot_state){
-    digitalWrite(COL_1, HIGH);
-    set_all_rows_nc();
-    shift_out(rows);
-
-    digitalWrite(COL_1, LOW);
-
-  } else if (2 == flip_dot_state){
-    digitalWrite(COL_1, LOW);
-    set_all_rows_nc();
-    set_row7_12V();
-    shift_out(rows);
-    
-    digitalWrite(COL_1, HIGH);
-
-  } else if (3 == flip_dot_state){
-    digitalWrite(COL_1, HIGH);
-    set_all_rows_nc();
-    set_row7_gnd();
-    shift_out(rows);
-
-    digitalWrite(COL_1, LOW);
-  }
-  
   buttons_st buttons;
   read_buttons(&buttons);
-
   if (LOW == buttons.up){
     Serial.println("up pressed");
-    flip_dot_state = 0;
+    black_3x3();
+    white_row5_col1_col2();
   }
   if (LOW == buttons.down){
     Serial.println("down pressed");
-    flip_dot_state = 1;
+    black_3x3();
+    white_row5_col3();
   }
   if (LOW == buttons.left){
     Serial.println("left pressed");
-    flip_dot_state = 2;
+    black_3x3();
+    white_row6_col2();
   }
   if (LOW == buttons.right){
     Serial.println("right pressed");
-    flip_dot_state = 3;
+    black_3x3();
+    white_row7_col1();
   }
-
-  //read_joystick();
   delay(100);
+  //read_joystick();
 }
