@@ -288,7 +288,7 @@ void setup() {
   Serial.println("ESP32-S3 started");
 }
 
-uint32_t pulse_us = 1000;
+uint32_t pulse_us = 300;
 
 void black_3x3(void){
   set_all_rows_nc();
@@ -385,7 +385,126 @@ void white_row7_col1(void){
   shift_out(rows);
 }
 
-void white_row5_col3(void){
+void white_row7_col1_col2(void){
+  set_all_rows_nc();
+  set_row7_gnd();
+  shift_out(rows);
+
+  digitalWrite(COL_1, LOW);
+  digitalWrite(COL_2, LOW);
+
+  digitalWrite(COL_1, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_1, LOW);
+
+  digitalWrite(COL_2, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_2, LOW);
+  
+  set_all_rows_nc();
+  shift_out(rows);
+}
+
+void white_row7_col1_col2_col3(void){
+  set_all_rows_nc();
+  set_row7_gnd();
+  shift_out(rows);
+
+  digitalWrite(COL_1, LOW);
+  digitalWrite(COL_2, LOW);
+  digitalWrite(COL_3, LOW);
+
+  digitalWrite(COL_1, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_1, LOW);
+
+  digitalWrite(COL_2, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_2, LOW);
+ 
+  digitalWrite(COL_3, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_3, LOW);
+  
+  set_all_rows_nc();
+  shift_out(rows);
+}
+
+void white_row7_col1_col2_col3_row6_col3(void){
+  set_all_rows_nc();
+  set_row7_gnd();
+  shift_out(rows);
+
+  digitalWrite(COL_1, LOW);
+  digitalWrite(COL_2, LOW);
+  digitalWrite(COL_3, LOW);
+
+  digitalWrite(COL_1, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_1, LOW);
+
+  digitalWrite(COL_2, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_2, LOW);
+ 
+  digitalWrite(COL_3, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_3, LOW);
+  
+  set_all_rows_nc();
+  shift_out(rows);
+
+  set_all_rows_nc();
+  set_row6_gnd();
+  shift_out(rows);
+
+  digitalWrite(COL_3, LOW);
+
+  digitalWrite(COL_3, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_3, LOW);
+  
+  set_all_rows_nc();
+  shift_out(rows);
+}
+
+void white_row7_col1_col2_col3_row6_col3_row5_col3(void){
+  set_all_rows_nc();
+  set_row7_gnd();
+  shift_out(rows);
+
+  digitalWrite(COL_1, LOW);
+  digitalWrite(COL_2, LOW);
+  digitalWrite(COL_3, LOW);
+
+  digitalWrite(COL_1, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_1, LOW);
+
+  digitalWrite(COL_2, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_2, LOW);
+ 
+  digitalWrite(COL_3, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_3, LOW);
+  
+  set_all_rows_nc();
+  shift_out(rows);
+
+  set_all_rows_nc();
+  set_row6_gnd();
+  shift_out(rows);
+
+  digitalWrite(COL_3, LOW);
+
+  digitalWrite(COL_3, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_3, LOW);
+  
+  set_all_rows_nc();
+  shift_out(rows);
+
   set_all_rows_nc();
   set_row5_gnd();
   shift_out(rows);
@@ -400,28 +519,14 @@ void white_row5_col3(void){
   shift_out(rows);
 }
 
-void white_row6_col2(void){
+void white_row7_col1_col2_col3_row6_col3_row5_col3_col2(void){
   set_all_rows_nc();
-  set_row6_gnd();
-  shift_out(rows);
-
-  digitalWrite(COL_2, LOW);
-
-  digitalWrite(COL_2, HIGH);
-  delayMicroseconds(pulse_us);
-  digitalWrite(COL_2, LOW);
-  
-  set_all_rows_nc();
-  shift_out(rows);
-}
-
-void white_row5_col1_col2(void){
-  set_all_rows_nc();
-  set_row5_gnd();
+  set_row7_gnd();
   shift_out(rows);
 
   digitalWrite(COL_1, LOW);
   digitalWrite(COL_2, LOW);
+  digitalWrite(COL_3, LOW);
 
   digitalWrite(COL_1, HIGH);
   delayMicroseconds(pulse_us);
@@ -430,15 +535,547 @@ void white_row5_col1_col2(void){
   digitalWrite(COL_2, HIGH);
   delayMicroseconds(pulse_us);
   digitalWrite(COL_2, LOW);
+ 
+  digitalWrite(COL_3, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_3, LOW);
+  
+  set_all_rows_nc();
+  shift_out(rows);
 
+  set_all_rows_nc();
+  set_row6_gnd();
+  shift_out(rows);
+
+  digitalWrite(COL_3, LOW);
+
+  digitalWrite(COL_3, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_3, LOW);
+  
+  set_all_rows_nc();
+  shift_out(rows);
+
+  set_all_rows_nc();
+  set_row5_gnd();
+  shift_out(rows);
+
+  digitalWrite(COL_3, LOW);
+  digitalWrite(COL_2, LOW);
+
+  digitalWrite(COL_3, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_3, LOW);
+  
+  digitalWrite(COL_2, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_2, LOW);
+  
   set_all_rows_nc();
   shift_out(rows);
 }
 
+void white_row7_col1_col2_col3_row6_col3_row5_col3_col2_col1(void){
+  set_all_rows_nc();
+  set_row7_gnd();
+  shift_out(rows);
 
+  digitalWrite(COL_1, LOW);
+  digitalWrite(COL_2, LOW);
+  digitalWrite(COL_3, LOW);
+
+  digitalWrite(COL_1, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_1, LOW);
+
+  digitalWrite(COL_2, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_2, LOW);
+ 
+  digitalWrite(COL_3, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_3, LOW);
+  
+  set_all_rows_nc();
+  shift_out(rows);
+
+  set_all_rows_nc();
+  set_row6_gnd();
+  shift_out(rows);
+
+  digitalWrite(COL_3, LOW);
+
+  digitalWrite(COL_3, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_3, LOW);
+  
+  set_all_rows_nc();
+  shift_out(rows);
+
+  set_all_rows_nc();
+  set_row5_gnd();
+  shift_out(rows);
+
+  digitalWrite(COL_3, LOW);
+  digitalWrite(COL_2, LOW);
+  digitalWrite(COL_1, LOW);
+
+  digitalWrite(COL_3, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_3, LOW);
+  
+  digitalWrite(COL_2, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_2, LOW);
+   
+  digitalWrite(COL_1, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_1, LOW);
+  
+  set_all_rows_nc();
+  shift_out(rows);
+}
+
+void white_row7_col1_col2_col3_row6_col3_row5_col3_col2_col1_row6_col1(void){
+  set_all_rows_nc();
+  set_row7_gnd();
+  shift_out(rows);
+
+  digitalWrite(COL_1, LOW);
+  digitalWrite(COL_2, LOW);
+  digitalWrite(COL_3, LOW);
+
+  digitalWrite(COL_1, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_1, LOW);
+
+  digitalWrite(COL_2, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_2, LOW);
+ 
+  digitalWrite(COL_3, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_3, LOW);
+  
+  set_all_rows_nc();
+  shift_out(rows);
+
+  set_all_rows_nc();
+  set_row6_gnd();
+  shift_out(rows);
+
+  digitalWrite(COL_3, LOW);
+
+  digitalWrite(COL_3, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_3, LOW);
+  
+  set_all_rows_nc();
+  shift_out(rows);
+
+  set_all_rows_nc();
+  set_row5_gnd();
+  shift_out(rows);
+
+  digitalWrite(COL_3, LOW);
+  digitalWrite(COL_2, LOW);
+  digitalWrite(COL_1, LOW);
+
+  digitalWrite(COL_3, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_3, LOW);
+  
+  digitalWrite(COL_2, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_2, LOW);
+   
+  digitalWrite(COL_1, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_1, LOW);
+  
+  set_all_rows_nc();
+  shift_out(rows);
+
+  set_all_rows_nc();
+  set_row6_gnd();
+  shift_out(rows);
+
+  digitalWrite(COL_1, LOW);
+
+  digitalWrite(COL_1, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_1, LOW);
+  
+  set_all_rows_nc();
+  shift_out(rows);
+}
+
+void white_row7_col2_col3_row6_col3_row5_col3_col2_col1_row6_col1(void){
+  set_all_rows_nc();
+  set_row7_gnd();
+  shift_out(rows);
+
+  digitalWrite(COL_2, LOW);
+  digitalWrite(COL_3, LOW);
+
+  digitalWrite(COL_2, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_2, LOW);
+ 
+  digitalWrite(COL_3, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_3, LOW);
+  
+  set_all_rows_nc();
+  shift_out(rows);
+
+  set_all_rows_nc();
+  set_row6_gnd();
+  shift_out(rows);
+
+  digitalWrite(COL_3, LOW);
+
+  digitalWrite(COL_3, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_3, LOW);
+  
+  set_all_rows_nc();
+  shift_out(rows);
+
+  set_all_rows_nc();
+  set_row5_gnd();
+  shift_out(rows);
+
+  digitalWrite(COL_3, LOW);
+  digitalWrite(COL_2, LOW);
+  digitalWrite(COL_1, LOW);
+
+  digitalWrite(COL_3, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_3, LOW);
+  
+  digitalWrite(COL_2, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_2, LOW);
+   
+  digitalWrite(COL_1, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_1, LOW);
+  
+  set_all_rows_nc();
+  shift_out(rows);
+
+  set_all_rows_nc();
+  set_row6_gnd();
+  shift_out(rows);
+
+  digitalWrite(COL_1, LOW);
+
+  digitalWrite(COL_1, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_1, LOW);
+  
+  set_all_rows_nc();
+  shift_out(rows);
+}
+
+void white_row7_col3_row6_col3_row5_col3_col2_col1_row6_col1(void){
+  set_all_rows_nc();
+  set_row7_gnd();
+  shift_out(rows);
+
+  digitalWrite(COL_3, LOW);
+ 
+  digitalWrite(COL_3, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_3, LOW);
+  
+  set_all_rows_nc();
+  shift_out(rows);
+
+  set_all_rows_nc();
+  set_row6_gnd();
+  shift_out(rows);
+
+  digitalWrite(COL_3, LOW);
+
+  digitalWrite(COL_3, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_3, LOW);
+  
+  set_all_rows_nc();
+  shift_out(rows);
+
+  set_all_rows_nc();
+  set_row5_gnd();
+  shift_out(rows);
+
+  digitalWrite(COL_3, LOW);
+  digitalWrite(COL_2, LOW);
+  digitalWrite(COL_1, LOW);
+
+  digitalWrite(COL_3, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_3, LOW);
+  
+  digitalWrite(COL_2, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_2, LOW);
+   
+  digitalWrite(COL_1, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_1, LOW);
+  
+  set_all_rows_nc();
+  shift_out(rows);
+
+  set_all_rows_nc();
+  set_row6_gnd();
+  shift_out(rows);
+
+  digitalWrite(COL_1, LOW);
+
+  digitalWrite(COL_1, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_1, LOW);
+  
+  set_all_rows_nc();
+  shift_out(rows);
+}
+
+void white_row6_col3_row5_col3_col2_col1_row6_col1(void){
+  set_all_rows_nc();
+  set_row6_gnd();
+  shift_out(rows);
+
+  digitalWrite(COL_3, LOW);
+
+  digitalWrite(COL_3, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_3, LOW);
+  
+  set_all_rows_nc();
+  shift_out(rows);
+
+  set_all_rows_nc();
+  set_row5_gnd();
+  shift_out(rows);
+
+  digitalWrite(COL_3, LOW);
+  digitalWrite(COL_2, LOW);
+  digitalWrite(COL_1, LOW);
+
+  digitalWrite(COL_3, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_3, LOW);
+  
+  digitalWrite(COL_2, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_2, LOW);
+   
+  digitalWrite(COL_1, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_1, LOW);
+  
+  set_all_rows_nc();
+  shift_out(rows);
+
+  set_all_rows_nc();
+  set_row6_gnd();
+  shift_out(rows);
+
+  digitalWrite(COL_1, LOW);
+
+  digitalWrite(COL_1, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_1, LOW);
+  
+  set_all_rows_nc();
+  shift_out(rows);
+}
+
+void white_row5_col3_col2_col1_row6_col1(void){
+  set_all_rows_nc();
+  set_row5_gnd();
+  shift_out(rows);
+
+  digitalWrite(COL_3, LOW);
+  digitalWrite(COL_2, LOW);
+  digitalWrite(COL_1, LOW);
+
+  digitalWrite(COL_3, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_3, LOW);
+  
+  digitalWrite(COL_2, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_2, LOW);
+   
+  digitalWrite(COL_1, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_1, LOW);
+  
+  set_all_rows_nc();
+  shift_out(rows);
+
+  set_all_rows_nc();
+  set_row6_gnd();
+  shift_out(rows);
+
+  digitalWrite(COL_1, LOW);
+
+  digitalWrite(COL_1, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_1, LOW);
+  
+  set_all_rows_nc();
+  shift_out(rows);
+}
+
+void white_row5_col2_col1_row6_col1(void){
+  set_all_rows_nc();
+  set_row5_gnd();
+  shift_out(rows);
+
+  digitalWrite(COL_2, LOW);
+  digitalWrite(COL_1, LOW);
+  
+  digitalWrite(COL_2, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_2, LOW);
+   
+  digitalWrite(COL_1, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_1, LOW);
+  
+  set_all_rows_nc();
+  shift_out(rows);
+
+  set_all_rows_nc();
+  set_row6_gnd();
+  shift_out(rows);
+
+  digitalWrite(COL_1, LOW);
+
+  digitalWrite(COL_1, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_1, LOW);
+  
+  set_all_rows_nc();
+  shift_out(rows);
+}
+
+void white_row5_col1_row6_col1(void){
+  set_all_rows_nc();
+  set_row5_gnd();
+  shift_out(rows);
+
+  digitalWrite(COL_1, LOW);
+  
+  digitalWrite(COL_1, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_1, LOW);
+  
+  set_all_rows_nc();
+  shift_out(rows);
+
+  set_all_rows_nc();
+  set_row6_gnd();
+  shift_out(rows);
+
+  digitalWrite(COL_1, LOW);
+
+  digitalWrite(COL_1, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_1, LOW);
+  
+  set_all_rows_nc();
+  shift_out(rows);
+}
+
+void white_row6_col1(void){
+  set_all_rows_nc();
+  set_row6_gnd();
+  shift_out(rows);
+
+  digitalWrite(COL_1, LOW);
+
+  digitalWrite(COL_1, HIGH);
+  delayMicroseconds(pulse_us);
+  digitalWrite(COL_1, LOW);
+  
+  set_all_rows_nc();
+  shift_out(rows);
+}
+
+uint32_t delay_ms = 50;
 
 /* main loop function */
 void loop() {
+  black_3x3();
+  white_row7_col1();
+  delay(delay_ms);
+
+  black_3x3();
+  white_row7_col1_col2();
+  delay(delay_ms);
+
+  black_3x3();
+  white_row7_col1_col2_col3();
+  delay(delay_ms);
+
+  black_3x3();
+  white_row7_col1_col2_col3_row6_col3();
+  delay(delay_ms);
+
+  black_3x3();
+  white_row7_col1_col2_col3_row6_col3_row5_col3();
+  delay(delay_ms);
+
+  black_3x3();
+  white_row7_col1_col2_col3_row6_col3_row5_col3_col2();
+  delay(delay_ms);
+
+  black_3x3();
+  white_row7_col1_col2_col3_row6_col3_row5_col3_col2_col1();
+  delay(delay_ms);
+
+  black_3x3();
+  white_row7_col1_col2_col3_row6_col3_row5_col3_col2_col1_row6_col1();
+  delay(delay_ms);
+
+  black_3x3();
+  white_row7_col2_col3_row6_col3_row5_col3_col2_col1_row6_col1();
+  delay(delay_ms);
+
+  black_3x3();
+  white_row7_col3_row6_col3_row5_col3_col2_col1_row6_col1();
+  delay(delay_ms);
+
+  black_3x3();
+  white_row6_col3_row5_col3_col2_col1_row6_col1();
+  delay(delay_ms);
+
+  black_3x3();
+  white_row5_col3_col2_col1_row6_col1();
+  delay(delay_ms);
+
+  black_3x3();
+  white_row5_col2_col1_row6_col1();
+  delay(delay_ms);
+
+  black_3x3();
+  white_row5_col1_row6_col1();
+  delay(delay_ms);
+
+  black_3x3();
+  white_row6_col1();
+  delay(delay_ms);
+
+  black_3x3();
+  delay(delay_ms);
+
+  /*
   user_led_blink();
 
   buttons_st buttons;
@@ -464,5 +1101,6 @@ void loop() {
     white_row7_col1();
   }
   delay(100);
+  */
   //read_joystick();
 }
