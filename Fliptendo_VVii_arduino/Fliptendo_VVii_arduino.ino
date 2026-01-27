@@ -1,54 +1,7 @@
-
 /* YBG Fliptendo VVii */
 
-/* data structs */
-typedef struct {
-  uint rx;
-  uint ry;
-  uint sw;
-} joystick_st;
-
-typedef struct {
-  int up;
-  int down;
-  int left;
-  int right;
-} buttons_st;
-
-/* pins */
-const int UP = 4; // UP = 19 (old pin)
-const int DOWN = 6;
-const int LEFT = 7;
-const int RIGHT = 5;
-
-const int JS_SW = 42;
-const int JS_RY = 1;
-const int JS_RX = 2;
-
-const int USER_LED = 20;
-
-const int COL_1 = 39;
-const int COL_2 = 38;
-const int COL_3 = 45;
-const int COL_4 = 48;
-const int COL_5 = 47;
-const int COL_6 = 21;
-const int COL_7 = 14;
-const int COL_8 = 13;
-const int COL_9 = 12;
-const int COL_10 = 11;
-const int COL_11 = 10;
-const int COL_12 = 9;
-const int COL_13 = 46;
-const int COL_14 = 3;
-
-const int not_OE = 8;
-const int STCP = 18;
-const int SHCP = 17;
-const int not_MR = 16;
-const int DS = 15;
-
-const int BUZZER = 41;
+#include "pins_and_structs.h"
+#include "utils.h"
 
 /* variables */
 unsigned long userLedLastTime = 0;
@@ -74,39 +27,6 @@ int rows[] = {
 };
 
 /* custom functions */
-void setup_pins(void){
-  pinMode(USER_LED, OUTPUT);
-  
-  pinMode(COL_1, OUTPUT);
-  pinMode(COL_2, OUTPUT);
-  pinMode(COL_3, OUTPUT);
-  pinMode(COL_4, OUTPUT);
-  pinMode(COL_5, OUTPUT);
-  pinMode(COL_6, OUTPUT);
-  pinMode(COL_7, OUTPUT);
-  pinMode(COL_8, OUTPUT);
-  pinMode(COL_9, OUTPUT);
-  pinMode(COL_10, OUTPUT);
-  pinMode(COL_11, OUTPUT);
-  pinMode(COL_12, OUTPUT);
-  pinMode(COL_13, OUTPUT);
-  pinMode(COL_14, OUTPUT);
-
-  pinMode(not_OE, OUTPUT);
-  pinMode(STCP, OUTPUT);
-  pinMode(SHCP, OUTPUT);
-  pinMode(not_MR, OUTPUT);
-  pinMode(DS, OUTPUT);
-
-  pinMode(BUZZER, OUTPUT);
-
-  pinMode(UP, INPUT_PULLUP);
-  pinMode(DOWN, INPUT_PULLUP);
-  pinMode(LEFT, INPUT_PULLUP);
-  pinMode(RIGHT, INPUT_PULLUP);
-  pinMode(JS_SW, INPUT_PULLUP);
-}
-
 void user_led_blink(void){
   if (millis() - userLedLastTime >= 1000) {
     userLedLastTime = millis();
@@ -147,7 +67,7 @@ void read_joystick(void){
 }
 
 void shift_out(int rows[]){
-  uint32_t shift_reg_delayMicroseconds = 10;
+  uint32_t shift_reg_delayMicroseconds = 1;
   // set everything default
   digitalWrite(SHCP, LOW);
   digitalWrite(DS, LOW);
