@@ -5,8 +5,8 @@
 
 /* joystick */
 typedef struct {
-  uint8_t rx;
-  uint8_t ry;
+  uint16_t rx;
+  uint16_t ry;
   uint8_t sw;
 } joystick_st;
 
