@@ -2,7 +2,7 @@
 #include "pins_and_structs.h"
 #include <Arduino.h>
 
-uint32_t pulse_us = 1100;
+uint32_t pulse_us = 1500;
 uint8_t matrix[7][14] = {0};
 
 void set_matrix_row_column(uint8_t row, uint8_t col){

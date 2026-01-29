@@ -1,6 +1,7 @@
 #include "utils.h"
 #include "pins_and_structs.h"
 #include <Arduino.h>
+#include "buzzer.h"
 
 unsigned long userLedLastTime = 0;
 uint userLedState = 1;
@@ -41,7 +42,6 @@ void setup_pins(void){
 void user_led_blink(void){
   if (millis() - userLedLastTime >= 500) {
     userLedLastTime = millis();
-    Serial.println("blink");
 
     if (1 == userLedState){
       digitalWrite(USER_LED, HIGH);
@@ -52,6 +52,15 @@ void user_led_blink(void){
     }
   }
 }
+
+// !!!!!!!!!!! clanker generated code !!!!!!!!!!!!!!!! //
+void wait_us(unsigned long durationUs) {
+  unsigned long start = micros();
+  while (micros() - start < durationUs) {
+    buzz_buzzer();
+  }
+}
+// !!!!!!!!!!! clanker generated code !!!!!!!!!!!!!!!! //
 
 void read_buttons(buttons_st* buttons){
   int state;
@@ -65,14 +74,25 @@ void read_buttons(buttons_st* buttons){
   buttons->right = state;
 }
 
-void read_joystick(void){
-  joystick_st joystick;
-  joystick.rx = analogRead(JS_RX);
-  joystick.ry = analogRead(JS_RY);
-  Serial.printf("RX: %d, RY: %d \n", joystick.rx, joystick.ry);
+void read_joystick(joystick_st* joystick){
+  joystick->rx = analogRead(JS_RX);
+  joystick->ry = analogRead(JS_RY);
+  joystick->sw = digitalRead(JS_SW);
+}
 
-  int state = digitalRead(JS_SW);
-  if (state == LOW) {
-    Serial.println("joystick switch pressed");
+void beep_bootup_sound(void){
+  // !!!!!!!!!!! clanker generated code !!!!!!!!!!!!!!!! //
+  // beep beep beep
+  for (int i = 0; i < 3; i++) {
+      set_freq(1000);
+      wait_us(500000);
+      set_freq(1);
+      wait_us(360000);
   }
+
+  // GO!
+  set_freq(2000);
+  wait_us(800000);
+  set_freq(1);
+  // !!!!!!!!!!! clanker generated code !!!!!!!!!!!!!!!! //
 }
