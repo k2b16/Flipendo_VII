@@ -104,6 +104,70 @@ void draw_animation(void){
   draw_matrix();
 }
 
+uint8_t cat_animation = 1;
+
+void draw_cat(void){
+  clear_screen();
+  clear_matrix();
+
+  for (uint8_t i = cat_animation; i < 8; i++){
+    for (uint8_t j = 1; j < 15; j++){
+      set_matrix_row_column(i, j);
+    }
+  }
+  cat_animation++;
+  if (cat_animation > 7)
+    cat_animation = 1;
+
+  draw_matrix();
+}
+
+uint8_t heart[7][14] = {
+    {0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+    {0,0,0,1,1,0,0,0,1,1,0,0,0,0},
+    {0,0,1,1,1,1,1,1,1,1,1,0,0,0},
+    {0,0,1,1,1,1,1,1,1,1,1,0,0,0},
+    {0,0,1,1,1,1,1,1,1,1,1,0,0,0},
+    {0,0,0,0,1,1,1,1,1,0,0,0,0,0},
+    {0,0,0,0,0,0,1,0,0,0,0,0,0,0}
+};
+
+void draw_heart(void){
+  clear_screen();
+  clear_matrix();
+
+  for (uint8_t i = 1; i < 8; i++){
+    for (uint8_t j = 1; j < 15; j++){
+      if (heart[i-1][j-1])
+        set_matrix_row_column(i, j);
+    }
+  }
+  draw_matrix();
+}
+
+const uint8_t smiley[7][14] = {
+    {0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+    {0,0,0,0,1,1,0,0,1,1,0,0,0,0},
+    {0,0,0,0,1,1,0,0,1,1,0,0,0,0},
+    {0,1,1,0,0,0,0,0,0,0,0,1,1,0},
+    {0,0,1,1,0,0,0,0,0,0,1,1,0,0},
+    {0,0,0,1,1,1,1,1,1,1,1,0,0,0},
+    {0,0,0,0,1,1,1,1,1,1,0,0,0,0},
+};
+
+void draw_smiley(void){
+  clear_screen();
+  clear_matrix();
+
+  for (uint8_t i = 1; i < 8; i++){
+    for (uint8_t j = 1; j < 15; j++){
+      if (smiley[i-1][j-1])
+        set_matrix_row_column(i, j);
+    }
+  }
+  draw_matrix();
+}
+
 void scroll_arrow(joystick_st* joystick, buttons_st* buttons){
   draw_arrow(rand_array[rand_counter], x_pos, y_pos);
   x_pos--;
@@ -154,31 +218,64 @@ void scroll_arrow(joystick_st* joystick, buttons_st* buttons){
   }
 }
 
+uint8_t gameState = 0;
+
 
 void game(void){
-  // read buttons
-  buttons_st buttons;
-  read_buttons(&buttons);
-  if (LOW == buttons.up){
-    Serial.println("up pressed");
+  if (0 == gameState){
+    // read buttons
+    buttons_st buttons;
+    read_buttons(&buttons);
+    if (LOW == buttons.up){
+      Serial.println("up pressed");
+    }
+    if (LOW == buttons.down){
+      Serial.println("down pressed");
+    }
+    if (LOW == buttons.left){
+      Serial.println("left pressed");
+    }
+    if (LOW == buttons.right){
+      Serial.println("right pressed");
+    }
+    
+    // read joystick
+    joystick_st joystick;
+    read_joystick(&joystick);
+    if (LOW == joystick.sw) {
+      Serial.println("joystick switch pressed");
+      gameState = 1;
+    }
+    scroll_arrow(&joystick, &buttons);
   }
-  if (LOW == buttons.down){
-    Serial.println("down pressed");
+  else if (1 == gameState){
+    // read buttons
+    buttons_st buttons;
+    read_buttons(&buttons);
+    if (LOW == buttons.up){
+      Serial.println("up pressed");
+      draw_animation();
+    }
+    if (LOW == buttons.down){
+      Serial.println("down pressed");
+      draw_cat();
+    }
+    if (LOW == buttons.left){
+      Serial.println("left pressed");
+      draw_heart();
+    }
+    if (LOW == buttons.right){
+      Serial.println("right pressed");
+      draw_smiley();
+    }
+    
+    joystick_st joystick;
+    read_joystick(&joystick);
+    if (LOW == joystick.sw) {
+      Serial.println("joystick switch pressed");
+      gameState = 0;
+    }
   }
-  if (LOW == buttons.left){
-    Serial.println("left pressed");
-  }
-  if (LOW == buttons.right){
-    Serial.println("right pressed");
-  }
-  
-  // read joystick
-  joystick_st joystick;
-  read_joystick(&joystick);
-  if (LOW == joystick.sw) {
-    Serial.println("joystick switch pressed");
-  }
-  scroll_arrow(&joystick, &buttons);
 }
 
 

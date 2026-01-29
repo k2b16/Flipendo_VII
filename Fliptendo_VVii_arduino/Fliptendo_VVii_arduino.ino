@@ -42,7 +42,7 @@
 #include "game.h"
 
 /* BEGIN variables */
-uint32_t delay_ms = 50;
+uint32_t delay_ms = 100;
 unsigned long updateLastTime = 0;
 /* END variables */
 
