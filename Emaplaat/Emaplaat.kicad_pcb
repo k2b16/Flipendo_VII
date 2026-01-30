@@ -12683,6 +12683,17 @@
 			(uuid "da59f9bc-12a3-4dae-8fce-cb8a95489d7a")
 		)
 		(embedded_fonts no)
+		(model "${FLIPDENDO_VVII_3D_MODELS}/Flixel_array.step"
+			(offset
+				(xyz -4.5 1.5 13)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 90)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
@@ -17178,6 +17189,17 @@
 			(uuid "74975e81-b290-4ecb-b1fe-a69ea785639d")
 		)
 		(embedded_fonts no)
+		(model "${FLIPDENDO_VVII_3D_MODELS}/Flixel_array.step"
+			(offset
+				(xyz -4.5 1.5 13)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 90)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
@@ -18388,6 +18410,17 @@
 			(uuid "f68fd541-7fb7-46ac-9cb3-b50045907f3a")
 		)
 		(embedded_fonts no)
+		(model "${FLIPDENDO_VVII_3D_MODELS}/Flixel_array.step"
+			(offset
+				(xyz -4.5 1.5 13.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 90)
+			)
+		)
 	)
 	(footprint "SOD-123FL:SOD-123FL"
 		(layer "F.Cu")
@@ -22179,6 +22212,17 @@
 			(uuid "fbc9fd04-8f3f-4dea-ad30-1bf88617d2a4")
 		)
 		(embedded_fonts no)
+		(model "${FLIPDENDO_VVII_3D_MODELS}/Flixel_array.step"
+			(offset
+				(xyz -4.5 1.5 13.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 90)
+			)
+		)
 	)
 	(footprint "ECE-A1EKN100:CAPPRD150W50D400H800"
 		(layer "F.Cu")
@@ -32471,6 +32515,17 @@
 			(uuid "8c14f321-32e4-46a8-bb9b-49bb8bf9a262")
 		)
 		(embedded_fonts no)
+		(model "${FLIPDENDO_VVII_3D_MODELS}/Flixel_array.step"
+			(offset
+				(xyz -4.5 1.5 13)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 90)
+			)
+		)
 	)
 	(footprint "SOD-123FL:SOD-123FL"
 		(layer "F.Cu")
@@ -34970,6 +35025,17 @@
 			(uuid "c08e9dae-01cd-4012-b00d-0e60c0445dea")
 		)
 		(embedded_fonts no)
+		(model "${FLIPDENDO_VVII_3D_MODELS}/Flixel_array.step"
+			(offset
+				(xyz -4.5 1.5 13.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 90)
+			)
+		)
 	)
 	(footprint "SOD-123FL:SOD-123FL"
 		(layer "F.Cu")
@@ -53591,6 +53657,17 @@
 			(uuid "24cedf57-b88c-4694-8ac4-f79c452a28a4")
 		)
 		(embedded_fonts no)
+		(model "${FLIPDENDO_VVII_3D_MODELS}/Flixel_array.step"
+			(offset
+				(xyz -4.5 1.5 13)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 90)
+			)
+		)
 	)
 	(footprint "SOD-123FL:SOD-123FL"
 		(layer "F.Cu")
@@ -70922,6 +70999,17 @@
 			(uuid "37f703f3-8314-48e7-aefe-5676aa8f06ef")
 		)
 		(embedded_fonts no)
+		(model "${FLIPDENDO_VVII_3D_MODELS}/Flixel_array.step"
+			(offset
+				(xyz -4.5 1.5 13.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 90)
+			)
+		)
 	)
 	(footprint "TL3305BF160QG:TL3305BF160QG"
 		(layer "F.Cu")
@@ -77967,6 +78055,17 @@
 			(uuid "614779fc-e279-4eb5-a3db-e8e4d86fffa1")
 		)
 		(embedded_fonts no)
+		(model "${FLIPDENDO_VVII_3D_MODELS}/Flixel_array.step"
+			(offset
+				(xyz -4.5 1.5 13.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 90)
+			)
+		)
 	)
 	(footprint "dot_flipper:7_flip_dots"
 		(layer "F.Cu")
@@ -77976,7 +78075,7 @@
 			(at 0 0.5 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "787eba15-8c1b-4453-8389-7ebf68aea18a")
+			(uuid "69f8a0b0-2958-4dd6-8a91-3c191f0309f3")
 			(effects
 				(font
 					(size 1 1)
@@ -77988,7 +78087,7 @@
 			(at 0 -2.54 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0d5975af-791b-40ff-a0dc-0f47bad8e623")
+			(uuid "70ce78cc-5a37-4403-b1f4-546fa6c029a9")
 			(effects
 				(font
 					(size 1 1)
@@ -78000,7 +78099,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d6d6bfba-75da-48b6-bf10-57cb0717403c")
+			(uuid "b3457d2a-9350-43b8-94ad-c262d76a917f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -78012,7 +78111,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a8d51ea5-d69c-4301-8553-76e55a6fbf9d")
+			(uuid "c24fc1d9-2440-41f5-ab67-f71d464bfac1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -78219,6 +78318,17 @@
 			(uuid "73cc14d3-c770-479f-b167-d59bb2c12325")
 		)
 		(embedded_fonts no)
+		(model "${FLIPDENDO_VVII_3D_MODELS}/Flixel_array.step"
+			(offset
+				(xyz 67.5 -9 13)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -90)
+			)
+		)
 	)
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
@@ -79482,6 +79592,17 @@
 			(uuid "4bd3fb04-838e-44f2-8769-4369b74cbaef")
 		)
 		(embedded_fonts no)
+		(model "${FLIPDENDO_VVII_3D_MODELS}/Flixel_array.step"
+			(offset
+				(xyz -4.5 1.5 13)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 90)
+			)
+		)
 	)
 	(footprint "SOD-123FL:SOD-123FL"
 		(layer "F.Cu")
@@ -90039,6 +90160,17 @@
 			(uuid "e9a90a4d-547c-40cf-b3fa-a5f63860588a")
 		)
 		(embedded_fonts no)
+		(model "${FLIPDENDO_VVII_3D_MODELS}/Flixel_array.step"
+			(offset
+				(xyz -4.5 1.5 13)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 90)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
@@ -102321,6 +102453,17 @@
 			(uuid "cbbba907-d0b7-4645-8ea9-4c24b0e627b6")
 		)
 		(embedded_fonts no)
+		(model "${FLIPDENDO_VVII_3D_MODELS}/Flixel_array.step"
+			(offset
+				(xyz -4.5 1.5 13.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 90)
+			)
+		)
 	)
 	(footprint "74LVC1G66GW,125:SOT65P212X110-5N"
 		(layer "F.Cu")
@@ -103927,6 +104070,17 @@
 			(uuid "b42ac595-8184-494a-921c-b283e7820970")
 		)
 		(embedded_fonts no)
+		(model "${FLIPDENDO_VVII_3D_MODELS}/Flixel_array.step"
+			(offset
+				(xyz -4.5 1.5 13)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 90)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
